@@ -28,7 +28,7 @@ public class DuplicateElement {
 
 
 
-        Hashtable<Integer, Integer> hs = new Hashtable< >();
+        Hashtable<Integer, Integer> hs = new Hashtable<>();
 
         for (int i = 0; i < arr.length; i++) {
 

@@ -16,6 +16,8 @@ public class HashSetTest {
     public static void main(String[] args) {
         Integer r1=0;
 
+        Map<Integer,Integer>mp = new TreeMap<>();
+
         Map<Integer,Integer> map = new HashMap<>();
 
         List<Integer> list= new ArrayList<>();
@@ -33,8 +35,16 @@ public class HashSetTest {
            xyz.getValue();
        }
 
+     Map<Integer,Integer> items= new LinkedHashMap<>();
+        items.put(11,12);
 
 
+        items.forEach((k,v)->{
+            //System.out.println("Item : " + k + " Count : " + v);
+            if("E".equals(k)){
+                System.out.println("Hello E");
+            }
+        });
 
     }
 }

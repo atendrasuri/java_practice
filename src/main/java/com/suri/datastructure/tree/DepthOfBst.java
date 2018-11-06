@@ -78,19 +78,20 @@ class BST {
     }
 
 
-    public void findKthLargest(int k){
+    public void findKthLargest(int k) {
 
-        Node node = kthLargestElement(root,k);
+        Node node = kthLargestElement(root, k);
+
+        System.out.println(node.data);
+    }
+
+    public void findKthSmallest(int k) {
+
+        Node node = kthSmallestElement(root, k);
 
         System.out.println(node.data);
     }
 
-    public void findKthSmallest(int k){
-
-        Node node = kthSmallestElement(root,k);
-
-        System.out.println(node.data);
-    }
     public Node insert(Node node, int data) {
 
         if (node == null) {
