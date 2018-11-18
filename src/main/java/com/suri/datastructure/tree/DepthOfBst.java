@@ -14,16 +14,34 @@ public class DepthOfBst {
     public static void main(String[] args) {
 
         BST bst = new BST();
-        bst.insertNode(10);
         bst.insertNode(20);
-        bst.insertNode(40);
-        bst.insertNode(60);
-        bst.insertNode(15);
+        bst.insertNode(8);
+        bst.insertNode(22);
+        bst.insertNode(4);
         bst.insertNode(12);
-        bst.insertNode(13);
-        bst.insertNode(24);
+        bst.insertNode(10);
+        bst.insertNode(14);
+        int n1 = 10;
+        int n2 = 14;
+        //bst.root = bst.findLCA(bst.root, n1, n2);
+
+        //System.out.println("LCA of " + n1 + " and " + n2 + " is " + bst.root.data);
 
         bst.display();
+
+        System.out.println();
+        System.out.println("printing left view of the tree:-");
+        //bst.printLeftView();
+
+        System.out.println();
+        System.out.println("printing right view of the tree:-");
+        bst.printRightView();
+
+        System.out.println();
+        System.out.println("printing level order traversal");
+        bst.printLeveOrder();
+
+        System.out.println();
         System.out.println("total no of node:- " + bst.totalNoNode());
         System.out.println("height of BST is :- " + bst.findHeight());
 
@@ -53,6 +71,7 @@ class BST {
     Node root;
 
     static int counter;
+    static int max_level = 0;
 
     BST() {
         root = null;
@@ -66,6 +85,18 @@ class BST {
     public void display() {
 
         inOrder(root);
+    }
+
+    public void printLeftView() {
+        leftView(root, 1);
+    }
+
+    public void printRightView() {
+        rightView(root, 1);
+    }
+
+    public void printLeveOrder(){
+        levelOrderTraversal(root);
     }
 
     public int totalNoNode() {
@@ -189,7 +220,82 @@ class BST {
         } else {
             return kthSmallestElement(node.right, k);
         }
+    }
 
+    public Node findLCA(Node root, int n1, int n2) {
+
+        while (root != null) {
+
+            if (root.data > n1 && root.data > n2) {
+                root = root.left;
+            } else if (root.data < n1 && root.data < n2) {
+                root = root.right;
+            } else
+                break;
+        }
+        return root;
+    }
+
+    public Node findLCARecursive(Node root, int n1, int n2) {
+
+        if (root == null)
+            return null;
+
+        if (root.data > n1 && root.data > n2)
+            return findLCARecursive(root.left, n1, n2);
+        if (root.data < n1 && root.data < n2)
+            return findLCARecursive(root.right, n1, n2);
+
+        return root;
+
+    }
+
+    public void leftView(Node node, int level) {
+
+        if (node == null) {
+            return;
+        }
+        if (max_level < level) {
+            System.out.print("  " + node.data);
+            max_level = level;
+        }
+
+        leftView(node.left, level + 1);
+        leftView(node.right, level + 1);
+    }
+
+    public void rightView(Node node, int level) {
+        if (node == null) {
+            return;
+        }
+        if (max_level < level) {
+            System.out.print("  " + node.data);
+            max_level = level;
+        }
+
+        rightView(node.right, level + 1);
+        rightView(node.left, level + 1);
+    }
+
+    public void levelOrderTraversal(Node node) {
+
+        int h = heightofBST(node);
+
+        for (int i = 1; i <= h; i++) {
+            printGivenLevel(node, i);
+        }
+    }
+
+    public void printGivenLevel(Node node, int level) {
+        if (node == null) {
+            return;
+        }
+        if (level == 1) {
+            System.out.print("  "+node.data);
+        }
+
+        printGivenLevel(node.left, level - 1);
+        printGivenLevel(node.right, level - 1);
 
     }
 }
