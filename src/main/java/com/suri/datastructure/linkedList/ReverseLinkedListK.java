@@ -94,7 +94,6 @@ class LinkedList1 {
         while(count<k && current!=null){
             next = current.next;
             current.next = prev;
-
             prev = current;
             current = next;
             count++;

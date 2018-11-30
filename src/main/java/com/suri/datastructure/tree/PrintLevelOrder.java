@@ -206,7 +206,6 @@ class BT {
     public void printBoundaryRight(Node node){
         if(node!=null){
 
-
             if(node.right!=null){
                 printBoundaryRight(node.right);
                 System.out.println(" "+node.data);
