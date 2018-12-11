@@ -5,17 +5,30 @@ package com.suri.datastructure.tree;
  * @Current-Version: 1.0.0
  * @Creation-Date: 28/11/18
  * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
+ * Given a BST, replace each node with the sum of the values of all the nodes that are greater than that node.
+ * Only constraint being that I was not allowed to use any global or static variable.
  * @History:
  */
-public class VerticalPrintBST{
+public class VerticalPrintBST {
 
     public static void main(String[] args) {
 
         BinaryTree bst = new BinaryTree();
-        bst.createBST(1); bst.createBST(2); bst.createBST(3); bst.createBST(4); bst.createBST(5);
-        bst.createBST(6);bst.createBST(7);bst.createBST(8);bst.createBST(9);bst.createBST(10);
+        bst.createBST(1);
+        bst.createBST(2);
+        bst.createBST(3);
+        bst.createBST(4);
+        bst.createBST(5);
+        bst.createBST(6);
+        bst.createBST(7);
+        bst.createBST(8);
+        bst.createBST(9);
+        bst.createBST(10);
+        /*bst.displayInorder();*/
+
+        bst.visit();
+        System.out.println();
+
         bst.displayInorder();
 
     }
@@ -45,34 +58,57 @@ class BinaryTree {
       utility methods
      */
 
-    public void createBST(int data){
-        root = createNode(root,data);
+    public void createBST(int data) {
+        root = createNode(root, data);
     }
 
-    public void displayInorder(){
+    public void displayInorder() {
         inOrder(root);
     }
 
-    public Node createNode(Node node,int data){
-        if(node==null){
+
+    void visit() {
+        visit(root, 0);
+    }
+
+    public Node createNode(Node node, int data) {
+        if (node == null) {
             node = new Node(data);
             return node;
         }
-        if(data>node.data){
-            node.right = createNode(node.right,data);
+        if (data > node.data) {
+            node.right = createNode(node.right, data);
         }
-        if(data<node.data){
-            node.left= createNode(node.left,data);
+        if (data < node.data) {
+            node.left = createNode(node.left, data);
         }
         return node;
     }
 
 
-    public void inOrder(Node node){
-        if(node!=null){
+    public void inOrder(Node node) {
+        if (node != null) {
             inOrder(node.left);
-            System.out.println("  "+node.data);
+            System.out.print("  " + node.data);
             inOrder(node.right);
         }
     }
+
+    /*
+    Given a BST, replace each node with the sum of the values of all the nodes that are greater than that node.
+    Only constraint being that I was not allowed to use any global or static variable.
+     */
+
+    int visit(Node n, int add) {
+        if (n == null) {
+            return add;
+        }
+        int curVal = n.data;
+        n.data = visit(n.right, add);
+        return visit(n.left, n.data + curVal);
+
+
+    }
+
+
 }
