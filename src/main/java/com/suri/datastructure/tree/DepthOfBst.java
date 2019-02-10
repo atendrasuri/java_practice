@@ -29,7 +29,7 @@ public class DepthOfBst {
 
         bst.display();
 
-        System.out.println();
+        /*System.out.println();
         System.out.println("printing left view of the tree:-");
         //bst.printLeftView();
 
@@ -46,7 +46,11 @@ public class DepthOfBst {
         System.out.println("height of BST is :- " + bst.findHeight());
 
         //bst.findKthLargest(1);
-        bst.findKthSmallest(1);
+        bst.findKthSmallest(1);*/
+        bst.convertMirrorTree();
+
+        System.out.println(" after mirror tree");
+        bst.display();
 
     }
 }
@@ -121,6 +125,10 @@ class BST {
         Node node = kthSmallestElement(root, k);
 
         System.out.println(node.data);
+    }
+
+    public void convertMirrorTree(){
+        root = mirrorTree(root);
     }
 
     public Node insert(Node node, int data) {
@@ -298,4 +306,24 @@ class BST {
         printGivenLevel(node.right, level - 1);
 
     }
+
+
+    // Convert a binary tree to mirror tree
+
+        public Node mirrorTree(Node node){
+
+            if(node==null){
+                return node;
+
+            }
+            Node left = mirrorTree(node.left);
+            Node right = mirrorTree(node.right);
+
+            node.left= right;
+            node.right=left;
+
+            return node;
+        }
+
+
 }

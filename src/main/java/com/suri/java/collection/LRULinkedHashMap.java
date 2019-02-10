@@ -22,7 +22,7 @@ public class LRULinkedHashMap {
         accessOrder.put (1,"a");
         accessOrder.put (3,"c");
         accessOrder.put (2,"b");
-        v = accessOrder.get(3);
+        v = accessOrder.get(1);
 
 
         System.out.println(v);
