@@ -18,7 +18,7 @@ public class PrintViewBST {
         bst.insert(10);bst.insert(8);bst.insert(19);bst.insert(21);bst.insert(7);bst.insert(15);
         bst.display();
 
-        System.out.println("Leaf node");
+       /* System.out.println("Leaf node");
         bst.displayleaf();
 
         System.out.println("Print boundary left");
@@ -28,7 +28,8 @@ public class PrintViewBST {
         bst.displayBoundaryRight();
 
         System.out.println(" Print Boundary View:-");
-        bst.displayBoundaryView();
+        bst.displayBoundaryView();*/
+       bst.totalLeafNode();
 
     }
 }
@@ -79,6 +80,10 @@ class BST{
         printBoundaryView(root);
     }
 
+    public void totalLeafNode(){
+        System.out.println("total leadf node is "+countLeaf(root));
+    }
+
 
 
     public Node insertNode(Node node, int d){
@@ -115,6 +120,7 @@ class BST{
             printLeaf(node.right);
 
             if(node.left==null && node.right==null){
+
                 System.out.println("  "+node.data);
             }
 
@@ -160,5 +166,22 @@ class BST{
             printLeaf(node.right);
             printBoundaryRight(node.right);
         }
+    }
+
+    static int count;
+    public int countLeaf(Node node){
+
+        if(node!=null){
+            countLeaf(node.left);
+            countLeaf(node.right);
+
+            if(node.left==null && node.right==null){
+                count++;
+
+                //System.out.println("  "+node.data);
+            }
+
+        }
+        return count;
     }
 }
