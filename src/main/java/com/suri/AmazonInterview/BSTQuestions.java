@@ -1,5 +1,8 @@
 package com.suri.AmazonInterview;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @Author: atekumar
  * @Current-Version: 1.0.0
@@ -10,6 +13,7 @@ package com.suri.AmazonInterview;
  * 5. Print nodes at k distance from root
  * 6. Write Code to Determine if Two Trees are Identical
  * 7. Find the closest element in Binary Search Tree
+ * 8. Print the vertical sum of Binary tree.
  */
 public class BSTQuestions {
 
@@ -23,6 +27,7 @@ public class BSTQuestions {
         bst.createBST(15);
         bst.createBST(13);
         bst.createBST(7);
+        bst.printverticalSumBST();
 
         // bst.display();
 
@@ -381,5 +386,38 @@ class BST {
         }
 
     }
+
+/**
+ *
+ * Given a Binary Tree, find vertical sum of the nodes that are in same vertical line. Print all sums through different vertical lines.
+ *
+ */
+
+public void printverticalSumBST(){
+
+    Map<Integer,Integer> hm = new HashMap<>();
+    findVerticalSumBSTUtil(root,0,hm);
+
+    for(Map.Entry m: hm.entrySet()){
+
+        System.out.println("Vertical line "+ m.getKey()+ " and Sum ="+m.getValue());
+
+    }
+}
+
+ public void findVerticalSumBSTUtil(Node root, int hd, Map<Integer,Integer>hm){
+
+
+     if(root ==null ){
+         return;
+     }
+     findVerticalSumBSTUtil(root.left,hd-1,hm);
+
+     int oldSum = hm.get(hd)==null?0:hm.get(hd);
+     hm.put(hd,oldSum+root.data);
+
+     findVerticalSumBSTUtil(root.right,hd+1,hm);
+ }
+
 
 }

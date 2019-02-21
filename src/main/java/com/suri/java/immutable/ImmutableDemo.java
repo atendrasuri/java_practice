@@ -30,7 +30,7 @@ class ImmutableDemo {
 
         address.setFirstLine("B-236");
         address.setSecondLine("Asset Aura");
-        address.setFirstLine("Patna");
+        address.setCity("Patna");
 
         System.out.println(""+ u.getAddress());
 
@@ -61,7 +61,7 @@ final class User {
         return lastName;
     }
 
-    public ChildAddress getAddress() throws CloneNotSupportedException {
+    public Address getAddress() throws CloneNotSupportedException {
         return (ChildAddress)address.clone();
     }
 
@@ -124,7 +124,7 @@ class Address implements Cloneable {
  * Option 1:- we will not provide any setter method in Address class, So, that nobody can change the property of Address class. If you will answer this
  * there will be counter question to you , Address class is third party java class and we don't have access of source code od Address class.
  *
- * Soln:- We can create child class of Address class, overrride all the setter methods and the expilctly throw UnsupportedException from those setter methods.
+ * Soln:- We can create child class of Address class, override all the setter methods and then explicitly throw UnsupportedException from those setter methods.
  *
  *class Address implements Cloneable {
  *
