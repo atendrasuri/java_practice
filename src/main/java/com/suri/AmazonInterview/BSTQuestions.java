@@ -1,7 +1,9 @@
 package com.suri.AmazonInterview;
 
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 
 /**
  * @Author: atekumar
@@ -14,6 +16,7 @@ import java.util.Map;
  * 6. Write Code to Determine if Two Trees are Identical
  * 7. Find the closest element in Binary Search Tree
  * 8. Print the vertical sum of Binary tree.
+ * 9. level Order traversal of the Binary tree
  */
 public class BSTQuestions {
 
@@ -27,9 +30,12 @@ public class BSTQuestions {
         bst.createBST(15);
         bst.createBST(13);
         bst.createBST(7);
-        bst.printverticalSumBST();
+        //bst.printverticalSumBST();
 
-        // bst.display();
+       // bst.display();
+
+        System.out.println("Hello");
+        bst.displayLevelOrder();
 
        /* bst.removeBSTOutsideRange(-10, 13);
 
@@ -65,7 +71,7 @@ class BST {
         }
     }
 
-     Node root;
+    Node root;
 
     // added for finding closet node of a given key
     static int min_diff = 999999999;
@@ -114,10 +120,17 @@ class BST {
     }
 
 
-    public static void printClosestElement(int k){
+    public static void printClosestElement(int k) {
 
         //findClosestElemnt(root,k);
-        System.out.println(" Closest Element of "+k+" is "+ min_diff_key);
+        System.out.println(" Closest Element of " + k + " is " + min_diff_key);
+    }
+
+
+    public void displayLevelOrder() {
+
+
+        levelOrder(root);
     }
 
     /**
@@ -347,7 +360,7 @@ class BST {
         }
 
         if (root1 != null && root2 != null) {
-            return root1.data == root2.data && (root1.left == root2.left) && (root1.right == root2.right);
+            return root1.data == root2.data && isIdentical (root1.left, root2.left) && isIdentical(root1.right,root2.right);
         }
 
         return false;
@@ -387,37 +400,68 @@ class BST {
 
     }
 
-/**
- *
- * Given a Binary Tree, find vertical sum of the nodes that are in same vertical line. Print all sums through different vertical lines.
- *
- */
+    /**
+     * Given a Binary Tree, find vertical sum of the nodes that are in same vertical line. Print all sums through different vertical lines.
+     */
 
-public void printverticalSumBST(){
+    public void printverticalSumBST() {
 
-    Map<Integer,Integer> hm = new HashMap<>();
-    findVerticalSumBSTUtil(root,0,hm);
+        Map<Integer, Integer> hm = new HashMap<>();
+        findVerticalSumBSTUtil(root, 0, hm);
 
-    for(Map.Entry m: hm.entrySet()){
+        for (Map.Entry m : hm.entrySet()) {
 
-        System.out.println("Vertical line "+ m.getKey()+ " and Sum ="+m.getValue());
+            System.out.println("Vertical line " + m.getKey() + " and Sum =" + m.getValue());
+
+        }
+    }
+
+    public void findVerticalSumBSTUtil(Node root, int hd, Map<Integer, Integer> hm) {
+
+
+        if (root == null) {
+            return;
+        }
+        findVerticalSumBSTUtil(root.left, hd - 1, hm);
+
+        int oldSum = hm.get(hd) == null ? 0 : hm.get(hd);
+        hm.put(hd, oldSum + root.data);
+
+        findVerticalSumBSTUtil(root.right, hd + 1, hm);
+    }
+
+
+    /**
+     * level Order traversal of the Binary tree
+     */
+
+
+    public void levelOrder(Node root) {
+
+
+        Queue<Node> q = new LinkedList<>();
+
+        q.add(root);
+
+        while (!q.isEmpty()) {
+
+            Node temp = q.poll();
+            if (temp != null) {
+                System.out.print(" " + temp.data);
+            }
+            if(null!=temp.left) {
+                q.add(temp.left);
+            }
+            if(null!=temp.right) {
+                q.add(temp.right);
+            }
+            if (temp == null) {
+                System.out.println(" level");
+                q.add(null);
+            }
+
+        }
+
 
     }
-}
-
- public void findVerticalSumBSTUtil(Node root, int hd, Map<Integer,Integer>hm){
-
-
-     if(root ==null ){
-         return;
-     }
-     findVerticalSumBSTUtil(root.left,hd-1,hm);
-
-     int oldSum = hm.get(hd)==null?0:hm.get(hd);
-     hm.put(hd,oldSum+root.data);
-
-     findVerticalSumBSTUtil(root.right,hd+1,hm);
- }
-
-
 }
