@@ -129,9 +129,9 @@ Binary Tree:-
 2. Preorder traversal without recursion.
 3. Postorder traversal without recursion.
 
-4. Check whether a given Binary Tree is a valid BinarySearch tree.
-5. Find height of the Binary tree.
-6. Find Diameter of Binary tree.
+4. Find height of the Binary tree.
+5. Find Diameter of Binary tree.
+6. Check whether a given Binary Tree is a valid BinarySearch tree.
 ==============print view =====================
 7. Level order traversal of the binary tree.
 8. print left view of the binary tree.
