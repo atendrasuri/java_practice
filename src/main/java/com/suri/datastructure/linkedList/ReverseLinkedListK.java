@@ -1,5 +1,7 @@
 package com.suri.datastructure.linkedList;
 
+import java.util.HashSet;
+
 /**
  * @Author: Atendra Kumar - FT2 - Sapient
  * @Current-Version: 1.0.0
@@ -86,6 +88,8 @@ class LinkedList1 {
 
     public  Node reverse(Node start,int k){
 
+
+        HashSet set;
         int count =0;
         Node current = start;
         Node prev = null;
