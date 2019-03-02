@@ -26,12 +26,13 @@ public class ReverseLinkedListK {
         list.addNode(8);
         list.addNode(9);
 
-        list.display();
+        list.display(list.start );
 
-        list.start = list.reverse(list.start,3);
+        //list.start = list.reverse(list.start,2);
+       list.start = list.reversePairWise(list.start);
         System.out.println();
 
-        list.display();
+        list.display(list.start );
 
     }
 
@@ -74,7 +75,7 @@ class LinkedList1 {
         }
     }
 
-    public void display() {
+    public void display(Node start) {
         if (start == null) {
             System.out.print("List is empty");
             return;
@@ -108,5 +109,30 @@ class LinkedList1 {
             start.next = reverse(next, k);
 
         return prev;
+    }
+
+
+    public Node reversePairWise(Node start){
+
+
+        Node p=start;
+        Node q;
+        Node new_star=p.next;
+
+
+        while (true) {
+            q = p.next;
+            Node temp = q.next;
+            q.next = p;
+
+            if (temp == null || temp.next == null) {
+                p.next= temp;
+                break;
+            }
+            p.next = temp.next;
+            p = temp;
+
+        }
+    return new_star;
     }
 }
