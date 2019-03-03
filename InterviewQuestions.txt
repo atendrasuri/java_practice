@@ -23,7 +23,9 @@ Asked in Informatica:-
 
 Asked in Wissen:-
 
-Asked in Synechrone:-
+Asked in Sychron:-
+1. Write a custom iterator in Java name as SkipIterator which skip every alternate element from collection.
+2. Implement the min stack which gives the minimum at anytime.
 
 
 
@@ -42,6 +44,15 @@ Asked in LensKart:-
 4. Given height of N person in an array and only person who can handover the movie ticket, who is next taller.
 5. Check whether given Binary tree is BST(Binary search tree) or not?
 6. Clone the linked list to another linked list.
+
+Asked in JP Morgan:-
+1. Find missing number from array (number range is 1 to n). Different approaches.
+2. We have a big file and how to process and store in DB using multi-Threading.
+3. Design a coffee shop.
+
+Asked in Snapdeal:-
+1. Given a linked list, swap the node pairwise.
+2. Given an Array and a number k find the exactly 4 elements whose sum equals to K.
 
 
 Arrays:-
@@ -95,9 +106,9 @@ Linked List:-
 2. Implementation of Doubly Linked List(Insert/Update/Delete/traverse).
 3. Implementation of circular Linked List(Insert/Update/Delete/traverse).
 4. Least Recently Used (LRU) Cache – Using HashMap and Doubly Linked List.
-5. Swap Nodes in pairs in a Linked List by changing links.
-6. Reverse a singly linked list.
-7. Reverse a Linked List in groups of given size ‘K’.
+**5. Swap Nodes in pairs in a Linked List by changing links.
+**6. Reverse a singly linked list.
+**7. Reverse a Linked List in groups of given size ‘K’.
 8. Swap Kth Node from the front with the Kth Node from the End.
 9. Merge a Linked list into another Linked List at Alternate Positions.
 10. Find the n’th Node from the end of a given Linked List.

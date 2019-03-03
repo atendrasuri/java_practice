@@ -7,7 +7,7 @@ import java.util.HashSet;
  * @Current-Version: 1.0.0
  * @Creation-Date: 15/11/18
  * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
+ * 1. Recerse a linked List in a group of given size k
  * 2. Please describe the technical usage of the class.
  * @History:
  */
