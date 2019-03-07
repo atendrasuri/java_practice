@@ -1,4 +1,4 @@
-package com.suri.datastructure.arrays;
+package com.suri.datastructure.arrays.singledimension;
 
 import java.util.Hashtable;
 import java.util.Map;

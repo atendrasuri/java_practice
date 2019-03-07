@@ -1,4 +1,4 @@
-package com.suri.datastructure.linkedList;
+package com.suri.datastructure.linkedList.reverse;
 
 /**
  * @Author: Atendra Kumar - FT2 - Sapient

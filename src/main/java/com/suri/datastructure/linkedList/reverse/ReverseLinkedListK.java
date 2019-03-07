@@ -1,4 +1,4 @@
-package com.suri.datastructure.linkedList;
+package com.suri.datastructure.linkedList.reverse;
 
 import java.util.HashSet;
 
@@ -117,7 +117,7 @@ class LinkedList1 {
 
         Node p=start;
         Node q;
-        Node new_star=p.next;
+        Node new_start=p.next;
 
 
         while (true) {
@@ -133,6 +133,6 @@ class LinkedList1 {
             p = temp;
 
         }
-    return new_star;
+    return new_start;
     }
 }

@@ -1,4 +1,4 @@
-package com.suri.datastructure.arrays;
+package com.suri.datastructure.arrays.singledimension;
 
 /**
  * @Author: atekumar
