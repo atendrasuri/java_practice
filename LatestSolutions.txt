@@ -1,0 +1,1086 @@
+**************************2nd smallest****************************************
+1) 2nd smallest element of an unsorted array.
+private static int getSecondSmallest(int[] unsortedArr) {
+		int smallest = Integer.MAX_VALUE;
+		int secondSmallest = Integer.MAX_VALUE;
+
+		if (unsortedArr.length < 2) {
+			System.out.println(" Invalid Input ");
+			System.exit(0);
+		}
+
+		for (int currElement : unsortedArr) {
+			if (currElement < smallest) {
+				secondSmallest = smallest;
+				smallest = currElement;
+			} else if (currElement < secondSmallest && currElement != smallest)
+				secondSmallest = currElement;
+		}
+		return secondSmallest;
+	}
+
+
+**************************2nd smallest in sorted rotated****************************************	
+2) 2nd smallest element of a sorted rotated array. E.g. 5,6,1,2,3,4	
+	private static int getSecondSmallest(int[] input) {
+		int index = Integer.MIN_VALUE;
+		for (int i = 0; i < input.length - 1; i++) {
+			if (input[i] > input[i + 1]) {
+				index = i + 2;
+				break;
+			}
+		}
+		if (index == Integer.MIN_VALUE) {
+			index = 1;
+		} else if (index >= input.length)
+			index = 0;
+		return input[index];
+	}
+
+
+**************************Anagrams****************************************	
+3) Set of anagrams of list of words. The output should be words which are anagrams from the list should be grouped together.
+
+	public static void printAnagram(List<String> anagrams) {
+		Map<String, List<String>> map = new HashMap<>();
+		List<String> list;
+		for (String str : anagrams) {
+			char[] chars = str.toCharArray();
+			Arrays.sort(chars);
+
+			String key = String.valueOf(chars);
+
+			if (!map.containsKey(key)) {
+				list = new ArrayList<>();
+			} else {
+				list = map.get(key);
+			}
+			list.add(str);
+			map.put(key, list);
+		}
+		for (String key : map.keySet()) {
+			System.out.print(map.get(key) + ",");
+		}
+	}
+
+**************************Minimum distance between 2 words****************************************
+4) Minimum distance between 2 words counting the number of characters from middle of both words. E.g. ABC is XYZ and ABC & XYZ are two distinct words. Minimum distance between ABC and XYZ
+
+	public static int getDistance(String str1, String str2) {
+		String[] arr = p.split("\\s+");
+		int firstIndex = -1;
+		int secondIndex = -1;
+
+		int latestFirstIndex = 0;
+		int latestSecondIndex = 0;
+
+		int index = -1;
+		int minDistance = Integer.MAX_VALUE;
+
+		for (int i = 0; i < arr.length; i++) {
+
+			if (arr[i].equals(str1))
+				firstIndex = index;
+
+			if (arr[i].equals(str2))
+				secondIndex = index;
+
+			// +1 for white spaces after each word
+			index += arr[i].length() + 1;
+
+			if (firstIndex != -1 && secondIndex != -1) {
+				int distance = Math.abs(firstIndex - secondIndex);
+				if (distance < minDistance) {
+					latestFirstIndex = firstIndex;
+					latestSecondIndex = secondIndex;
+					minDistance = distance;
+				}
+			}
+		}
+		latestFirstIndex += (int) Math.ceil(str1.length() / 2);
+		latestSecondIndex += (int) Math.ceil(str2.length() / 2);
+
+		minDistance = Math.abs(latestFirstIndex - latestSecondIndex);
+		System.out.println(minDistance);
+		return minDistance;
+	}	
+
+**************************First unique character of a string****************************************	
+5) First unique character of a string. E.g. aabdcce . Output : b
+	private static Character getFirstUniqueChar(String str) {
+		Map<Character, Integer> map = new LinkedHashMap<>();
+		for (int i = 0; i < str.length(); i++) {
+			char key = str.charAt(i);
+			int charCount = 1;
+			if (map.containsKey(key)) {
+				charCount = map.get(key) + 1;
+				map.put(key, charCount);
+			}
+			map.put(key, charCount);
+		}
+
+		for (Character c : map.keySet()) {
+			if (map.get(c) == 1) {
+				return c;
+			}
+		}
+		return null;
+	}
+
+**************************Largest substring with unique characters****************************************
+6) Largest substring with unique characters e.g. aaabcbdeaf Output : cbdeaf
+	public static String lengthOfLongestSubstring(String str) {
+		String longestOverall = "";
+		String currLongest = "";
+		Map<Character, Integer> map = new HashMap<>();
+
+		for (int i = 0; i < str.length(); i++) {
+			char c = str.charAt(i);
+			if (map.containsKey(c)) {
+				i = map.get(c);
+				if (currLongest.length() > longestOverall.length()) {
+					longestOverall = currLongest;
+				}
+				map.clear();
+				currLongest = "";
+			} else {
+				currLongest += c;
+				map.put(c, i);
+			}
+		}
+		return longestOverall;
+	}
+
+**************************matrix in spiral****************************************	
+7) Print matrix in spiral form e.g. {{1,2,3},{4,5,6},{7,8,9}} Output . 1,2,3,6,9,8,7,4,5
+	public static void main(String[] args) {
+		int arr[][] = { { 1, 2, 3, 4, 5, 6 },
+						{ 7, 8, 9, 10, 11, 12 },
+						{ 13, 14, 15, 16, 17, 18 } };
+		int i;
+		int noOfRows = arr.length;
+		int noOfCols = arr[0].length;
+		
+		int rowPtr = 0;
+		int colPtr = 0;
+
+		while (rowPtr < noOfRows && colPtr < noOfCols) {
+			// Print the first row
+			for (i = colPtr; i < noOfCols; i++) {
+				System.out.print(arr[rowPtr][i] + " ");
+			}
+			rowPtr++;
+
+			// Print the last column
+			for (i = rowPtr; i < noOfRows; i++) {
+				System.out.print(arr[i][noOfCols - 1] + " ");
+			}
+			noOfCols--;
+
+			// Print the last row from the remaining rows */
+			if (rowPtr < noOfRows) {
+				for (i = noOfCols - 1; i >= colPtr; i--) {
+					System.out.print(arr[noOfRows - 1][i] + " ");
+				}
+				noOfRows--;
+			}
+
+			// Print the first column from the remaining columns */
+			if (colPtr < noOfCols) {
+				for (i = noOfRows - 1; i >= rowPtr; i--) {
+					System.out.print(arr[i][colPtr] + " ");
+				}
+				colPtr++;
+			}
+		}
+	}
+
+**************************Add Fractions****************************************		
+8) Program to add two fractions
+	private static int[] addFraction(int[] x, int[] y) {
+		int numerator = x[0] * y[1] + x[1] * y[0];
+		int denominator = x[1] * y[1];
+
+		int gcd = getGCD(numerator, denominator);
+		numerator = numerator / gcd;
+		denominator = denominator / gcd;
+
+		int[] sum = { numerator, denominator };
+
+		return sum;
+	}
+
+	private static int getGcd(int x, int y){
+     int min = Math.min(x,y);
+     int max = Math.max(x,y);
+     int gcd = min;
+     
+     while(max%min !=0){
+       gcd = max%min;
+       max = min;
+       min = gcd;
+     }
+     return gcd;
+   }
+
+**************************Largest palindrome****************************************		
+9) Largest palindrome in a given string
+	public static String getLongestPalindrome(String input) {
+		int length = 0;
+		String longestPalindrome = "";
+		
+		if (input.length() == 0)
+			return "Provide the input";
+
+		if (input.length() == 1)
+			return input;
+		
+		char[] ch = input.toCharArray();
+		for (int i = 0; i < ch.length; i++) {
+			for (int j = i; j < ch.length; j++) {
+				String str = input.substring(i, j + 1);
+				if (str.equals(new StringBuilder(str).reverse().toString())) {
+					if (str.length() > length) {
+						length = str.length();
+						longestPalindrome = str;
+					}
+				}
+			}
+		}
+		return longestPalindrome;
+	}
+
+
+**************************Pascal Triangle****************************************
+10) Return element from a Pascal Triangle - Given 5,2 as input return 2 nd element from 5th row
+private static int generatePascal(int col, int row) {
+
+		Map<Integer, ArrayList<Integer>> map = new HashMap<>();
+		map.put(0, new ArrayList<>(Arrays.asList(1)));
+		for (int i = 1; i <= row; i++) {
+			ArrayList<Integer> list = new ArrayList<>();
+			ArrayList<Integer> preList = map.get(i - 1);
+			for (int k = 0; k < preList.size() - 1; k++) {
+				int sum = preList.get(k) + preList.get(k + 1);
+				list.add(sum);
+			}
+			list.add(0, 1);
+			list.add(i, 1);
+			map.put(i, list);
+		}
+		return (map.get(row).get(col));
+	}
+
+**************************longest first repeating index and its length****************************************
+11) Given a String “aabbbbddcc” find the longest first repeating index and its length.  (Input: “aabbbbddcc”  Output: [2,4] 2 is the index and 4 is the length).
+
+public static int[] longestRepeatingStr(String str) {
+		char[] ch = str.toCharArray();
+
+		int len = 0;
+		int index = 0;
+
+		for (int i = 0; i < ch.length;) {
+			char c = ch[i];
+			int count = 0;
+			int ind = i;
+			while (i < ch.length && c == ch[i]) {
+				count++;
+				i++;
+			}
+			if (count > len) {
+				index = ind;
+				len = count;
+			}
+		}
+
+		int[] res = { index, len };
+		return res;
+	}
+
+**************************Biggest Number****************************************
+12) Arrange given numbers to form the biggest number.Input- List of numbers : {1, 34, 3, 98, 9, 76, 45, 4}   Output – 998764543431
+	private static String getBiggestNumber(int[] input) {
+		ArrayList<String> list = new ArrayList<>();
+		String number = "";
+		for (int num : input) {
+			list.add(String.valueOf(num));
+		}
+		Collections.sort(list, new NumberComparator());
+
+		for (String str : list) {
+			number += str;
+		}
+		return number;
+	}
+
+class NumberComparator implements Comparator<String> {
+	@Override
+	public int compare(String i1, String i2) {
+		String orig = i1 + "" + i2;
+		String reverse = i2 + "" + i1;
+
+		return reverse.compareTo(orig);
+	}
+}
+
+**************************Sum Pair****************************************
+13) Find out the number of pair from given integer array whose sum is equal to a given number.
+	public static void main(String[] args) {
+		int[] arr = { 14, 4, 7, 3, 5, 7 };
+
+		findPairOfSum(arr, 11);
+	}
+
+	private static void findPairOfSum(int[] arr, int sum) {
+		Set<Integer> set = new HashSet<Integer>();
+
+		for (int value : arr) {
+			int diff = sum - value;
+			if (!set.contains(diff)) {
+				set.add(value);
+			} else {
+				System.out.println("pair of sum: " + value + " " + diff);
+			}
+		}
+	}
+
+**************************Pangram****************************************
+14) Missing characters to make a string Pangram
+	public static String panagram(String str) {
+		int[] arr = new int[26];
+		
+		str = str.toLowerCase();
+		for (int i = 0; i < str.length(); i++) {
+			char charr = str.charAt(i);
+			if (charr - 'a' >= 0 && charr - 'a' <= 26) {
+				arr[charr - 'a'] = 1;
+			}
+		}
+
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 26; i++) {
+			if (arr[i] == 0) {
+				sb.append((char) ('a' + i));
+			}
+		}
+		return sb.toString();
+	}
+
+	
+**************************x is power of y****************************************	
+15) Check if a number is a power of another number
+	public static void main(String[] args) {
+		// Check if x is a power of y
+		double x = 0.1;
+		int y = 10;
+		System.out.println(+x + " is power of " + y + ": " + isPower(x, y));
+	}
+
+	private static boolean isPower(double x, int y) {
+		double n = y;
+		if (x == 1)
+			return true;
+
+		else if (x < 1) {
+			while (n > x)
+				n /= y;
+		} else {
+			while (n < x)
+				n *= y;
+		}
+		return n == x;
+	}
+
+**************************5S2T2P1Q****************************************
+16) Given Input,print the following input: “SSSSSTTPPQ”  Output: “5S2T2P1Q”.
+	private static String printCountOfChars(String input) {
+		String patternToPrint = "";
+		Map<String, Integer> map = new LinkedHashMap<>();
+
+		for (int i = 0; i < input.length(); i++) {
+			String key = String.valueOf(input.charAt(i));
+
+			if (map.containsKey(key)) {
+				int value = map.get(key);
+				map.put(key, value + 1);
+			} else {
+				map.put(key, 1);
+			}
+		}
+
+		for (String eachKey : map.keySet()) {
+			patternToPrint += map.get(eachKey) + eachKey;
+		}
+		return patternToPrint;
+	}
+
+**************************Fibonacci****************************************
+17) Find the nth Number in Fibonacci series using Iterative and Recursive Approach.
+	public static int fibonacciUsingRecursion(int n) {
+		if (n <= 1) {
+			return n;
+		}
+		return fibonacciUsingRecursion(n - 1) + fibonacciUsingRecursion(n - 2);
+	}
+
+	public static int fibonacciUsingIteration(int n) {
+		int a = 0;
+		int b = 1;
+		int sum = 0;
+		for (int i = 2; i <= n; i++) {
+			sum = a + b;
+			a = b;
+			b = sum;
+		}
+		return sum;
+	}
+
+**************************BST****************************************	
+18) Given node in Binary Search tree, write the implementation for Put, Contains and InOrder methods.
+	public class BinarySearchTree {
+
+	private Node root;
+
+	public void add(int data) {
+		root = add(root, data);
+	}
+
+	private Node add(Node node, int data) {
+		if (node == null) {
+			node = new Node(data);
+		}
+		if (node.data > data) {
+			node.left = add(node.left, data);
+		} else if (node.data < data) {
+			node.right = add(node.right, data);
+		}
+		return node;
+	}
+
+	public void display() {
+		inorder(root);
+	}
+
+	private void inorder(Node node) {
+		if (node == null) {
+			return;
+		}
+		inorder(node.left);
+		System.out.print(node.data + " ");
+		inorder(node.right);
+
+	}
+
+	public boolean contains(int data) {
+		return contains(root, data);
+	}
+
+	private boolean contains(Node node, int data) {
+		if (node == null) {
+			return false;
+		}
+		if (node.data == data) {
+			return true;
+		}
+
+		if (node.data > data) {
+			return contains(node.left, data);
+		} else {
+			return contains(node.right, data);
+		}
+	}
+	}
+
+class Node {
+	int data;
+	Node left, right;
+
+	Node(int data) {
+		this.data = data;
+	}
+}
+
+**************************AToI****************************************
+19) Write a method for ATOI functionality (ASCII to Integer conversion)
+	public static int Atoi(int asciiValue) {
+		int numericValue = -1;
+		if (asciiValue >= '0' && asciiValue <= '9') {
+			numericValue = asciiValue - '0';
+		}
+		return numericValue;
+	}
+
+**************************Armstrong****************************************
+20) Find if a given number is Armstrong number - Example: 371 = 3^3 + 7^3 + 1^3
+	private static boolean isArmstrong(int input) {
+		int length = String.valueOf(input).length();
+		int sum = 0;
+		int num = input;
+		while (num > 0) {
+			int temp = num % 10;
+			sum += Math.pow(temp, length);
+			num = num / 10;
+		}
+		return (input == sum);
+	}
+
+	
+**************************Power Of Each Other****************************************
+21) Given a set of numbers identify pairs such that a^b = b^a
+
+	public class PowerOfEachOther {
+
+	public static void main(String[] args) {
+		int[] x = { 1, 2, 3, 5, 4 };
+		int[] y = { 2, 4, 6, 9, 3 };
+
+		for (int i = 0; i < x.length; i++) {
+			for (int j = 0; j < y.length; j++) {
+
+				if (pow(x[i], y[j]) == pow(y[j], x[i])) {
+					System.out.println("(" + x[i] + "," + y[j] + ") and (" + y[j] + "," + x[i] + ")");
+				}
+			}
+		}
+	}
+
+	public static int pow(int a, int b) {
+		int temp = 1;
+		for (int i = 0; i < b; i++) {
+			temp = temp * a;
+		}
+		return temp;
+	}
+}
+
+-----------------------------------------------------
+	private static boolean isEquals(int a, int b) {
+		int powerOfA = a;
+		for (int i = 1; i < b; i++) {
+			powerOfA = powerOfA * a;
+		}
+		int powerOfB = b;
+		for (int j = 1; j < a; j++) {
+			powerOfB = powerOfB * b;
+		}
+		return (powerOfA == powerOfB);
+	}
+
+**************************Power Of Ten 10 ****************************************	
+22) find number whether given no. is power of 10 or not. Example: 100(10^2), 1000 (10^3), 0.1 (10^-1), 0.01(10^-2)
+	public static void main(String[] args) {
+		// Check if x is a power of 10
+		double x = 0.1;
+		int y = 10;
+		System.out.println(+x + " is power of " + y + ": " + isPower(x, y));
+	}
+
+	private static boolean isPower(double x, int y) {
+		double n = y;
+		if (x == 1)
+			return true;
+
+		else if (x < 1) {
+			while (n > x)
+				n /= y;
+		} else {
+			while (n < x)
+				n *= y;
+		}
+		return n == x;
+	}
+
+
+**************************minimum sub Array exceeding sum****************************************		
+23) find the length of minimum sub Array exceeding sum. ex: input : array is {1,2,3,4} sum = 6, output:length 2
+	//
+	private static int minimumSubArrayLength(int[] arr, int sum) {
+		int minLength = arr.length + 1;
+		
+		for (int start = 0; start < arr.length; start++) {
+			int currentSum = arr[start];
+			if (currentSum > sum)
+				return 1;
+			for (int end = start + 1; end < arr.length; end++) {
+				currentSum += arr[end];
+				if (currentSum > sum && (end - start + 1) < minLength)
+					minLength = (end - start + 1);
+			}
+		}
+		return minLength;
+	}
+
+-----------------------------------------------------
+	//Sorted
+	private static int minimumSubArrayLengthSorted(int[] arr, int sumToCheck) {
+		Arrays.sort(arr);
+
+		int count = 0;
+		int sum = 0;
+		for (int i = arr.length - 1; i >= 0; i--) {
+			sum += arr[i];
+			count++;
+			if (sum > sumToCheck) {
+				return count;
+			}
+		}
+		return -1;
+	}
+
+**************************Newton Raphson Square Root****************************************		
+24) Square Root
+	public static float Compute(float Number) {
+		float temp = Number / 2;
+
+		while (true) {
+			float sqrRoot = temp - (temp * temp - Number) / (2 * temp);
+			float value = Math.abs(temp - sqrRoot);
+
+			if (value < 0.0001)
+				return sqrRoot;
+			else
+				temp = sqrRoot;
+		}
+	}
+
+	
+**************************Stair case ****************************************
+25) staircase problem
+	public static void main(String args[]) {
+		int step = 4;
+		System.out.println("Number of ways = " + countWays(step));
+	}
+
+	private static int countWays(int step) {
+		return fib(step + 1);
+	}
+	
+	private static int fib(int n) {
+		if (n <= 1)
+			return n;
+		return fib(n - 1) + fib(n - 2);
+	}
+
+**************************Prime Factor ****************************************
+26) prime factorization example :- if no. is 12 prime factor [2,2,3]
+		while (n % 2 == 0) {
+			System.out.print(2 + " ");
+			n = n / 2;
+		}
+
+		for (int i = 3; i <= n; i = i + 2) {
+			while (n % i == 0) {
+				System.out.print(i + " ");
+				n = n / i;
+			}
+		}
+	}
+
+**************************Average Grade****************************************
+27) Average grade problem  input [ ["sobby",87], ["charles",80], ["arush", 37],["tony", 24],["charles",22]] , here best grade is 87 which is output
+
+	public static void main(String[] args) {
+		String[][] input = { { "sobby", "45" }, { "charles", "100" }, { "arush", "37" }, { "tony", "24" },
+				{ "charles", "22" } };
+		Map<String, ArrayList<Integer>> map = new HashMap<>();
+
+		ArrayList<Integer> list;
+		for (String[] str : input) {
+			String name = str[0];
+			int val = Integer.parseInt(str[1]);
+			if (map.containsKey(name)) {
+				list = map.get(name);
+				list.add(val);
+				map.put(name, list);
+			} else {
+				list = new ArrayList<>(Arrays.asList(val));
+				map.put(name, list);
+			}
+		}
+
+		int bestAvg = 0;
+		for (String name : map.keySet()) {
+			list = map.get(name);
+			int sum = 0;
+			for (Integer val : list) {
+				sum += val;
+			}
+			int avg = sum / list.size();
+
+			if (avg > bestAvg)
+				bestAvg = avg;
+		}
+		System.out.println("Best Grade is: " + bestAvg);
+	}
+
+**************************Dot product cross product****************************************
+28) find dot product
+	public static void main(String[] args) {
+		int[] a = { 1, 2, 2, 1 };
+		int[] b = { 1, 2, 2, 1 };
+
+		int sum = 0;
+		for (int i = 0; i < a.length; i++) {
+			sum += a[i] + b[i];
+
+		}
+		System.out.println("Dot product is: " + sum);
+	}
+
+----------------------------------------------------------
+Cross Product
+
+	public static void main(String[] args) {
+		int[][] a = { { 1, 2, 3 }, { 4, 5, 6 } };
+		int[][] b = { { 1, 4 }, { 2, 5 }, { 3, 6 } };
+
+		int noOfRowsFirstMatrix = a.length;
+		int noOfColFirstMatrix = a[0].length;
+		int noOfRowsSecondMatrix = b.length;
+		int noOfColSecondMatrix = b[0].length;
+
+		if (noOfColFirstMatrix != noOfRowsSecondMatrix)
+			System.out.println("Illegal matrix dimensions.");
+
+		int[][] c = new int[noOfRowsFirstMatrix][noOfColSecondMatrix];
+
+		for (int i = 0; i < noOfRowsFirstMatrix; i++) {
+			for (int j = 0; j < noOfColSecondMatrix; j++) {
+				for (int k = 0; k < noOfColFirstMatrix; k++) {
+					c[i][j] += a[i][k] * b[k][j];
+				}
+			}
+		}
+		for (int i = 0; i < c.length; i++) {
+			System.out.println("\n");
+			for (int j = 0; j < c[0].length; j++) {
+				System.out.print(c[i][j] + " ");
+			}
+		}
+	}
+
+	
+**************************Optimal Path****************************************
+29) optimal path
+	public class OptimalPath {
+	static int optimalPath(int[][] grid) {
+		// starting is (2,0) and end point is (0,4)
+		int[][] path = new int[2 + 1][4 + 1];
+
+		// set start point as it is in path
+		path[2][0] = grid[2][0];
+		// set all elements in starting point row i.e 2nd row by fetch adjacent previous
+		// cell //element
+
+		for (int i = 1; i <= 4; i++) {
+			path[2][i] = grid[2][i] + path[2][i - 1];
+		}
+
+		// set all elements in starting point column
+		for (int i = 1; i >= 0; i--) {
+			path[i][0] = grid[i][0] + path[i + 1][0];
+		}
+
+		// set rest cell by using 0th column n 2th row , starting from bottom, bcz we
+		// are //moving towards north n east.
+		for (int i = 2; i > 0; i--) {
+			for (int j = 1; j <= 4; j++) {
+				path[i - 1][j] = findmax(path[i - 1][j - 1], path[i][j]) + grid[i - 1][j];
+			}
+		}
+		return path[0][4];
+	}
+
+	static int findmax(int x, int y) {
+		return x > y ? x : y;
+	}
+
+	public static boolean doTestPass() {
+		int[][] input = { { 0, 0, 0, 0, 5 }, { 0, 1, 1, 1, 0 }, { 2, 0, 0, 0, 0 } };
+		int result = optimalPath(input);
+
+		return (result == 10);
+	}
+
+	public static void main(String[] args) {
+
+		if (doTestPass())
+			System.out.println("Test Passed");
+		else
+			System.out.println("Test Failded");
+	}
+}
+
+**************************Apache log****************************************
+30) find most repeated ip in apache log
+----------Top ip----------------------------
+	public class Apache {
+
+	static boolean doTestPass() {
+		String str1 = "10.0.0.2 - frank [10/Oct/2000:13:55:36" + " -0700] \"GET /apache_pb.gif HTTP/1.0\" 200 2326 "
+				+ "\"http://www.example.com/start.html\" \"Mozilla/4.08 " + "[en] (Win98; I ;Nav)\"";
+
+		String str2 = "10.0.0.1- frank [10/Oct/2000:13:55" + ":36 -0700] \"GET /apache_pb.gif HTTP/1.0\" 200 2326 "
+				+ "\"http://www.example.com/start.html\" \"Mozilla/4.08 " + "[en] (Win98; I ;Nav)\"";
+
+		String str3 = "10.0.2.1 - frank [10/Oct/2000:13:55" + ":36 -0700] \"GET /apache_pb.gif HTTP/1.0\" 200 2326 "
+				+ "\"http://www.example.com/start.html\" \"Mozilla/4.08 " + "[en] (Win98; I ;Nav)\"";
+
+		String[] lines = { str1, str2, str3 };
+		String result = findTopIPAddress(lines);
+
+		if (result != null && result.equals("1.198.3.93")) {
+			System.out.println("Test Passed");
+			return true;
+		} else {
+			System.out.println("Test Failed");
+			return false;
+		}
+
+	}
+
+	private static String findTopIPAddress(String[] lines) {
+		List<String> address = new ArrayList<>();
+
+		for (int i = 0; i < lines.length; i++) {
+			address.add(lines[i].split("-")[0].trim());
+		}
+		// Adding extra input to check
+		address.add("123.4.245.23");
+		address.add("104.244.253.29");
+		address.add("1.198.3.93");
+		address.add("32.183.93.40");
+		address.add("104.30.244.2");
+		address.add("104.244.4.1");
+
+		Collections.sort(address, new IPAddressComparator());
+		for (String s : address) {
+			System.out.println(s);
+		}
+
+		return address.get(0);
+	}
+}
+
+class IPAddressComparator implements Comparator<String> {
+
+	@Override
+	public int compare(String s1, String s2) {
+
+		String[] ip1 = s1.split("\\.");
+		String[] ip2 = s2.split("\\.");
+
+		String updateStr1 = String.format("%3s.%3s.%3s.%3s", ip1[0], ip1[1], ip1[2], ip1[3]);
+		String updateStr2 = String.format("%3s.%3s.%3s.%3s", ip2[0], ip2[1], ip2[2], ip2[3]);
+
+		return updateStr1.compareTo(updateStr2);
+	}
+}
+------------------------------Most repeated IP----------------------------------------------------
+	private static String getMostRepeatedIp(String[] logs) {
+		Map<String, Integer> map = new HashMap<>();
+		for (String str : logs) {
+			String ip = str.split("-")[0];
+			if (map.containsKey(ip)) {
+				int count = map.get(ip);
+				map.put(ip, count + 1);
+
+			} else {
+				map.put(ip, 1);
+			}
+		}
+		String mostRepeatedIp = "";
+		int maxCount = Integer.MIN_VALUE;
+		for (String currentIp : map.keySet()) {
+			int val = map.get(currentIp);
+			if (val > maxCount) {
+				mostRepeatedIp = currentIp;
+			}
+		}
+		return mostRepeatedIp;
+	}
+
+	
+**************************Robot****************************************	
+31) walking robot
+	private static int[] getFinalCoordinates(String move, int[] initialPosition) {
+
+		for (int i = 0; i < move.length(); i++) {
+			String c = String.valueOf(move.charAt(i));
+			switch (c) {
+			case "U":
+				initialPosition[1] += 1;
+				break;
+			case "D":
+				initialPosition[1] -= 1;
+				break;
+			case "L":
+				initialPosition[0] -= 1;
+				break;
+			case "R":
+				initialPosition[0] += 1;
+				break;
+			}
+		}
+		return initialPosition;
+	}
+
+**************************Snow Pack ****************************************	
+32) snow pack problem example
+	static int findWater(int[] arr) {
+		int n = arr.length;
+		int left[] = new int[n];
+		int right[] = new int[n];
+
+		// left[i] contains height of tallest bar to the left of i'th bar including
+		// itself
+		// Fill left array
+		left[0] = arr[0];
+		for (int i = 1; i < n; i++)
+			left[i] = Math.max(left[i - 1], arr[i]);
+
+		// Right [i] contains height of tallest bar to the right of ith bar including
+		// itself
+		// Fill right array
+		right[n - 1] = arr[n - 1];
+		for (int i = n - 2; i >= 0; i--)
+			right[i] = Math.max(right[i + 1], arr[i]);
+
+		// Calculate the accumulated water element by element consider the amount of
+		// water on i'th bar, the amount of water accumulated on this particular bar
+		// will be equal to min(left[i], right[i]) - arr[i] .
+		int water = 0;
+		for (int i = 0; i < n; i++)
+			water += Math.min(left[i], right[i]) - arr[i];
+
+		return water;
+	}
+
+**************************Unique Tuple****************************************
+33) find unique tuples(substring) of given length Example : input : "aab" find 2 length substring output : aa,ab; input "abcd" find 2 length substring output : ab, bc,cd
+	public static void findUniqueTuple(String str) {
+		Set<String> set = new LinkedHashSet<>();
+
+		for (int i = 0; i < str.length() - 1; i++) {
+			set.add(str.substring(i, i + 2));
+		}
+		System.out.print(set);
+	}
+	
+----------------------------------------------
+	public static void main(String[] args) {
+      String input = "abcde";
+      int length = 4;
+      System.out.println(getUniqueTuple(input, length));
+	}
+  
+  private static Set<String> getUniqueTuple(String input, int length){
+    Set<String> set = new LinkedHashSet<>();
+    String temp = input+input;
+    
+    for(int i=0; i<input.length(); i++){
+      set.add(temp.substring(i, i+length));
+    }
+    return set;
+  }	
+
+**************************Dictionary****************************************
+34) find longest word in given dictionary   example : dictionary is : {"to","toe","toes","doe","dog","god","dogs","book","banana"} and input String is "dsetog"  output : toes, dogs
+// Problem - Largest meaningful string from a given string with no spaces "thisaxbcdbetterbook"
+// Provided - isDictionary(String s) - already implemented
+
+	public static void main(String[] args) {
+
+		String str = "thisaxbcdbetterbook";
+		int length = Integer.MIN_VALUE;
+		String longestStr = "";
+
+		for (int i = 0; i < str.length(); i++) {
+			String currStr = "";
+			for (int j = str.length() - 1; j > i; j--) {
+				currStr = str.substring(i, j + 1);
+
+				if (isDisctionary(currStr)) {
+					if (currStr.length() > length) {
+						length = currStr.length();
+						longestStr = currStr;
+					}
+				}
+			}
+		}
+		System.out.println(longestStr);
+	}
+
+	private static boolean isDisctionary(String str) {
+		String[] dictionary = { "this", "is", "a", "better", "book" };
+		for (String currStr : dictionary) {
+			if (currStr.equalsIgnoreCase(str)) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+------------------Longest word in dictionary---------------------------------------------
+private static HashSet<String> result = new HashSet<>();
+	private static int max_len = 0;
+
+	public static void main(String[] args) {
+		String letters = "dsetog";
+		System.out.println(longestWordInDict(letters, new Dictionary()));
+	}
+
+	private static Set<String> longestWordInDict(String letter, Dictionary dict) {
+		permute(letter.toCharArray(), 0, dict);
+		return result;
+	}
+
+	private static void permute(char[] arr, int start, Dictionary dict) {
+		if (start == arr.length) {
+			String s1 = "";
+			for (int i = 0; i < arr.length; i++) {
+				s1 += arr[i];
+			}
+			combination(s1.toCharArray(), dict);
+		} else {
+			for (int i = start; i < arr.length; i++) {
+				swap(arr, start, i);
+				permute(arr, start + 1, dict);
+				swap(arr, start, i);
+			}
+		}
+	}
+
+	private static void combination(char[] chars, Dictionary dict) {
+		String str = "";
+		for (int i = 0; i < chars.length; i++) {
+			str += chars[i];
+			if (Dictionary.isAvailableInDictionary(str)) {
+				if (str.length() == max_len) {
+					result.add(str);
+				} else if (str.length() > max_len) {
+					max_len = str.length();
+					result.clear();
+					result.add(str);
+				}
+			}
+		}
+	}
+
+	private static char[] swap(char[] arr, int len, int i) {
+		char temp = arr[len];
+		arr[len] = arr[i];
+		arr[i] = temp;
+
+		return arr;
+	}
+
+	static class Dictionary {
+		static final String[] words = { "to", "toe", "toes", "doe", "dog", "god", "dogs", "book", "banana" };
+
+		static boolean isAvailableInDictionary(String str) {
+			List<String> wordList = Arrays.asList(words);
+			return wordList.contains(str);
+		}
+	}
