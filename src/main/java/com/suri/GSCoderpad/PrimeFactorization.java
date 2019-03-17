@@ -22,11 +22,23 @@ public class PrimeFactorization
    * primeFactorization( 5 ) == [5]
    * primeFactorization( 12 ) == [2,2,3]
    */
-  public static ArrayList<Integer> primeFactorization(int x)
+  public static ArrayList<Integer> primeFactorization(int n)
   {
   //To Do: implement code here
-  ArrayList<Integer> factors = new ArrayList<Integer>();
-  return factors;
+    ArrayList<Integer> factors = new ArrayList<Integer>();
+
+    while (n % 2 == 0) {
+      factors.add(2);
+      n = n / 2;
+    }
+
+    for (int i = 3; i <= n; i = i + 2) {
+      while (n % i == 0) {
+        factors.add(i);
+        n = n / i;
+      }
+    }
+    return factors;
   }
 
   /**

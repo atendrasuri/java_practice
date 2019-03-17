@@ -20,10 +20,10 @@ public class DistanceBetweenTwoStrings {
    *   shortestDistance( document, "is", "a" ) == 2.5
    *   shortestDistance( document, "is", "not" ) == -1
    */
-  public static double shortestDistance(String document, String str1, String str2) {
+  public static double shortestDistance(String document, String word1, String word2) {
 
 
-    String[] arr = document.split("\\s+");
+    /*String[] arr = document.split("\\s+");
     int firstIndex = -1;
     int secondIndex = -1;
 
@@ -58,9 +58,9 @@ public class DistanceBetweenTwoStrings {
 
     minDistance = Math.abs(latestFirstIndex - latestSecondIndex);
     System.out.println(minDistance);
-    return minDistance;
+    return minDistance;*/
 
-   /* String[] words = document.split(" ");
+    String[] words = document.split(" ");
 
     int index = 0;
     double shortest = document.length();
@@ -87,7 +87,7 @@ public class DistanceBetweenTwoStrings {
       return -1;
     }
 
-    return shortest;*/
+    return shortest;
   }
 
   /**

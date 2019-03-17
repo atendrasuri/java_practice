@@ -39,8 +39,35 @@ class BestAverageGrade
   */
   public static Integer bestAverageGrade(String[][] scores)
   {
-    // TODO: implement this function
-    return 0;
+    Map<String, ArrayList<Integer>> map = new HashMap<>();
+
+    ArrayList<Integer> list;
+    for (String[] str : scores) {
+      String name = str[0];
+      int val = Integer.parseInt(str[1]);
+      if (map.containsKey(name)) {
+        list = map.get(name);
+        list.add(val);
+        map.put(name, list);
+      } else {
+        list = new ArrayList<>(Arrays.asList(val));
+        map.put(name, list);
+      }
+    }
+
+    int bestAvg = 0;
+    for (String name : map.keySet()) {
+      list = map.get(name);
+      int sum = 0;
+      for (Integer val : list) {
+        sum += val;
+      }
+      int avg = sum / list.size();
+
+      if (avg > bestAvg)
+        bestAvg = avg;
+    }
+    return bestAvg;
   }
 
   /*

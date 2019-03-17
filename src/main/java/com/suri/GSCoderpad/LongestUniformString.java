@@ -23,28 +23,33 @@ public class LongestUniformString {
 
   static int[] longestUniformSubstring(String input){
 
-    char []arr= input.toCharArray();
-    int longestStart = -1;
-    int longestLength = 0;
-    int currentLength=0;
+    char[] ch = input.toCharArray();
+
+    int len = 0;
+    int index = 0;
 
 
-    for(int i=0;i<arr.length-1;i++){
-
-      if(arr[i]!=arr[i+1]){
-        longestStart++;
-      }else if(arr[i]==arr[i+1]){
-        currentLength++;
+    for (int i = 0; i < ch.length;) {
+      char c = ch[i];
+      int count = 0;
+      int ind = i;
+      while (i < ch.length && c == ch[i]) {
+        count++;
+        i++;
       }
-     if(currentLength>longestLength){
-       longestLength=currentLength;
-     }
-
+      if (count > len) {
+        index = ind;
+        len = count;
+      }
     }
 
+    int[] res = { index, len };
+    if(ch.length==0){
+      res[0]=-1;
+      res[1]=0;
+    }
+    return res;
 
-    // todo: implement the longestUniformSubstring logic
-    return new int[]{ longestStart, longestLength };
   }
 
   public static void main(String[] args) {

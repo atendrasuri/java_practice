@@ -18,8 +18,12 @@ public class DotProduct {
    */
 
   public static int dotProduct( int[] array1, int[] array2 ) {
-    // TODO: Implement solution
-    return 8;
+    int sum = 0;
+    for (int i = 0; i < array1.length; i++) {
+      sum += array1[i] + array2[i];
+
+    }
+    return sum;
   }
 
   /**

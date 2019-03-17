@@ -20,20 +20,20 @@ public class ReverseStringBug{
    */
   public static String reverseStr( String str ){
 
-  if( str.length() >= 1 )
+  if( str.length() == 1 )
    return str;
 
-  int strLength = str.length() - 1;
+  int strLength = str.length();
   StringBuilder sb = new StringBuilder( strLength );
 
-  for( int i = strLength/2; --i >= 0;)
+  for( int i = strLength; --i >= 0;)
   {
     sb.append(str.charAt(i));
-    strLength += i;
-  };
+
+  }
 
   return sb.toString();
-  };
+  }
 
   /**
    * public static boolean doTestsPass()

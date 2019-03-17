@@ -29,19 +29,40 @@ import org.junit.Assert;*/
 
 import sun.jvm.hotspot.utilities.Assert;
 
-public class PascalTriangle {
-   /*Asserts on value returned from pascal */
-  /*@Test public void doTestsPass(){
-  Assert.assertTrue(PascalTriangle.pascal(0,0) ==  1);
-  Assert.assertTrue(PascalTriangle.pascal(1,2) ==  2);
-  Assert.assertTrue(PascalTriangle.pascal(5,6) ==  6);
-  }*/
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-  public static int pascal( int Col, int Row ){
-  return 0;
+public class PascalTriangle {
+
+   public void doTestsPass(){
+     System.out.println(PascalTriangle.pascal(0,0) ==  1);
+     System.out.println(PascalTriangle.pascal(1,2) ==  2);
+     System.out.println(PascalTriangle.pascal(5,6) ==  6);
+  }
+
+  public static int pascal( int col, int row ){
+
+    Map<Integer, ArrayList<Integer>> map = new HashMap<>();
+    map.put(0, new ArrayList<>(Arrays.asList(1)));
+    for (int i = 1; i <= row; i++) {
+      ArrayList<Integer> list = new ArrayList<>();
+      ArrayList<Integer> preList = map.get(i - 1);
+      for (int k = 0; k < preList.size() - 1; k++) {
+        int sum = preList.get(k) + preList.get(k + 1);
+        list.add(sum);
+      }
+      list.add(0, 1);
+      list.add(i, 1);
+      map.put(i, list);
+    }
+    return (map.get(row).get(col));
+
   }
 
   public static void main(String[] args) {
-  //JUnitCore.main("Solution");
+    PascalTriangle obj = new PascalTriangle();
+    obj.doTestsPass();
   }
 }

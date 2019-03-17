@@ -19,10 +19,33 @@ public class AddFraction {
    * Fraction is represented as a two-element array - [ numerator, denominator ]
    * The returned fraction has to be in its simplest form.
    */
-  public static int[] addFractions( int[] fraction1, int[] fraction2 ) {
-    // TODO: Implement solution
-    return ( new int[]{ 0, 0 } );
+  public static int[] addFractions( int[] x, int[] y ) {
+
+    int numerator = x[0] * y[1] + x[1] * y[0];
+    int denominator = x[1] * y[1];
+
+    int gcd = getGCD(numerator, denominator);
+    numerator = numerator / gcd;
+    denominator = denominator / gcd;
+
+    int[] sum = { numerator, denominator };
+
+    return sum;
   }
+
+  private static int getGCD(int x, int y){
+    int min = Math.min(x,y);
+    int max = Math.max(x,y);
+    int gcd = min;
+
+    while(max%min !=0){
+      gcd = max%min;
+      max = min;
+      min = gcd;
+    }
+    return gcd;
+  }
+
 
   /**
    * boolean doTestsPass()
