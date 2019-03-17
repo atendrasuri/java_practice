@@ -8,6 +8,9 @@ Asked in Amazon:-
 6. Delete the node from BST which are out of given range(min, max).
 7. Given and array of integer from 1 to N, some numbers are repeating and some numbers are missing. find out the repeating and missing numbers without any extra space.
 
+Flipkart:-
+https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/
+
 
 Asked in Oracle:-
 1. Can we create the object of static class?
@@ -270,6 +273,7 @@ Dynamic Programming:-
 
 
 Resources:-
+Geeks for Geeks
 Codechefs
 Leetcode
 Codeforces

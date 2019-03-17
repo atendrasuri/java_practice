@@ -15,11 +15,13 @@ import java.util.Map;
 public class LongestUniqueSubstring {
 
     public static void main(String[] args) {
-        //String str = "ABDEFGABEF";
+        //String str = "aaabcbdeaf";
         String str = "GEEKSFORGEEKS";
-        //String str = "BBBB";
+        String str1 = "ABCA";
 
         System.out.println("" + getLongestUniqueSubstring(str));
+
+        System.out.println(""+lengthOfLongestSubstring(str1));
     }
 
 
@@ -54,5 +56,27 @@ public class LongestUniqueSubstring {
         System.out.println("start index "+ start_index);
         System.out.println("End index "+end_index);
         return max_len;
+    }
+
+    public static String lengthOfLongestSubstring(String str) {
+        String longestOverall = "";
+        String currLongest = "";
+        Map<Character, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < str.length(); i++) {
+            char c = str.charAt(i);
+            if (map.containsKey(c)) {
+                i = map.get(c);
+                if (currLongest.length() > longestOverall.length()) {
+                    longestOverall = currLongest;
+                }
+                map.clear();
+                currLongest = "";
+            } else {
+                currLongest += c;
+                map.put(c, i);
+            }
+        }
+        return longestOverall;
     }
 }

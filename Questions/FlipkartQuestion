@@ -1,0 +1,92 @@
+Q1. You have a infinite stream of repeated number find top K frequent number from this stream and discussion on this question like which data structure will you use and time complexity etc.
+
+Q2. Given a link list consist of data , next pointer and also a random pointer which points to a random node of the list . how will you make clone of this ?
+
+Q3. ow a array (fixed size can) use like for k stack ? and after this how will you make these k stack to memory efficient?
+
+
+Q1. Linked list containing characters as values. Find if a linked list is palindrome. done
+
+Q2. Given two integers m and n write the function to compute the number of bit changes required to convert one to another
+
+Example: m=14
+n=15 answer : 1
+Explanation : 24 : 11000
+15: 01111
+
+
+Q1. Tell me if binary tree is BST?   done
+
+Q2. Given a stream of integers, give me median at any time. done
+soln:- https://www.youtube.com/watch?v=VmogG01IjYc
+
+Q3. Given a sorted array, being rotated; Find an element in it. done
+
+
+Q1. Need an efficient solution for the problem.
+Given an array a[], find three indices (triplets) i,j,k such that:
+1. i < j < k
+2. a[i] < a[j] < a[k]
+3. a[i] + a[j] + a[k] <= t , where t is a given sum
+Array is not necessarily sorted. Have to count number of such triplets.
+
+Q2. Construct a BST with preorder and inorder traversals given
+
+
+Q2. An iron rod is given that has to be cut in a manner such that the cost is maximized. Different rod sizes have different costs and there is a cutting cost involved.
+
+Q3. Deletion in a binary search tree?
+
+
+
+Q1. Write code to find sum of two numbers stored as linked list.(LSB at last node) and head of each list is given.
+
+Q2. Write code to print elements on the path from root to leaf node having the maximum sum.
+
+Q3. What is the complexity of retrieving min element from a max heap.
+
+Q4. Which is the fastet method to sort an almost sorted array:
+quick sort,bubble sort,merge sort,shell sort
+
+Q5. Tell about zombie process?
+
+Q6. Complexities on hash table?
+
+Q7. Reverse linked list and a few questions on tress and dynamic prog and aptitude testing?
+
+Q8. Given an array find any three numbers which sum to zero. Give the best algorithm?
+
+Q9. Given a BST, how would you return the kth smallest element. Cover all the corner cases with time complexity logn?
+
+
+
+Q1. Check whether given Binary Tree is a Binary Search Tree. Discuss various approaches? - done.
+
+Q2. Given a large list of numbers in a file and a very small amount of memory, sort the file.
+
+Q3. Implement a phone book. You can search either by name or phone number. You can search by prefix also. Write whole code with proper syntax.
+
+Q4. Given an array of integers, find Pythagorean triplets. i.e. find a,b and c which satisfies a^2 + b^2 = c^2. Integers could be positive or negative.
+
+Q5. Given a number, compute the nearest palindrome number. This palindrome number should be greater than given number.
+
+Q6. Given two string str and pat. Find minimum window in str which contains all characters from string pat.
+
+Q7. Input : 4 jars and 50 balls of different colors (Red, Green, Yellow, Blue) where each jar can contain a maximum of 100 balls.
+Problem : When a user draws a red ball he loses his money while if he draws a ball of some other color his money is doubled. Arrange the balls in such a way that the user has highest probability to lose.
+
+
+Q1. A sentence is given which contains lowercase English letters and spaces. It may contain multiple spaces. Get first letter of every word and return the result as a string. The result should not contain any space.
+Q2. Find Nth largest element in the BST.
+Q3. Given a BST, find the node which contains the value which is equal to or greater than the input value?
+Q4. Write a program to check if a binary tree is balanced
+Q5. Given s string, Find max size of a sub-string, in which no duplicate chars present?
+Q6. What is a hash table? Explain how they work (hash function and buckets)?
+Q7. WAP to find a continuous subset whose sum is divisible by 7. We are given a array of number (-ve and +ve).
+calculate the complexity of your algorithm?
+Q8. Given a 2-dimensional array of integers, find the value 1 in the array, and set all those rows, and columns to 1, which contains one of the values as 1.
+Q9. How to find a number in a rotated sorted array. He was looking for the binary search kind of solution?
+
+Q1. Write a code to check if a tree is BST or not.
+Q2. Modify this code to find the maximum subtree in tree which is a BST. Maximum subtree means subtree goes upto its leaves from any node.
+Modify the code again to find the maximum tree which is a BST. BST can lie anywhere and it may or may not go upto its leaves.

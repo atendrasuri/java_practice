@@ -2,10 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MinimumSwapREquiredToSortAnArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RotateArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/mathematical/RectangleOverlapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Questions/FlipkartQuestion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/PrintAllLeafNodesLR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/PrintBSTAllQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/PrintSpiralOrderBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/SortedandRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AToPowerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AddFraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ApacheLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AtoI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/BestAverageGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/CountLengthOfCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DistanceBetweenTwoStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DotProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/FirstNonRepeatingCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/IsPowerofTen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestUniformString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MagicPotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MedianTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/OptimalPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/Panagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PascalTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PrimeFactorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseStringBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/RunLengthEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SmallestSortedRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SnowPack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SquareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/StairCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SubArrayExceedingSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/TrainMap1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/UniqueTuples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/WalkingRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/runningStream/FindKthLargest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GoldmanQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/GoldmanQuestions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LatestSolutions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/LatestSolutions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/MinimumCostPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/MinimumCostPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubArraywithGivenSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithGivenSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubArraywithSumZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithSumZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/QuicksortApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/QuicksortApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/BalancedParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/BalancedParenthesis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/LongestUniqueSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/LongestUniqueSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,46 +63,50 @@
     <session id="-1987433736">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="7" />
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="8" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="FlipkartQuestion" value="4" />
           <entry key="InterviewQuestions" value="3" />
           <entry key="SpringAnnotation" value="1" />
-          <entry key="java" value="229" />
+          <entry key="java" value="357" />
           <entry key="md" value="4" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="229" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="JAVA" value="357" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="FlipkartQuestion" value="39" />
           <entry key="InterviewQuestions" value="4211" />
           <entry key="dummy" value="12" />
-          <entry key="java" value="33723" />
+          <entry key="java" value="44049" />
           <entry key="md" value="5" />
-          <entry key="txt" value="845" />
+          <entry key="txt" value="874" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33723" />
-          <entry key="PLAIN_TEXT" value="5073" />
+          <entry key="JAVA" value="44049" />
+          <entry key="PLAIN_TEXT" value="5141" />
         </counts>
       </usages-collector>
     </session>
@@ -65,94 +114,99 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RotateArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AToPowerB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="123">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/MaxPathSumMatrix.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/BestAverageGrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="84">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/huffmanDecoding/HuffmanDecoding.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/CountLengthOfCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1912">
-              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/BSTQuestions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1601#1602#0" expanded="true" />
+                <element signature="e#1622#1623#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/BalancedParenthesis.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/IsPowerofTen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+            <state relative-caret-position="318">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding>
+                <element signature="e#1391#1392#0" expanded="true" />
+                <element signature="e#1412#1413#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MaxSumSubArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DotProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+            <state relative-caret-position="-145">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java">
+        <entry file="file://$PROJECT_DIR$/Questions/LatestSolutions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="274">
+              <caret line="790" column="9" lean-forward="true" selection-start-line="790" selection-start-column="9" selection-end-line="790" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/SequencePrintUsing3Thread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/OptimalPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="390">
+              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/DuplicateInMatrix.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DistanceBetweenTwoStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-515">
+              <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MagicPotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MedianTwoSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -172,6 +226,13 @@
       <find>max_level</find>
       <find>hasN</find>
       <find>next()</find>
+      <find>pan</find>
+      <find>power of te</find>
+      <find>power</find>
+      <find>apa</find>
+      <find>apache</find>
+      <find>median</find>
+      <find>OptimalPath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,57 +241,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/InterviewPractice/PrintViewBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/InterviewPractice/GFG.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/InterviewPractice/Seggregate1n0.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/InterviewPractice/SegregateEvenOdd.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/countDownLatch/CountDownLatchDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/countDownLatch/CarDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/cyclicBarrier/CyclicBarrierDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/immutable/ImmutableDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/IsBTvalidBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MaxSumSubArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/SubArraywithZeroSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/SlidingWindowMaximum_Deque.java" />
-        <option value="$PROJECT_DIR$/InterviewQuestions" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/TrapRainWater.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/collection/CustomIterator.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/threading/ABC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/StreamExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/AtomicDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/InterviewPractice/SequencePrintingUsingThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/bstPractice/BSTPractice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/singleton/SingleTonEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/bstPractice/ABC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/DiamondProblemTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/SecondSmallestRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java" />
+        <option value="$PROJECT_DIR$/FlipkartQuestion" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/SortedandRotated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/BalancedParenthesis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/QuicksortApp.java" />
+        <option value="$PROJECT_DIR$/Questions/FlipkartQuestion" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/kthInBST/KthLargestinBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithGivenSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SmallestSubArrraywithGivenSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/sortedAndRotated/SortedandRotated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/runningStream/FindMedianRunningStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintRootToLeaf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/pathRelated/RootToLeafSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/LongestUniqueSubstring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/runningStream/FindKthLargest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/01_AddFraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AddFraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/02_Apache Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/TrainMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/CountLengthOfCycle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SubArrayExceedingSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/StairCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SnowPack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MedianTwoSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestWord.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/BestAverageGrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/WalkingRobot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SquareRoot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/UniqueTuples.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DotProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MagicPotion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseStringBug.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PrimeFactorization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PascalTriangle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/LambdaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/SortArrayJava8.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/SubArraywithGivenSum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/SortedArraytoBST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/SubSetSumArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/FindFourElements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/ReverseLinkedListK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/reverse/ReverseLnkLstPairwise.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/reverse/ReverseLinkedListK.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/middle/LinkedListDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/TestBuilderPattern.java" />
-        <option value="$PROJECT_DIR$/InterviewQuestions.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/PrintMatrixSpiral.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/DuplicateInMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MinimumSwapREquiredToSortAnArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/bitmanipulation/IsNumberPowerTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/mathematical/RectangleOverlapping.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RotateArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/huffmanDecoding/HuffmanDecoding.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/BSTQuestions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/FirstNonRepeatingCharacter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/Panagram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/RunLengthEncoding.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SmallestSortedRotated.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SearchTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestUniformString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/IsPowerofTen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AToPowerB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AtoI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ApacheLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DistanceBetweenTwoStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/OptimalPath.java" />
       </list>
     </option>
   </component>
@@ -241,10 +302,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="957" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -252,8 +313,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +325,11 @@
             <path>
               <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,7 +360,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="AmazonInterview" type="462c0819:PsiDirectoryNode" />
+              <item name="GSCoderpad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -303,48 +369,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
-              <item name="PrintingABCUsingAtomicInteger.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="threading" type="462c0819:PsiDirectoryNode" />
-              <item name="SequencePrintUsing3Thread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="GSCoderpad" type="462c0819:PsiDirectoryNode" />
+              <item name="LongestWord.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -353,16 +379,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552453096056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552795457878" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/java/threading" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.suri.datastructure.arrays.singledimension.sortedAndRotated" />
       <recent name="com.suri.GSCoderpad" />
       <recent name="com.suri.AmazonInterview" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/java/threading" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Questions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -377,13 +409,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateArray">
-    <configuration name="DuplicateInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.arrays.matrix.DuplicateInMatrix" />
+  <component name="RunManager" selected="Application.OptimalPath">
+    <configuration name="AToPowerB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.GSCoderpad.AToPowerB" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.arrays.matrix.*" />
+          <option name="PATTERN" value="com.suri.GSCoderpad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,12 +423,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsNumberPowerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.bitmanipulation.IsNumberPowerTwo" />
+    <configuration name="ApacheLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.GSCoderpad.ApacheLog" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.bitmanipulation.*" />
+          <option name="PATTERN" value="com.suri.GSCoderpad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -404,12 +436,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumSwapREquiredToSortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.arrays.singledimension.MinimumSwapREquiredToSortAnArray" />
+    <configuration name="AtoI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.GSCoderpad.AtoI" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.arrays.singledimension.*" />
+          <option name="PATTERN" value="com.suri.GSCoderpad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,12 +449,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleOverlapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.mathematical.RectangleOverlapping" />
+    <configuration name="DistanceBetweenTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.GSCoderpad.DistanceBetweenTwoStrings" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.mathematical.*" />
+          <option name="PATTERN" value="com.suri.GSCoderpad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -430,12 +462,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.arrays.singledimension.RotateArray" />
+    <configuration name="OptimalPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.GSCoderpad.OptimalPath" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.arrays.singledimension.*" />
+          <option name="PATTERN" value="com.suri.GSCoderpad.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,19 +476,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DuplicateInMatrix" />
-      <item itemvalue="Application.MinimumSwapREquiredToSortAnArray" />
-      <item itemvalue="Application.IsNumberPowerTwo" />
-      <item itemvalue="Application.RectangleOverlapping" />
-      <item itemvalue="Application.RotateArray" />
+      <item itemvalue="Application.AToPowerB" />
+      <item itemvalue="Application.AtoI" />
+      <item itemvalue="Application.ApacheLog" />
+      <item itemvalue="Application.DistanceBetweenTwoStrings" />
+      <item itemvalue="Application.OptimalPath" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.RectangleOverlapping" />
-        <item itemvalue="Application.IsNumberPowerTwo" />
-        <item itemvalue="Application.MinimumSwapREquiredToSortAnArray" />
-        <item itemvalue="Application.DuplicateInMatrix" />
+        <item itemvalue="Application.OptimalPath" />
+        <item itemvalue="Application.DistanceBetweenTwoStrings" />
+        <item itemvalue="Application.ApacheLog" />
+        <item itemvalue="Application.AtoI" />
+        <item itemvalue="Application.AToPowerB" />
       </list>
     </recent_temporary>
   </component>
@@ -474,10 +506,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="957" extended-state="1" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,15 +518,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32947975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39884394" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39813736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3282887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -505,7 +537,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2863248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -514,15 +546,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32947975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39884394" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3282887" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39813736" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32947975" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3282887" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -571,7 +603,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/LongestUniqueSubstring.java</url>
-          <line>36</line>
+          <line>38</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -594,7 +626,7 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubArraywithSumZero.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithSumZero.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="27" />
@@ -653,6 +685,78 @@
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/AFlipkartInterview/SortedandRotated.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/QuicksortApp.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SmallestSubArrraywithGivenSum.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SmallestSubArrraywithGivenSum.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseString.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SearchTree.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestUniformString.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AtoI.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AtoI.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ApacheLog.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java</url>
           <line>47</line>
@@ -667,6 +771,16 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>searchTree.contains(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>equals(searchTree.contains(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>map.get(arr[i])</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -674,249 +788,50 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/singleton/SingletonDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/bstPractice/BSTPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/DiamondProblemTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/VerticalPrintBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        <state relative-caret-position="176">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/BSTQuestions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="6240">
+          <caret line="426" column="15" selection-start-line="426" selection-start-column="15" selection-end-line="426" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithSumZero.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2670">
-          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="-55">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringAnnotation">
+    <entry file="file://$PROJECT_DIR$/../../../practice-master/JAVA/JsonBuilder/src/jsonbuilderAPIS/IJsonBuilder.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/LambdaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="64" column="27" lean-forward="true" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/SortArrayJava8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/BalancedParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/ArithmeticEvaluation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/LongestSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/LCSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/EditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="38" selection-end-line="48" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="42" column="24" lean-forward="true" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/LPS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/MinimumCostPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/TrapRainWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="27" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MissingRepeatElementArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="53" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="106" selection-start-line="40" selection-end-line="42" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/SubsetSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="26" selection-start-column="7" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/RemoveconsuChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/SlidingWindowMaximum_Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/reverse/ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="92" column="5" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/reverse/ReverseLinkedListK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/middle/LinkedListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/SubArraywithZeroSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="49" selection-start-line="34" selection-start-column="6" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/reverse/ReverseLnkLstPairwise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/TestBuilderPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InterviewQuestions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="267" column="31" selection-start-line="267" selection-start-column="31" selection-end-line="267" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/DuplicateElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/FindFourElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SecondSmallestRotatedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubArraywithSumZero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SortedArraytoBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubArraywithGivenSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../../../practice-master/JAVA/JsonBuilder/src/test/JsonBuilderTester.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/MinimumSwapREquiredToSortAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="15" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="15" />
+        <state relative-caret-position="414">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -930,104 +845,339 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/mathematical/RectangleOverlapping.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/DuplicateElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="156" selection-start-line="9" selection-start-column="156" selection-end-line="9" selection-end-column="156" />
+        <state relative-caret-position="-160">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/mathematical/CircleLatticePoints.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/SubArraywithZeroSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-56">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/SubSetSumArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MaxSumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="133">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/PrintMatrixSpiral.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MissingRepeatElementArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="353">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/DuplicateInMatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/runningStream/FindMedianRunningStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RotateArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/DP/MaxPathSumMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/huffmanDecoding/HuffmanDecoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1912">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/BSTQuestions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
+        <state relative-caret-position="698">
+          <caret line="74" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/BalancedParenthesis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/sortedAndRotated/SortedandRotated.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/AmazonInterview/MaxSumSubArray.java">
+    <entry file="file://$PROJECT_DIR$/Questions/FlipkartQuestion">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+        <state relative-caret-position="1290">
+          <caret line="86" column="156" lean-forward="true" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="156" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/runningStream/FindKthLargest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/SequencePrintUsing3Thread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="493">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AddFraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/TrainMap1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/StairCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SnowPack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/WalkingRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SquareRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/UniqueTuples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PrimeFactorization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/RunLengthEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseStringBug.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/PascalTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/Panagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="119" column="58" selection-start-line="119" selection-start-column="58" selection-end-line="119" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SmallestSortedRotated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/FirstNonRepeatingCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="41" column="15" lean-forward="true" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SubArrayExceedingSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/LongestUniformString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="106" selection-start-line="12" selection-start-column="105" selection-end-line="12" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ApacheLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="50" column="11" lean-forward="true" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AtoI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/AToPowerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/BestAverageGrade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MedianTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/IsPowerofTen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DotProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/CountLengthOfCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1622#1623#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/DistanceBetweenTwoStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-515">
+          <caret line="44" column="35" lean-forward="true" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/MagicPotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="44" column="42" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Questions/LatestSolutions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="790" column="9" lean-forward="true" selection-start-line="790" selection-start-column="9" selection-end-line="790" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/OptimalPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>

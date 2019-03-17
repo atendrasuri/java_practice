@@ -40,7 +40,7 @@ public class MinimumCostPath {
         for (int i = 1; i <= M; i++) {
             for (int j = 1; j <= N; j++) {
 
-                tc[i][j] = Math.min(tc[i - 1][j - 1], Math.min(tc[i - 1][j], mat[i][j - 1])) + mat[i][j];
+                tc[i][j] = Math.min(tc[i - 1][j - 1], Math.min(tc[i - 1][j], tc[i][j - 1])) + mat[i][j];
 
             }
         }

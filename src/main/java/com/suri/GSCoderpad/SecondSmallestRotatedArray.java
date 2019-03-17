@@ -34,8 +34,7 @@ public class SecondSmallestRotatedArray {
 
         if(index==Integer.MIN_VALUE){
             index=1;
-        }
-        else if(index>=n){
+        }else if(index>=n){
            index=0;
         }
 

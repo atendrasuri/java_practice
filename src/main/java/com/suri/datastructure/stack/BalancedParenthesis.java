@@ -77,7 +77,7 @@ public class BalancedParenthesis {
 
     public static void main(String[] args) {
 
-        String exp ="{{{[4]}}}[";
+        String exp ="{{{[4]}}}";
 
         BalancedParenthesis obj= new BalancedParenthesis();
         System.out.println(obj.areParenthesisBalanced(exp));
