@@ -20,7 +20,19 @@ public class WalkingRobot{
 
   // TODO: implement walk method
   public static Integer[] walk( String path ) {
-  return new Integer[] {0, 0};
+
+    Integer[] result = {0, 0};
+    for(char ch: path.toCharArray()) {
+      switch (ch) {
+        case 'U': result[1] += 1; break;
+        case 'D': result[1] -= 1; break;
+        case 'L': result[0] -= 1; break;
+        case 'R': result[0] += 1; break;
+        default: break;
+      }
+    }
+    return result;
+
   }
 
   public static boolean checkEqual(Integer[] a, Integer[] b) {

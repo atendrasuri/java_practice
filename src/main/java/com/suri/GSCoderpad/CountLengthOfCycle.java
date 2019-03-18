@@ -26,9 +26,20 @@ public class CountLengthOfCycle{
    * countLengthOfCycle([1, 2, 0], 0) == 3
   */
   public static int countLengthOfCycle( int[] arr, int startIndex ) {
-  //TODO: Implement solution
-  
-  return -1;
+    //TODO: Implement solution
+    Map<Integer, Integer> visited = new HashMap<>();
+    int count = 1;
+    int index = startIndex;
+    while (!visited.containsKey(index)) {
+      if (arr[index] > arr.length)
+        return -1;
+
+      visited.put(index, count);
+      count++;
+      index = arr[index];
+    }
+    return count - visited.get(index);
+
   }
 
   /**

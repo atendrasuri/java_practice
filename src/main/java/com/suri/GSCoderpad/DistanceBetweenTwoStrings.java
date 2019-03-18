@@ -22,65 +22,26 @@ public class DistanceBetweenTwoStrings {
    */
   public static double shortestDistance(String document, String word1, String word2) {
 
-
-    /*String[] arr = document.split("\\s+");
-    int firstIndex = -1;
-    int secondIndex = -1;
-
-    int latestFirstIndex = 0;
-    int latestSecondIndex = 0;
-
-    int index = -1;
-    int minDistance = Integer.MAX_VALUE;
-
-    for (int i = 0; i < arr.length; i++) {
-
-      if (arr[i].equals(str1))
-        firstIndex = index;
-
-      if (arr[i].equals(str2))
-        secondIndex = index;
-
-      // +1 for white spaces after each word
-      index += arr[i].length() + 1;
-
-      if (firstIndex != -1 && secondIndex != -1) {
-        int distance = Math.abs(firstIndex - secondIndex);
-        if (distance < minDistance) {
-          latestFirstIndex = firstIndex;
-          latestSecondIndex = secondIndex;
-          minDistance = distance;
-        }
-      }
-    }
-    latestFirstIndex += (int) Math.ceil(str1.length() / 2);
-    latestSecondIndex += (int) Math.ceil(str2.length() / 2);
-
-    minDistance = Math.abs(latestFirstIndex - latestSecondIndex);
-    System.out.println(minDistance);
-    return minDistance;*/
-
-    String[] words = document.split(" ");
-
+    String[] words = document.split("[,. ]");
     int index = 0;
     double shortest = document.length();
     double word1Loc = 0;
     double word2Loc = 0;
     for(String word : words) {
-      if(word.equals(word1)) {
-        word1Loc = index + (word.length()/2);
-      } else if(word.equals(word2)) {
-        word2Loc = index + (word.length()/2);
+      if(word.equalsIgnoreCase(word1)) {
+        word1Loc = index + (word.length()/2d);
+      } else if(word.equalsIgnoreCase(word2)) {
+        word2Loc = index + (word.length()/2d);
       }
 
       if(word1Loc > 0 && word2Loc > 0) {
-        double current = word2Loc - word1Loc;
+        double current = Math.abs(word1Loc - word2Loc);
         if(current < shortest) {
           shortest = current;
         }
       }
 
-      index += word.length();
+      index += word.length() + 1;
     }
 
     if(word1Loc == 0 || word2Loc == 0) {

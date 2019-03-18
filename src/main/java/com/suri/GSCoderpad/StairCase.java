@@ -36,7 +36,19 @@ class StairCase
   */
   public static Integer countSteps(Integer n)
   {
-    return 0;
+
+    if(n <= 0) return 0;
+    if(n == 1) return 1;
+    if(n == 2) return 2;
+    if(n == 3) return 4;
+
+    ArrayList<Integer> counts = new ArrayList<>(Arrays.asList(0, 1, 2, 4));
+    for(int i = 4; i <= n; ++i)
+    {
+      counts.add(counts.get(i - 1) + counts.get(i - 2) + counts.get(i - 3));
+    }
+
+    return counts.get(n);
   }
 
 
