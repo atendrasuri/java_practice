@@ -37,9 +37,13 @@ import java.util.Map;
 public class PascalTriangle {
 
    public void doTestsPass(){
-     System.out.println(PascalTriangle.pascal(0,0) ==  1);
+    /* System.out.println(PascalTriangle.pascal(0,0) ==  1);
      System.out.println(PascalTriangle.pascal(1,2) ==  2);
-     System.out.println(PascalTriangle.pascal(5,6) ==  6);
+     System.out.println(PascalTriangle.pascal(5,6) ==  6);*/
+
+     System.out.println(PascalTriangle.printPascal(0,0) ==  1);
+     System.out.println(PascalTriangle.printPascal(1,2) ==  2);
+     System.out.println(PascalTriangle.printPascal(5,6) ==  6);
   }
 
   public static int pascal( int col, int row ){
@@ -59,6 +63,30 @@ public class PascalTriangle {
     }
     return (map.get(row).get(col));
 
+  }
+
+  public static int printPascal(int col,int row)
+  {
+// An auxiliary array to store generated pascal triangle values
+    int[][] arr = new int[row+1][row+1];
+    int n = row+1;
+
+// Iterate through every line and print integer(s) in it
+    for (int line = 0; line < n; line++)
+    {
+      // Every line has number of integers equal to line number
+      for (int i = 0; i <= line; i++)
+      {
+        // First and last values in every row are 1
+        if (line == i || i == 0)
+          arr[line][i] = 1;
+        else // Other values are sum of values just above and left of above
+          arr[line][i] = arr[line-1][i-1] + arr[line-1][i];
+        //System.out.print(arr[line][i]);
+      }
+      //System.out.println("");
+    }
+    return arr[row][col];
   }
 
   public static void main(String[] args) {

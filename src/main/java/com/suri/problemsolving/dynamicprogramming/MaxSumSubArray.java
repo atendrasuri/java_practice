@@ -14,6 +14,7 @@ public class MaxSumSubArray {
     public static void main(String[] args) {
         int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};
         maxsum(arr);
+        //System.out.println(kandane(arr));
 
     }
 
@@ -43,5 +44,19 @@ public class MaxSumSubArray {
 
         System.out.println("Maximum sum is " + max_so_far);
         System.out.println("starting index:- " + start + "ending index:- " + end);
+    }
+    public static int kandane(int[] arrA) {
+        int max_end_here = 0;
+        int max_so_far = 0;
+        for (int i = 0; i < arrA.length; i++) {
+            max_end_here += arrA[i];
+            if (max_end_here < 0) {
+                max_end_here = 0;
+            }
+            if (max_so_far < max_end_here) {
+                max_so_far = max_end_here;
+            }
+        }
+        return max_so_far;
     }
 }
