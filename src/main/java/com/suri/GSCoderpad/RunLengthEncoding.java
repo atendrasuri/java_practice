@@ -48,11 +48,34 @@ public class RunLengthEncoding {
     return sb.toString();
   }
 
+  public static String rlewithoutMap(String input) {
+
+
+StringBuilder sb = new StringBuilder();
+    int j=0;
+    for(int i=0;i<input.length();){
+      int count=0;
+      for( j=i;j<input.length();j++){
+        if(input.charAt(i)== input.charAt(j)){
+          count++;
+        }else{
+          break;
+        }
+      }
+      i=j;
+      sb.append(input.charAt(i-1));
+      sb.append(count);
+    }
+    return sb.toString();
+  }
+
 
 
   public void doTestsPass(){
     System.out.println("a3".equals(rle("aaa")));
-    System.out.println( "a3b2c1".equals(rle("aaabbc")));
+   System.out.println( "a3b2c1".equals(rle("aaabbc")));
+    System.out.println("a3".equals(rlewithoutMap("aaa")));
+    System.out.println( "a3b2c1".equals(rlewithoutMap("aaabbc")));
   }
 
 
