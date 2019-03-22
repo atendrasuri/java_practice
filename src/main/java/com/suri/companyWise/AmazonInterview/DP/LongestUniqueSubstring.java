@@ -1,4 +1,4 @@
-package com.suri.AmazonInterview.DP;
+package com.suri.companyWise.AmazonInterview.DP;
 
 import java.util.HashMap;
 import java.util.Map;

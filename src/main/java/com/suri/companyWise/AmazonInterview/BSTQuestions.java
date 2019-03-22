@@ -1,4 +1,4 @@
-package com.suri.AmazonInterview;
+package com.suri.companyWise.AmazonInterview;
 
 import java.util.HashMap;
 import java.util.LinkedList;

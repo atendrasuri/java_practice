@@ -1,6 +1,5 @@
-package com.suri.AFlipkartInterview.employeeheirarchy;
+package com.suri.companyWise.AFlipkartInterview.employeeheirarchy;
 
-import java.sql.SQLOutput;
 import java.util.List;
 
 /**

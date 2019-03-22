@@ -1,6 +1,4 @@
-package com.suri.AFlipkartInterview;
-
-import java.sql.SQLOutput;
+package com.suri.companyWise.AFlipkartInterview;
 
 /**
  * @Author: atekumar

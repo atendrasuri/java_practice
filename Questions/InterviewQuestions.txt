@@ -279,3 +279,9 @@ Leetcode
 Codeforces
 InterviewBit
 **AlgoExpert
+https://www.geektrust.in/how-we-evaluate <https://www.geektrust.in/how-we-evaluate>
+https://www.geektrust.in/coding-problem <https://www.geektrust.in/coding-problem>
+
+
+Dependency resolver:-
+https://www.electricmonk.nl/docs/dependency_resolving_algorithm/dependency_resolving_algorithm.html

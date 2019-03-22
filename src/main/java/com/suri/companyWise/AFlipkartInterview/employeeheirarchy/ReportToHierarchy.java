@@ -1,4 +1,4 @@
-package com.suri.AFlipkartInterview.employeeheirarchy;
+package com.suri.companyWise.AFlipkartInterview.employeeheirarchy;
 
 import java.util.ArrayList;
 import java.util.HashMap;

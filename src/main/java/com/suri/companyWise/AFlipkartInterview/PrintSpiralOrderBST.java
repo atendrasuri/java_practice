@@ -1,4 +1,4 @@
-package com.suri.AFlipkartInterview;
+package com.suri.companyWise.AFlipkartInterview;
 
 import java.util.Stack;
 

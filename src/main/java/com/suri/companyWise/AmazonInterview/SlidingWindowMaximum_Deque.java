@@ -1,4 +1,4 @@
-package com.suri.AmazonInterview;
+package com.suri.companyWise.AmazonInterview;
 
 import java.util.Deque;
 import java.util.LinkedList;

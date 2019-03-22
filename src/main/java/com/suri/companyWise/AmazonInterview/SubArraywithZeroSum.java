@@ -1,4 +1,4 @@
-package com.suri.AmazonInterview;
+package com.suri.companyWise.AmazonInterview;
 
 import java.net.Inet4Address;
 import java.util.HashMap;
