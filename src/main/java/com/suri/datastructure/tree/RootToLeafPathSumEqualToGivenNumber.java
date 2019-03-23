@@ -11,7 +11,7 @@ import java.util.List;
  * Root to leaf path sum equal to a given number in Binary Tree.
  * @History:
  */
-public class RootToLeafPathwSumEqualToGivenNumber {
+public class RootToLeafPathSumEqualToGivenNumber {
 
     public static void main(String[] args) {
 
