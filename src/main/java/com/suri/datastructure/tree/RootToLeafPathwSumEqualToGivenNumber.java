@@ -1,4 +1,4 @@
-package com.suri.datastructure.tree.pathRelated;
+package com.suri.datastructure.tree;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,11 +8,10 @@ import java.util.List;
  * @Current-Version: 1.0.0
  * @Creation-Date: 15/03/19
  * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
+ * Root to leaf path sum equal to a given number in Binary Tree.
  * @History:
  */
-public class RootToLeafSum {
+public class RootToLeafPathwSumEqualToGivenNumber {
 
     public static void main(String[] args) {
 

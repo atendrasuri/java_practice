@@ -1,4 +1,4 @@
-package com.suri.datastructure.tree.pathRelated;
+package com.suri.datastructure.tree;
 
 import java.util.Stack;
 
@@ -11,20 +11,23 @@ import java.util.Stack;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class PrintRootToLeaf {
+public class PathWithGivenSum {
 
     public static void main(String[] args) {
 
-        BTRootToLeaf bst = new BTRootToLeaf();
+        BSTPath bst = new BSTPath();
+
         bst.insertNode(6);bst.insertNode(13);bst.insertNode(16);bst.insertNode(20);bst.insertNode(21);bst.insertNode(15);
         bst.insertNode(5);bst.insertNode(14);bst.insertNode(8);bst.insertNode(9);
-        bst.printRootToLeaf();
+
+        bst.display();
+        bst.findPath();
 
     }
 }
 
 
-class BTRootToLeaf{
+class BSTPath{
 
     class Node{
         int data;
@@ -37,7 +40,7 @@ class BTRootToLeaf{
     Node root;
     String path;
 
-    BTRootToLeaf(){
+    BSTPath(){
         root=null;
     }
 
@@ -47,16 +50,14 @@ class BTRootToLeaf{
 
     public void display(){
 
-        //  inOrder(root);
+      //  inOrder(root);
     }
 
-    public void printRootToLeaf(){
-
+    public void findPath(){
+        //hasPath(root,36,path);
         Stack<Integer> stack = new Stack<>();
-        rootToLeafPath(root,stack );
+        hasPath(root,stack, 36,0 );
     }
-
-
 
     public Node insert(Node node, int data){
 
@@ -83,28 +84,54 @@ class BTRootToLeaf{
         }
     }
 
+    public void hasPath(Node root, int sum, String path) {
+
+        if (root != null) {
+
+            if (root.data > sum) {
+                return;
+            } else {
+                path+= " " + root.data;
+
+                sum = sum - root.data;
+                if (sum == 0) {
+                    System.out.println(" path is" + path);
+                }
+                hasPath(root.left, sum, path);
+                hasPath(root.right, sum, path);
+
+            }
+        }
+    }
 
 
-    public void rootToLeafPath(Node root, Stack<Integer> stack){
+    /**
+     * using stack
+     */
 
-        if (root == null) {
+
+    public void hasPath(Node root, Stack<Integer> stack, int k, int sum){
+
+
+        if(root==null){
             return;
         }
+
+        sum= sum+root.data;
         stack.push(root.data);
 
-        rootToLeafPath(root.left, stack);
-
-            if (root.left == null && root.right == null) {
-
-                while (stack.size() > 0) {
-                    System.out.print(stack.pop() + " ");
-                }
-                System.out.println();
+        if(sum==k){
+            while(stack.size()>0){
+                System.out.print(stack.pop()+" ");
             }
-        rootToLeafPath(root.right, stack);
-
-        if (!stack.isEmpty()) {
-            stack.pop();
         }
+
+        hasPath(root.left, stack,k, sum);
+        hasPath(root.right, stack,k, sum);
+
+        sum= sum-root.data;
+        if(!stack.isEmpty()){
+        stack.pop();}
+
     }
 }

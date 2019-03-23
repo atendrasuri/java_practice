@@ -9,7 +9,7 @@ package com.suri.datastructure.tree;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class DepthOfBst {
+public class DepthOfBT {
 
     public static void main(String[] args) {
 

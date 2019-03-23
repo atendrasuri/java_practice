@@ -20,9 +20,11 @@ public class PermutationString {
         if (n == 0)
             System.out.println(prefix);
         else {
-            for (int i = 0; i <n; i++) {
+            int i=0;
+            for ( ; i <n; i++) {
                 permutationString(prefix+str.charAt(i),str.substring(0,i)+str.substring(i+1,n));
             }
+            System.out.println("hello"+str.charAt(i));
         }
     }
 }
