@@ -55,6 +55,8 @@ class BSTRootToLeafSum{
                 System.out.print(i+" ");
             }
         }
+        System.out.println();
+        System.out.println(hasPathSum(root,64));
     }
 
 
@@ -107,5 +109,29 @@ class BSTRootToLeafSum{
         }
         return false;
     }
+
+    boolean hasPathSum(Node root, int sum){
+
+        if(root==null){
+            return false;
+        }
+        if(root.left==null && root.right==null){
+            if(root.data==sum){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        if(hasPathSum(root.left,sum-root.data)){
+            return true;
+        }
+        if(hasPathSum(root.right,sum-root.data)){
+            return true;
+        }
+
+        return false;
+    }
+    // check only, any  path contains sum or not?
+
 
 }

@@ -40,7 +40,7 @@ class BTRootToLeaf{
     }
 
     Node root;
-    String path;
+    //String path;
 
     BTRootToLeaf(){
         root=null;

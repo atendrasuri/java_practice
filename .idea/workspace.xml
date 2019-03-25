@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/BFSTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/GraphInsertionPrinting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/TopologicalSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathMaxSumBtTwoleaves.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathwSumEqualToGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintAllRootToLeafPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintAllRootToLeafPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,14 +54,14 @@
           <entry key="InterviewQuestions" value="3" />
           <entry key="SpringAnnotation" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="518" />
+          <entry key="java" value="529" />
           <entry key="md" value="4" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="518" />
+          <entry key="JAVA" value="529" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -63,14 +70,14 @@
           <entry key="FlipkartQuestion" value="39" />
           <entry key="InterviewQuestions" value="4211" />
           <entry key="dummy" value="12" />
-          <entry key="java" value="47906" />
+          <entry key="java" value="50389" />
           <entry key="md" value="5" />
           <entry key="txt" value="1498" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="47906" />
+          <entry key="JAVA" value="50389" />
           <entry key="PLAIN_TEXT" value="5765" />
         </counts>
       </usages-collector>
@@ -81,53 +88,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintAllRootToLeafPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+            <state relative-caret-position="475">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1311">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/DepthOfBT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-225">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2676">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="339">
+              <caret line="85" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -135,35 +106,86 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/VerticalSumInBT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1056">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="726">
+              <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/sortedAndRotated/SortedandRotated.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/BFSTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="32" column="24" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="24" />
+            <state relative-caret-position="242">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1375#1376#0" expanded="true" />
+                <element signature="e#1518#1519#0" expanded="true" />
+                <element signature="e#1558#1559#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="9" column="146" selection-start-line="9" selection-start-column="146" selection-end-line="9" selection-end-column="146" />
+            <state relative-caret-position="161">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathMaxSumBtTwoleaves.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#655#656#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ApacheLog.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            <state relative-caret-position="-771">
+              <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="192" column="37" lean-forward="true" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#592#593#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,6 +221,8 @@
       <find>prime</find>
       <find>subArray</find>
       <find>overlapp</find>
+      <find>range</find>
+      <find>spiral</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -210,13 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SquareRoot.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SecondSmallestRotatedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/GroupAnagram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/FirstNonRepeatingCharacter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/Panagram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SmallestSortedRotated.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SearchTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/IsPowerofTen.java" />
@@ -260,7 +277,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/VerticalSumInBT.java" />
         <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/TopologicalSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/Graph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/GraphInsertionPrinting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/BFSTraversal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintAllRootToLeafPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathMaxSumBtTwoleaves.java" />
       </list>
     </option>
   </component>
@@ -271,10 +295,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="953" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -339,6 +363,17 @@
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java_practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java_practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="RootToLeafPathSumEqualToGivenNumber.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -348,7 +383,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553332722792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553476959457" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -379,13 +414,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VerticalSumInBT">
-    <configuration name="PermutationString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.java.string.PermutationString" />
+  <component name="RunManager" selected="Application.PathMaxSumBtTwoleaves">
+    <configuration name="BFSTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.graph.BFSTraversal" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.java.string.*" />
+          <option name="PATTERN" value="com.suri.datastructure.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -393,21 +428,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllRootToLeafPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.PrintAllRootToLeafPath" />
-      <module name="java_practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RootToLeafSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.pathRelated.RootToLeafSum" />
+    <configuration name="PathMaxSumBtTwoleaves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.PathMaxSumBtTwoleaves" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
@@ -419,8 +441,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Roottoleafpathssum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.Roottoleafpathssum" />
+    <configuration name="PathWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.PathWithGivenSum" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
@@ -432,8 +454,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerticalSumInBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.VerticalSumInBT" />
+    <configuration name="RangeCountTotalNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.RangeCountTotalNode" />
+      <module name="java_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suri.datastructure.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RootToLeafPathSumEqualToGivenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.tree.RootToLeafPathSumEqualToGivenNumber" />
       <module name="java_practice" />
       <extension name="coverage">
         <pattern>
@@ -446,19 +481,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PermutationString" />
-      <item itemvalue="Application.PrintAllRootToLeafPath" />
-      <item itemvalue="Application.RootToLeafSum" />
-      <item itemvalue="Application.Roottoleafpathssum" />
-      <item itemvalue="Application.VerticalSumInBT" />
+      <item itemvalue="Application.BFSTraversal" />
+      <item itemvalue="Application.RangeCountTotalNode" />
+      <item itemvalue="Application.PathWithGivenSum" />
+      <item itemvalue="Application.RootToLeafPathSumEqualToGivenNumber" />
+      <item itemvalue="Application.PathMaxSumBtTwoleaves" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VerticalSumInBT" />
-        <item itemvalue="Application.Roottoleafpathssum" />
-        <item itemvalue="Application.RootToLeafSum" />
-        <item itemvalue="Application.PrintAllRootToLeafPath" />
-        <item itemvalue="Application.PermutationString" />
+        <item itemvalue="Application.PathMaxSumBtTwoleaves" />
+        <item itemvalue="Application.RootToLeafPathSumEqualToGivenNumber" />
+        <item itemvalue="Application.PathWithGivenSum" />
+        <item itemvalue="Application.RangeCountTotalNode" />
+        <item itemvalue="Application.BFSTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +511,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="955" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="955" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31929183" />
@@ -488,12 +523,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3267671" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3267671" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39745075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3244496" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3244496" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3282887" />
@@ -508,7 +543,7 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31929183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -517,12 +552,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3282887" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39813736" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3267671" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39745075" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3244496" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3282887" />
@@ -534,6 +569,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32967034" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -807,55 +843,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/OptimalPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/Panagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SubArrayExceedingSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/GoldmanQuestion/Solutions/30_Staircase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/SnowPack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="73" column="28" lean-forward="true" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/GoldmanQuestion/Solutions/21_Unique Tuples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="40" column="25" selection-start-line="14" selection-start-column="8" selection-end-line="40" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/GSCoderpad/TrainMap1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594">
-          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/GoldmanQuestion/Solutions/22_Robot_Movement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -1010,13 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/huffmanDecoding/HuffmanDecoding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -1100,27 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/VerticalSumInBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2676">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-129">
@@ -1135,24 +1094,155 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/TopologicalSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="375">
+          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1536#1545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#1463#1464#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#2295#2296#0" expanded="true" />
+            <element signature="e#2326#2327#0" expanded="true" />
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2417#2418#0" expanded="true" />
+            <element signature="e#3119#3120#0" expanded="true" />
+            <element signature="e#3147#3148#0" expanded="true" />
+            <element signature="e#3173#3174#0" expanded="true" />
+            <element signature="e#3198#3199#0" expanded="true" />
+            <element signature="e#3232#3233#0" expanded="true" />
+            <element signature="e#3264#3265#0" expanded="true" />
+            <element signature="e#3289#3290#0" expanded="true" />
+            <element signature="e#3316#3317#0" expanded="true" />
+            <element signature="e#3466#3467#0" expanded="true" />
+            <element signature="e#3507#3508#0" expanded="true" />
+            <element signature="e#3558#3559#0" expanded="true" />
+            <element signature="e#3595#3596#0" expanded="true" />
+            <element signature="e#3633#3634#0" expanded="true" />
+            <element signature="e#3661#3662#0" expanded="true" />
+            <element signature="e#3690#3691#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
+            <element signature="e#4938#4939#0" expanded="true" />
+            <element signature="e#4968#4969#0" expanded="true" />
+            <element signature="e#4997#4998#0" expanded="true" />
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5049#5050#0" expanded="true" />
+            <element signature="e#5078#5079#0" expanded="true" />
+            <element signature="e#5112#5113#0" expanded="true" />
+            <element signature="e#5145#5146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AFlipkartInterview/PrintSpiralOrderBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/GraphInsertionPrinting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="28" column="36" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="192" column="37" lean-forward="true" selection-start-line="192" selection-start-column="37" selection-end-line="192" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintAllRootToLeafPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
+        <state relative-caret-position="475">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="65" selection-start-column="4" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/VerticalSumInBT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-771">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/BFSTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1375#1376#0" expanded="true" />
+            <element signature="e#1518#1519#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RootToLeafPathSumEqualToGivenNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="339">
+          <caret line="85" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathMaxSumBtTwoleaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
