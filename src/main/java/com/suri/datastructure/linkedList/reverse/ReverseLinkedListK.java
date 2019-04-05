@@ -28,8 +28,8 @@ public class ReverseLinkedListK {
 
         list.display(list.start );
 
-        //list.start = list.reverse(list.start,2);
-       list.start = list.reversePairWise(list.start);
+        list.start = list.reverse(list.start,4);
+       //list.start = list.reversePairWise(list.start);
         System.out.println();
 
         list.display(list.start );

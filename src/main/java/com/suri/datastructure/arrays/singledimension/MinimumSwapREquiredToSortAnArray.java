@@ -18,7 +18,7 @@ public class MinimumSwapREquiredToSortAnArray {
 
     public static void main(String[] args) {
 
-        int arr[]={5,3,2,1,0};
+        int arr[]={1,4,5,3,2};
 
         System.out.println("  "+minSwap(arr));
 

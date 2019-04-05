@@ -19,6 +19,9 @@ Asked in Oracle:-
 4. Rotate the 2-D matrix through 90 degree.
 5. Given numbers from 1 to N, but there is only one element missing. Then find out the missing element.
 =====================================================================================================
+JDA interview question:-
+1. sql query SELECT EMP_NME, sum(sal) as totalsal from EMPLOYEE group by EMP_NME having totalsal>10000;
+=====================================================================================================
 Asked in Informatica:-
 1. Given two linked list, write a function which add the Node of second linked list to first linked list in alternate node.
 

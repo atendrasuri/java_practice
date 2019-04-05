@@ -1,0 +1,5 @@
+Presence API|Chat App
+Search API|Mail App
+Video Compression API|Video Call App
+Data Storage API|Chat App
+Authentication API|Chat App
