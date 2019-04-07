@@ -59,6 +59,7 @@ class UniqueImages {
             return result+ width*height;
         }
 
+
         public String toString() {
             return "Image: filename=" + filename + " Size=" + width*height;
         }

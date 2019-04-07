@@ -1,5 +1,6 @@
 package com.suri.java.concurrency;
 
+import java.io.Serializable;
 import java.util.concurrent.*;
 
 /**
@@ -12,6 +13,7 @@ import java.util.concurrent.*;
  * @History:
  */
 public class ExecutorFramework {
+    Serializable s;
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         ExecutorService executor = Executors.newFixedThreadPool(5);

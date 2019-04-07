@@ -16,7 +16,7 @@ import java.util.ArrayList;
     6 13 16 20 21 #
  * @History:
  */
-public class PrintAllRootToLeafPath {
+public class RootToLeafAllPath {
 
     public static void main(String[] args) {
 

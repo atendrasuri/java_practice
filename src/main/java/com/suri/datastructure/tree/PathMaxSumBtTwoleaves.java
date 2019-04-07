@@ -6,6 +6,31 @@ package com.suri.datastructure.tree;
  * @Creation-Date: 25/03/19
  * @Description: (Overwrite)
  * Given a binary tree in which each node element contains a number. Find the maximum possible sum from one leaf node to another.
+ *
+ * Given a non-empty binary tree, find the maximum path sum.
+ *
+ * For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+ *
+ * Example 1:
+ *
+ * Input: [1,2,3]
+ *
+ *        1
+ *       / \
+ *      2   3
+ *
+ * Output: 6
+ * Example 2:
+ *
+ * Input: [-10,9,20,null,null,15,7]
+ *
+ *    -10
+ *    / \
+ *   9  20
+ *     /  \
+ *    15   7
+ *
+ * Output: 42
  * @History:
  */
 public class PathMaxSumBtTwoleaves {
@@ -31,10 +56,8 @@ public class PathMaxSumBtTwoleaves {
 }
 
 class PathMaxSumLeaves {
-    class Res {
-        int val;
-    }
 
+    int max = Integer.MIN_VALUE;
     class Node {
         int data;
         Node left, right;
@@ -81,33 +104,22 @@ class PathMaxSumLeaves {
 
 
     public int maxSumBetweenLeaf(Node root) {
-        Res res = new Res();
-        res.val = Integer.MIN_VALUE;
-        maxSumBetweenLeafUtil(root, res);
-        return res.val;
+
+        maxPathSumUtil(root);
+        return max;
     }
 
-    public int maxSumBetweenLeafUtil(Node root, Res res) {
+    public int maxPathSumUtil(Node root) {
         if (root == null) {
             return 0;
         }
-        if (root.left == null && root.right == null) {
-            return root.data;
-        }
 
-        int ls = maxSumBetweenLeafUtil(root.left, res);
+        int ls= Math.max(0,maxPathSumUtil(root.left));
+        int rs= Math.max(0,maxPathSumUtil(root.right));
 
-        int rs = maxSumBetweenLeafUtil(root.right, res);
+        max= Math.max(max,ls+rs+root.data);
 
-
-        if (root.left != null && root.right != null) {
-
-            res.val = Math.max(res.val, ls + rs + root.data);
-
-            return Math.max(ls, rs) + root.data;
-        }
-
-        return (root.left == null) ? rs + root.data : ls + root.data;
+        return Math.max(ls,rs)+root.data;
     }
 
 
