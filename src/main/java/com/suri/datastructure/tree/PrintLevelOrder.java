@@ -25,9 +25,9 @@ public class PrintLevelOrder {
 
 
         //bst.display();
-        bst.displayLeftView();
+        //bst.displayLeftView();
         //bst.displayRightView();
-        //bst.displayLevelOrder();
+        bst.displayLevelOrder();
         //bst.displayLeafNode();
         //bst.displayBounday();
 
