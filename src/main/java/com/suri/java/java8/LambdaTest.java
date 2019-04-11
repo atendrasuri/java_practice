@@ -2,6 +2,8 @@ package com.suri.java.java8;
 
 import java.sql.SQLOutput;
 import java.util.*;
+import java.util.function.ToIntFunction;
+import java.util.stream.Collectors;
 
 /**
  * @Author: atekumar
@@ -37,6 +39,7 @@ public class LambdaTest {
                         .stream()
                         .max(Map.Entry.comparingByValue())
                         .get()
+
                         .getValue());
 
 
@@ -56,6 +59,15 @@ public class LambdaTest {
                         .sum());
 
 
+       //applying filter on map and storing value into list.
+        List<Integer> res = map.entrySet()
+                .stream().filter(x -> x.getKey() % 2 != 0)
+                .map(x -> x.getValue())
+                .collect(Collectors.toList());
+
+        for(int i:res){
+            System.out.println(i+"  ");
+        }
 
 
         // using Java8 find the max element from list.
