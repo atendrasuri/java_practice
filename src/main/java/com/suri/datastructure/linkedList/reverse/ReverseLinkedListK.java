@@ -24,11 +24,11 @@ public class ReverseLinkedListK {
         list.addNode(6);
         list.addNode(7);
         list.addNode(8);
-        list.addNode(9);
+        //list.addNode(9);
 
         list.display(list.start );
 
-        list.start = list.reverse(list.start,4);
+        list.start = list.reverse(list.start,3);
        //list.start = list.reversePairWise(list.start);
         System.out.println();
 
