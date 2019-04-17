@@ -9,22 +9,22 @@ package com.suri.datastructure.tree;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class RightViewBinaryTree {
+public class PrintLeftViewBinaryTree {
 
     public static void main(String[] args) {
 
-        RightViewBT rightViewBT = new RightViewBT();
+        LeftViewBT leftViewBT = new LeftViewBT();
 
-        rightViewBT.createTree();
-        rightViewBT.display();
+        leftViewBT.createTree();
+        leftViewBT.display();
         System.out.println();
 
-        rightViewBT.printRightView(rightViewBT.root,0);
+        leftViewBT.printleftView(leftViewBT.root,0);
     }
 }
 
 
-class RightViewBT{
+class LeftViewBT{
 
     int maxLevel=-1;
 
@@ -41,7 +41,7 @@ class RightViewBT{
 
     Node root;
 
-    RightViewBT(){
+    LeftViewBT(){
         root=null;
     }
 
@@ -90,7 +90,7 @@ class RightViewBT{
 
     }
 
-    public void printRightView(Node root, int level){
+    public void printleftView(Node root, int level){
 
         if(root==null){
             return;
@@ -101,10 +101,8 @@ class RightViewBT{
 
             System.out.print(" "+root.data);
         }
-
-        printRightView(root.right,level+1);
-        printRightView(root.left,level+1);
-
+        printleftView(root.left,level+1);
+        printleftView(root.right,level+1);
 
     }
 

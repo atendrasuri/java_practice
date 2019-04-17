@@ -9,24 +9,23 @@ package com.suri.datastructure.tree;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class LeftViewBinaryTree {
+public class MinimumDepthBinaryTree {
 
     public static void main(String[] args) {
 
-        LeftViewBT leftViewBT = new LeftViewBT();
+        MinDepthBinaryTree minDepthBinaryTree= new MinDepthBinaryTree();
 
-        leftViewBT.createTree();
-        leftViewBT.display();
+        minDepthBinaryTree.createTree();
+        minDepthBinaryTree.display();
         System.out.println();
-
-        leftViewBT.printleftView(leftViewBT.root,0);
+        System.out.println(" "+minDepthBinaryTree.getMinDepth(minDepthBinaryTree.root));
     }
 }
 
 
-class LeftViewBT{
 
-    int maxLevel=-1;
+class MinDepthBinaryTree{
+
 
     class Node{
 
@@ -41,7 +40,7 @@ class LeftViewBT{
 
     Node root;
 
-    LeftViewBT(){
+    MinDepthBinaryTree(){
         root=null;
     }
 
@@ -76,8 +75,6 @@ class LeftViewBT{
         n5.left = n7;
     }
 
-
-
     public void inOrder(Node root){
 
         if(root==null){
@@ -90,21 +87,23 @@ class LeftViewBT{
 
     }
 
-    public void printleftView(Node root, int level){
+
+public int getMinDepth(Node root){
 
         if(root==null){
-            return;
+            return 0;
         }
-
-        if(level>maxLevel){
-            maxLevel=level;
-
-            System.out.print(" "+root.data);
+        if(root.left==null && root.right==null){
+            return 1;
         }
-        printleftView(root.left,level+1);
-        printleftView(root.right,level+1);
+int k= root.data;
+        int left= root.left!=null?getMinDepth(root.left):Integer.MAX_VALUE;
 
-    }
+        int right= root.right!=null?getMinDepth(root.right):Integer.MAX_VALUE;
+
+        return Math.min(left,right)+1;
+}
+
 
 
 
