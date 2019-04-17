@@ -320,6 +320,7 @@ Leetcode
 Codeforces
 InterviewBit
 **AlgoExpert
+https://www.w3resource.com/sql-exercises/joins-hr/index.php
 https://www.geektrust.in/how-we-evaluate <https://www.geektrust.in/how-we-evaluate>
 https://www.geektrust.in/coding-problem <https://www.geektrust.in/coding-problem>
 

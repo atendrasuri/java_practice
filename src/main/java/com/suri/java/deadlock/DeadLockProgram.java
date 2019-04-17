@@ -74,7 +74,7 @@ class Thread2 extends  Thread{
     }
 
     public void run(){
-        s2.test1(s1);
+        s2.test2(s1);
     }
 }
 public class DeadLockProgram {
