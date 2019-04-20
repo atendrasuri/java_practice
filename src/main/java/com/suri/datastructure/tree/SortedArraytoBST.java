@@ -1,4 +1,4 @@
-package com.suri.datastructure.arrays.singledimension;
+package com.suri.datastructure.tree;
 
 /**
  * @Author: atekumar
@@ -13,7 +13,7 @@ public class SortedArraytoBST {
 
     public static void main(String[] args) {
 
-        BST bst = new BST();
+        SortedBST bst = new SortedBST();
         int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7};
         int n = arr.length;
         bst.root = bst.sortedArrayToBST(arr, 0, n - 1);
@@ -24,7 +24,7 @@ public class SortedArraytoBST {
 }
 
 
-class BST{
+class SortedBST{
 
     class Node{
         int data;
@@ -40,7 +40,7 @@ class BST{
 
     Node root;
 
-    BST(){
+    SortedBST(){
 
         root=null;
     }

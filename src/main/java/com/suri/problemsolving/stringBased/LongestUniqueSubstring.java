@@ -67,9 +67,9 @@ public class LongestUniqueSubstring {
             char c = str.charAt(i);
             if (map.containsKey(c)) {
                 i = map.get(c);
-                if (currLongest.length() > longestOverall.length()) {
-                    longestOverall = currLongest;
-                }
+                    if (currLongest.length() > longestOverall.length()) {
+                        longestOverall = currLongest;
+                    }
                 map.clear();
                 currLongest = "";
             } else {

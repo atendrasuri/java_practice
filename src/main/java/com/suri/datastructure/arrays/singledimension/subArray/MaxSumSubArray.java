@@ -1,12 +1,15 @@
-package com.suri.companyWise.AmazonInterview;
+package com.suri.datastructure.arrays.singledimension.subArray;
 
 /**
  * @Author: atekumar
  * @Current-Version: 1.0.0
  * @Creation-Date: 21/02/19
  * @Description: (Overwrite)
- * 1. Please describe the business usage of the class.
- * 2. Please describe the technical usage of the class.
+ * Given an array of unordered positive and negative integers, find the maximum subarray sum in the array.
+ * For example:
+ * Array: {2, -9, 5, 1, -4, 6, 0, -7, 8}
+ * Output:
+ * Maximum subarray sum is 9
  * @History:
  */
 public class MaxSumSubArray {
