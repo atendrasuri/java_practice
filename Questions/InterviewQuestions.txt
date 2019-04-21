@@ -1,5 +1,8 @@
 
-Asked in Amazon:-
+https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+
+Asked in Amazon
+==============================================================================================================================================
 1. Check for balanced parentheses in an expression.
 2. Evaluate the Infix expression(also convert infix expression to postfix).
 3. Given an Array of positive and negative integer, find out the sub-array whose sum is zero.
@@ -82,24 +85,59 @@ Asked in LensKart:-
 4. Given height of N person in an array and only person who can handover the movie ticket, who is next taller.
 5. Check whether given Binary tree is BST(Binary search tree) or not?
 6. Clone the linked list to another linked list.
-
+=================================================================================================================
 Asked in JP Morgan:-
+0. Suppose I have text file which contains millions of records.
+   List out you approach to process this file in very short time and update in the DB(record contains the transactional data).
+
+   You have to think about all the edge cases while applying your approach.
 1. Find missing number from array (number range is 1 to n). Different approaches.
 2. We have a big file and how to process and store in DB using multi-Threading.
 3. Design a coffee shop.
+4. Garbage collection in very depth
+5. static and synchronized method in multithreading.
+6. WAP to create deadLock.
+7. How class loader works in application server(tomcat, weblogic).
+8. ThreadPool in very Detail.
+=================================================================================================================
 
 Asked in Snapdeal:-
 1. Given a linked list, swap the node pairwise.
 2. Given an Array and a number k find the exactly 4 elements whose sum equals to K.
 
-Asked in JP Morgan
+================================================================================================================
 
-1. Suppose I have text file which contains millions of records.
-   List out you approach to process this file in very short time and update in the DB(record contains the transactional data).
+Asked in CodeHall
+1. Little Bobby loves chocolate. He frequently goes to his favorite  store, Penny Auntie, to buy them.
+ * They are having a promotion at Penny Auntie.
+ * If Bobby saves enough wrappers, he can turn them in for a free chocolate.
+ *
+ * For example, Bobby has n=15 to spend on bars of chocolate that cost c=3 each.
+ * He can turn in  wrappers to receive another bar.
+ * Initially, he buys  bars and has  wrappers after eating them. He turns in  of them, leaving him with , for more bars.
+ * After eating those two, he has  wrappers, turns in  leaving him with  wrapper and his new bar.
+ * Once he eats that one, he has  wrappers and turns them in for another bar. After eating that one, he only has  wrapper, and his feast ends.
+ * Overall, he has eaten  bars.
 
-   You have to think about all the edge cases while applying your approach.
+ 2. Check if a given array can represent Preorder Traversal of Binary Search Tree
+ Given an array of numbers, return true if given array can represent preorder traversal of a Binary Search Tree, else return false. Expected time complexity is O(n).
 
+ 3. Find Majority Element in an Array.
+
+ 4. Design and write the custom threadpool and implements your own submit like method which return the future object.
+
+ 5.  There are n people standing in line to buy show tickets. Due to High Demand, The Venue sells tickets according to the following rules:
+
+     The person at the head of the line can by exactly one ticket and must exit the line
+     If a person needs to purchase additional tickets, they must re-enter the end of the line in wait to be sold the next ticket (assume exit and re-entry takes 0 seconds)
+     Each ticket sale dates exactly one second.
+     We express the initial line of n people as an array, tickets = [ticket(0),ticket(1),...,ticket(n-1)] where each tickers, denotes the number of tickets that person i wishes to buy. If Jesse is located at postion p. How many seconds will it take for him to purchase the tickets.
+
+     For example if tickets = [1,2,5] and p=1 the first five
+
+ ================================================================================================================================================
 Arrays:-
+====================================
 1. Find the repeating and the missing.
    Objective:- Given an unsorted array of size n.
    Array elements are in range from 1 to n. One number from set {1, 2, …n} is missing and one number occurs twice in array.
@@ -218,6 +256,7 @@ Binary Tree:-
 
 
 Dynamic Programming:-
+===========================================================================================================================
 
 1. Longest common Subsequence
   Example:- LCS for input Sequences “ABCDGH” and “AEDFHR” is “ADH” of length 3.

@@ -6,27 +6,26 @@ import java.util.Stack;
 /**
  * @Author: atekumar
  * @Current-Version: 1.0.0
- * @Creation-Date: 24/11/18
+ * @Creation-Date: 21/04/19
  * @Description: (Overwrite)
- *Given below is a tree. The task is to print the  Level Order Traversal of the given tree
+ *Given below is a tree. The task is to print the Reverse Level Order Traversal of the given tree
+ * @History:
  */
-public class PrintLevelOrder {
-
+public class PrintReverseLevelOrderBinaryTree {
 
     public static void main(String[] args) {
 
-        LevelBinaryTree levelBinaryTree= new LevelBinaryTree();
+        ReverseLevelbinaryTree reverseLevelbinaryTree= new ReverseLevelbinaryTree();
 
-        levelBinaryTree.createTree();
-        levelBinaryTree.inOrder(levelBinaryTree.root);
+        reverseLevelbinaryTree.createTree();
+        reverseLevelbinaryTree.inOrder(reverseLevelbinaryTree.root);
         System.out.println();
-        levelBinaryTree.levelOrderPrint(levelBinaryTree.root);
-
-
+        reverseLevelbinaryTree.reversePrint(reverseLevelbinaryTree.root);
     }
 }
 
-class LevelBinaryTree{
+
+class ReverseLevelbinaryTree{
     class Node {
 
         int data;
@@ -41,7 +40,7 @@ class LevelBinaryTree{
     Node root;
 
 
-    LevelBinaryTree(){
+    ReverseLevelbinaryTree(){
         root=null;
     }
     public void createTree()
@@ -80,7 +79,7 @@ class LevelBinaryTree{
 
     }
 
-    void levelOrderPrint(Node root)
+    void reversePrint(Node root)
     {
         if(root==null){
             return;
@@ -94,16 +93,19 @@ class LevelBinaryTree{
 
         while(!queue.isEmpty()){
             Node temp= queue.remove();
-            System.out.print(temp.data+" ");
-
-            if(temp.left!=null){
-                queue.add(temp.left);
-            }
+            stack.push(temp);
             if(temp.right!=null){
                 queue.add(temp.right);
             }
+            if(temp.left!=null){
+                queue.add(temp.left);
+            }
+
+        }
+
+        while(!stack.isEmpty()){
+            System.out.print(stack.pop().data+" ");
         }
 
     }
 }
-
