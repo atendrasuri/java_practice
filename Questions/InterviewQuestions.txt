@@ -10,9 +10,21 @@ Asked in Amazon
 5. Given array of strings, find out the maximum product.(if any of the two strings contains at least one character then don't consider it).
 6. Delete the node from BST which are out of given range(min, max).
 7. Given and array of integer from 1 to N, some numbers are repeating and some numbers are missing. find out the repeating and missing numbers without any extra space.
+8. Merge the overlapping intervals.
+9. Minimum platform required to pass all the train.
+10. Number of island in a matrix of 0s and 1s.
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/
+
+======================================================================
+Asked in Apptus
+=======================================================================
+
+1. Find the triplet in array whose sum becomes zero.
+2. Find the inflection point in array such that sum of all the element left of the array of inflection point is equal to the sum of all the element in the right.
+3. Given price of onion of N days. find the maximum price drops .
+
 
 ==================================================================================================
 Asked in Oracle:-

@@ -19,7 +19,9 @@ public class IsValidBSTFromPreOrder {
 
         int arr1[]= {40, 30, 35, 20, 80, 100};
 
-        String result= isValidBSTFromPreOrder(arr1);
+        int arr2[]={1,3,2};
+
+        String result= isValidBSTFromPreOrder(arr2);
 
         System.out.println(result);
 
