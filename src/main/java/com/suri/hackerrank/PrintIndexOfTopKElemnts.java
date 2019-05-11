@@ -17,8 +17,6 @@ public class PrintIndexOfTopKElemnts {
         int arr[]={4,8,10,5,20,30,25};
         printTopKElements(arr,3);
 
-
-
     }
 
     public static void printTopKElements(int arr[], int k){
