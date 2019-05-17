@@ -1,0 +1,49 @@
+<suite name="CATS_Run">
+  <listeners>
+    <listener class-name="com.sapient.qa.cats.core.framework.ExecutionListener" />
+  </listeners>
+  <suite-files>
+    <suite-file path="Auth_ImageWithEnhancementV1.xml" />
+    <suite-file path="Auth_ImageWithEnhancementV2.xml" />
+    <suite-file path="Auth_ActiveVideoBlockV1.xml" />
+    <suite-file path="Auth_SocialShareBarV1.xml" />
+    <suite-file path="Auth_GalleryV1.xml" />
+    <suite-file path="Auth_GalleryV2.xml" />
+    <suite-file path="Auth_MainNavigationV1.xml" />
+    <suite-file path="Auth_SecondaryTertiaryNavigationV1.xml" />
+    <suite-file path="Auth_StaticConfiguratorV1.xml" />
+    <suite-file path="Auth_EnginePerformanceV2.xml" />
+    <suite-file path="Auth_SectionheaderV1.xml" />
+    <suite-file path="Auth_TowingGuideV1.xml" />
+    <suite-file path="Auth_CapabilityGraphV1.xml" />
+    <suite-file path="Auth_PricingBarV1.xml" />
+    <suite-file path="Auth_DefinitionList.xml" />
+    <suite-file path="Auth_BadgeContainer.xml" />
+    <suite-file path="Auth_BadgeV2.xml" />
+    <suite-file path="Auth_BannerV1.xml" />
+    <suite-file path="Auth_BannerV2.xml" />
+    <suite-file path="Auth_SearchResultsFinder.xml" />
+    <suite-file path="Auth_ImageWithDescriptionV1.xml" />
+    <suite-file path="Auth_PromoTileV1.xml" />
+    <suite-file path="Auth_PromoTileV2.xml" />
+    <suite-file path="Auth_PromoTileV3.xml" />
+    <suite-file path="Auth_PromoTileContainerV1.xml" />
+    <suite-file path="Auth_CarouselPanelV1.xml" />
+    <suite-file path="Auth_CarouselPanelV2.xml" />
+    <suite-file path="Auth_HeroCarouselV1.xml" />
+    <suite-file path="Auth_PkgeComponent.xml" />
+    <suite-file path="Auth_RichTextV1.xml" />
+    <suite-file path="Auth_OpenContainer.xml" />
+    <suite-file path="Auth_ComparisionSlider.xml" />
+    <suite-file path="Auth_FeaurePillarv1.xml" />
+    <suite-file path="Auth_BackToTop.xml" />
+    <suite-file path="Auth_Expandogroup.xml" />
+    <suite-file path="Auth_ModalContainer.xml" />
+    <suite-file path="Auth_StatTable.xml" />
+    <suite-file path="Auth_Availabilitytable.xml" />
+    <suite-file path="Auth_InlineGraphV1.xml" />
+    <suite-file path="Auth_InlineGraphV2.xml" />
+    <suite-file path="Auth_ActiveVideoV1.xml" />
+    <suite-file path="Auth_FeatureCarouselV1.xml" />
+  </suite-files>
+</suite> 

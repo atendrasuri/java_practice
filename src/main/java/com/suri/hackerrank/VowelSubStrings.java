@@ -17,13 +17,9 @@ public class VowelSubStrings {
         String str1= "aaeiouxa";
 
         String str2= "aeioaexaaeuiou";
-//        printAllVowelSubString(str2);
-//        printAllVowelSubString(str1);
+        printAllVowelSubString(str2);
+        printAllVowelSubString(str1);
 
-        String y="";
-        y.toUpperCase();
-        System.out.println(y);
-        say(y.toUpperCase());
 
     }
 
