@@ -13,6 +13,11 @@ public class SortedArraytoBST {
 
     public static void main(String[] args) {
 
+
+        Double a= 0.0000;
+
+        System.out.println(a<=0.0D);
+
         SortedBST bst = new SortedBST();
         int arr[] = new int[]{1, 2, 3, 4, 5, 6, 7};
         int n = arr.length;

@@ -20,7 +20,8 @@ public class PrintLevelOrder {
         levelBinaryTree.createTree();
         levelBinaryTree.inOrder(levelBinaryTree.root);
         System.out.println();
-        levelBinaryTree.levelOrderPrint(levelBinaryTree.root);
+        //levelBinaryTree.levelOrderPrint(levelBinaryTree.root);
+        levelBinaryTree.levelOrderPrintLevelByLevel(levelBinaryTree.root);
 
 
     }
@@ -88,8 +89,6 @@ class LevelBinaryTree{
 
         LinkedList<Node> queue= new LinkedList<>();
 
-        Stack<Node> stack= new Stack<>();
-
         queue.add(root);
 
         while(!queue.isEmpty()){
@@ -103,6 +102,42 @@ class LevelBinaryTree{
                 queue.add(temp.right);
             }
         }
+
+    }
+
+
+    void levelOrderPrintLevelByLevel(Node node)
+    {
+        if(node==null){
+            return;
+        }
+
+        LinkedList<Node> queue= new LinkedList<>();
+
+
+        queue.add(node);
+        queue.add(null);
+
+        while(!queue.isEmpty()){
+
+            Node temp= queue.poll();
+            if(temp==null){
+                queue.remove();
+                System.out.print("$ ");
+                queue.add(null);
+            }else{
+                System.out.print(temp.data+" ");
+                if(temp.left!=null){
+                    queue.add(temp.left);
+                }
+                if(temp.right!=null){
+                    queue.add(temp.right);
+                }
+            }
+
+
+        }
+
 
     }
 }
