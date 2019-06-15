@@ -123,7 +123,7 @@ class LevelBinaryTree{
             Node temp= queue.poll();
             if(temp==null){
                 queue.remove();
-                System.out.print("$ ##cd -");
+                System.out.print("$ ##cd ##-");
                 queue.add(null);
             }else{
                 System.out.print(temp.data+" ");
