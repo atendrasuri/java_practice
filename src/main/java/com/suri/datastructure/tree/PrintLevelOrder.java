@@ -1,5 +1,6 @@
 package com.suri.datastructure.tree;
 
+import java.sql.SQLOutput;
 import java.util.LinkedList;
 import java.util.Stack;
 
@@ -8,14 +9,14 @@ import java.util.Stack;
  * @Current-Version: 1.0.0
  * @Creation-Date: 24/11/18
  * @Description: (Overwrite)
- *Given below is a tree. The task is to print the  Level Order Traversal of the given tree
+ * Given below is a tree. The task is to print the  Level Order Traversal of the given tree
  */
 public class PrintLevelOrder {
 
 
     public static void main(String[] args) {
 
-        LevelBinaryTree levelBinaryTree= new LevelBinaryTree();
+        LevelBinaryTree levelBinaryTree = new LevelBinaryTree();
 
         levelBinaryTree.createTree();
         levelBinaryTree.inOrder(levelBinaryTree.root);
@@ -27,7 +28,7 @@ public class PrintLevelOrder {
     }
 }
 
-class LevelBinaryTree{
+class LevelBinaryTree {
     class Node {
 
         int data;
@@ -42,11 +43,11 @@ class LevelBinaryTree{
     Node root;
 
 
-    LevelBinaryTree(){
-        root=null;
+    LevelBinaryTree() {
+        root = null;
     }
-    public void createTree()
-    {
+
+    public void createTree() {
         this.root = new Node(1);
 
         Node n1 = new Node(2);
@@ -57,48 +58,47 @@ class LevelBinaryTree{
         Node n6 = new Node(6);
         Node n7 = new Node(7);
 
-        root.left  = n1;
+        root.left = n1;
         root.right = n2;
 
-        n1.left  =  n4;
+        n1.left = n4;
         n1.right = n5;
 
-        n2.left  = n6;
+        n2.left = n6;
         n2.right = n7;
 
 
     }
 
-    public void inOrder(Node root){
+    public void inOrder(Node root) {
 
-        if(root==null){
+        if (root == null) {
             return;
         }
 
         inOrder(root.left);
-        System.out.print(" "+root.data);
+        System.out.print(" " + root.data);
         inOrder(root.right);
 
     }
 
-    void levelOrderPrint(Node root)
-    {
-        if(root==null){
+    void levelOrderPrint(Node root) {
+        if (root == null) {
             return;
         }
 
-        LinkedList<Node> queue= new LinkedList<>();
+        LinkedList<Node> queue = new LinkedList<>();
 
         queue.add(root);
 
-        while(!queue.isEmpty()){
-            Node temp= queue.remove();
-            System.out.print(temp.data+" ");
+        while (!queue.isEmpty()) {
+            Node temp = queue.remove();
+            System.out.print(temp.data + " ");
 
-            if(temp.left!=null){
+            if (temp.left != null) {
                 queue.add(temp.left);
             }
-            if(temp.right!=null){
+            if (temp.right != null) {
                 queue.add(temp.right);
             }
         }
@@ -106,39 +106,45 @@ class LevelBinaryTree{
     }
 
 
-    void levelOrderPrintLevelByLevel(Node node)
-    {
-        if(node==null){
+    void levelOrderPrintLevelByLevel(Node node) {
+        if (node == null) {
             return;
         }
 
-        LinkedList<Node> queue= new LinkedList<>();
+        LinkedList<Node> queue = new LinkedList<>();
 
+
+        int levelNodes = 0;
 
         queue.add(node);
-        queue.add(null);
 
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
 
-            Node temp= queue.poll();
-            if(temp==null){
-                queue.remove();
-                System.out.print("$ #clear##cd ####-");
-                queue.add(null);
-            }else{
-                System.out.print(temp.data+" ");
-                if(temp.left!=null){
+            levelNodes = queue.size();
+            int t=levelNodes;
+
+            while (levelNodes > 0) {
+                Node temp = queue.remove();
+
+                if(levelNodes==1) {
+                    System.out.println("  " + temp.data);
+                }
+                if(levelNodes==t && levelNodes!=1){
+                    System.out.print("  " + temp.data);
+                }
+                if (temp.left != null) {
                     queue.add(temp.left);
                 }
-                if(temp.right!=null){
+                if (temp.right != null) {
                     queue.add(temp.right);
                 }
+                levelNodes--;
             }
-
 
         }
 
-
     }
+
+
 }
 
