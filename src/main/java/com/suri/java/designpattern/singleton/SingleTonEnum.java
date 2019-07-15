@@ -18,6 +18,7 @@ public class SingleTonEnum {
 
 
         System.out.println(res1==res2);
+        res1.fun();
     }
 }
 
@@ -27,6 +28,10 @@ enum SingletonWithEnum{
     INSTANCE;
     private SingletonWithEnum(){
         System.out.println(" Hello!!! I am Singleton constructor");
+    }
+
+    public void fun(){
+        System.out.println("Hello");
     }
 
 
