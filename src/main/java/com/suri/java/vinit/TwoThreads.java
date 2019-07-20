@@ -11,8 +11,7 @@ package com.suri.java.vinit;
  */
 public class TwoThreads implements Runnable{
 
-    private volatile int i=0;
-
+    private   int i=0;
 
     @Override
     public void run() {
@@ -34,12 +33,14 @@ public class TwoThreads implements Runnable{
         }
     }
 
-    void runIt(){
+    void runIt()  {
         Thread walker = new Thread(this);
         Thread reader = new Thread(new Reader());
-
         walker.start();
         reader.start();
+
+
+
 
         try {
             walker.join();

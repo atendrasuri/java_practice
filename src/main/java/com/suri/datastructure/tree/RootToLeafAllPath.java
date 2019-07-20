@@ -114,9 +114,11 @@ class BTRootToLeaf{
     }
 
     public void printPath(ArrayList<Integer>list){
-        for(Integer i: list){
+
+        list.forEach(System.out::print);
+       /* for(Integer i: list){
             System.out.print(i+" ");
-        }
+        }*/
         System.out.println("#");
     }
 }

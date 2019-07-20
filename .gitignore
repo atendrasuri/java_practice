@@ -13,6 +13,21 @@
 # Package Files #
 *.jar
 *.war
+*.bk-*
+*.org-*
+*.destroy
+/.gradle/
+/bin/
+/build/
+.settings/*
+.project
+.classpath
+target/**
+*.iml
+distribution
+.idea
+.idea/*
+.DS_Store
 *.nar
 *.ear
 *.zip
@@ -27,7 +42,7 @@ distribution
 .idea
 .idea/*
 .idea/**
-.DS_Store
+/.DS_Store
 
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
