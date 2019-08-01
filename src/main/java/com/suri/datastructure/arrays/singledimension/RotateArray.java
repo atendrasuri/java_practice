@@ -15,7 +15,11 @@ public class RotateArray {
 
         int arr[]={1, 2, 3, 4, 5};
 
-        int arr1[]= rotLeft(arr,4);
+
+
+       // int arr1[]= rotLeft(arr,4);
+
+        int arr1[]= rotateRight(arr,2);
 
         for(int a:arr1){
             System.out.print(a+"  ");
@@ -31,6 +35,24 @@ public class RotateArray {
                 arr[j]=arr[j+1];
             }
             arr[j]=temp;
+        }
+        return arr;
+    }
+
+    static int[] rotateRight(int arr[], int k){
+        int n= arr.length;
+        int j;
+
+        for(int i=1;i<=k;i++ ){
+
+            int temp = arr[0];
+
+            for( j=1;j<n;j++){
+
+                arr[j-1]= arr[j];
+
+            }
+            arr[j-1]= temp;
         }
         return arr;
     }

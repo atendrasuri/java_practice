@@ -13,8 +13,8 @@ public class SingleTonEnum {
 
     public static void main(String[] args) {
 
-        SingletonWithEnum res1 = SingletonWithEnum.INSTANCE;
-        SingletonWithEnum res2 = SingletonWithEnum.INSTANCE;
+        SingletonWithEnum res1 = SingletonWithEnum.INSTANCE1;
+        SingletonWithEnum res2 = SingletonWithEnum.INSTANCE1;
 
 
         System.out.println(res1==res2);
@@ -25,7 +25,7 @@ public class SingleTonEnum {
 
 enum SingletonWithEnum{
 
-    INSTANCE;
+    INSTANCE1;
     private SingletonWithEnum(){
         System.out.println(" Hello!!! I am Singleton constructor");
     }

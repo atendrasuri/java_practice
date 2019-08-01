@@ -2,6 +2,7 @@ package com.suri.datastructure.arrays.singledimension.runningStream;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
+import java.util.function.Consumer;
 
 /**
  * @Author: atekumar
@@ -14,6 +15,7 @@ import java.util.PriorityQueue;
  */
 public class FindMedianRunningStream {
 
+;
     public static void addNumber(int number, PriorityQueue<Integer> lowers, PriorityQueue<Integer> highers) {
 
 

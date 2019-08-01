@@ -358,6 +358,8 @@ Dynamic Programming:-
 
 17. Trapping rain water problem. -- done
 
+18. Stair Case problem.
+
 
 *** Minimum number of swap required to convert Binary tree to Binary Search tree.
 *** optimal Binary search tree.
