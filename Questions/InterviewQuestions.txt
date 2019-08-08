@@ -360,6 +360,8 @@ Dynamic Programming:-
 
 18. Stair Case problem.
 
+19. Bridge problem.
+
 
 *** Minimum number of swap required to convert Binary tree to Binary Search tree.
 *** optimal Binary search tree.

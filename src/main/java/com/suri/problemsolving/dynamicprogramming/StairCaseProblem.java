@@ -49,5 +49,22 @@ public class StairCaseProblem {
             arr[i]= arr[i-1]+arr[i-2];
         }
         System.out.println(arr[N-1]);
+
+        System.out.println(countWays(4));
+    }
+
+   static  Long countWays(int m){
+
+        Long arr[] = new Long[m];
+
+        arr[0] =1L;
+        arr[1]=2L;
+
+        for(int i=2;i<m;i++){
+            arr[i]= arr[i-1]+arr[i-2];
+
+        }
+        return arr[m-1];
+
     }
 }
