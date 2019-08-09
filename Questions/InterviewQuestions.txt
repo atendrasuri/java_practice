@@ -191,7 +191,13 @@ Arrays:-
 
 19. Find two elements in an array whose sum is closet to given sum K.
 20. Print all distinct elements of given integer array.
-21.
+21. Find the Element That Appears Once in an Array.
+   Example:-
+             Input : 3 3 3 4
+             Output: 4
+
+             Input : 5 5 4 8 4 5 8 9 4 8
+             Output: 9
 
 
 Linked List:-
