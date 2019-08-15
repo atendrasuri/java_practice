@@ -28,7 +28,7 @@ package com.suri.datastructure.arrays.singledimension;
  * * with set_bit. If value of & operation is greater than 0 this means rightmost bit is set, else it is not set.
  * * We can store xor values of nset1 in x and nset0 in y.
  * * 9) We can repeat above step 8 for step 6 and perform xor of x with arrset1, and that of y with arrset0.
- *  * 10) We get the result in x and y.
+ * * 10) We get the result in x and y.
  * @History:
  */
 public class MissingTwoNumbers {
