@@ -26,6 +26,7 @@ target/**
 *.iml
 distribution
 .idea
+.idea/
 .idea/*
 .DS_Store
 *.nar
