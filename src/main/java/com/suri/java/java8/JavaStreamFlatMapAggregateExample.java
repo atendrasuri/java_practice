@@ -78,6 +78,9 @@ public class JavaStreamFlatMapAggregateExample {
     List<String> list = Arrays.asList("Geeks", "GFG",
             "GeeksforGeeks", "gfg");
 
+    System.out.println("Dhanu");
+    list.stream().map(m->m.charAt(2)).forEach(System.out::println);
+
     // Using Stream flatMap(Function mapper)
     list.stream().flatMap(str ->
             Stream.of(str.charAt(2))).
@@ -117,6 +120,17 @@ public class JavaStreamFlatMapAggregateExample {
 
     System.out.println("The Structure after flattening is : " +
             listofInts);
+
+
+    List<Integer>l1 = Arrays.asList(0,2,4,6,8,10);
+
+    List<Integer>l2 = Arrays.asList(1,3,5,7,9);
+
+    List<List<Integer>>l3 = Arrays.asList(l1,l2);
+    System.out.println("Test===");
+    l3.parallelStream().flatMap(x->x.parallelStream()).collect(Collectors.toList()).forEach(System.out::println);
+
+
   }
 
 }

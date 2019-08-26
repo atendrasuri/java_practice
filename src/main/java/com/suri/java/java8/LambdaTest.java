@@ -33,6 +33,8 @@ public class LambdaTest {
         map.put(5, 50);
         map.put(2, 20);
         map.put(3, 30);
+
+        System.out.println(map.entrySet().stream().mapToInt(e->e.getValue()).sum());
         System.out.println("sorted map");
         map.entrySet().stream().sorted(Map.Entry.comparingByValue()).forEach(System.out::println);
 

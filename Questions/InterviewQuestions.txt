@@ -150,6 +150,9 @@ Asked in CodeHall
  ================================================================================================================================================
 Arrays:-
 ====================================
+0. Count pairs in array whose sum is divisible by K.
+0. Find k closest numbers in an unsorted array.**
+0. Find the max occurance number, without extra space[hint use % operator].
 1. Find the repeating and the missing.
    Objective:- Given an unsorted array of size n.
    Array elements are in range from 1 to n. One number from set {1, 2, …n} is missing and one number occurs twice in array.
@@ -239,6 +242,7 @@ Stacks:-
 
 Binary Tree:-
 ==========traversal====================
+0. Optimal Binary search tree.
 1. Inorder traversal without recursion.
 2. Preorder traversal without recursion.
 3. Postorder traversal without recursion.
