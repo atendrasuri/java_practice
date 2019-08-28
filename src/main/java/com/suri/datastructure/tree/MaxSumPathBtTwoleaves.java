@@ -33,7 +33,7 @@ package com.suri.datastructure.tree;
  * Output: 42
  * @History:
  */
-public class PathMaxSumBtTwoleaves {
+public class MaxSumPathBtTwoleaves {
     public static void main(String[] args) {
         PathMaxSumLeaves tree= new PathMaxSumLeaves();
 

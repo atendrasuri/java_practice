@@ -274,6 +274,7 @@ Binary Tree:-
 26. Change a Binary tree so that every node store the sum of all nodes in its left.
 27. Check if a binary tree is subtree of another binary subtree.
 28. Kth Largest/smallest element in a binary tree.
+29. Maximum Path sum in Binary Tree.
 
 
 
@@ -378,6 +379,11 @@ Dynamic Programming:-
 
 
 
+*******************************Design Problem*************************************************
+=====================================================================================================================================================
+
+
+============
 Resources:-
 Geeks for Geeks
 Codechefs

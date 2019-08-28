@@ -1,6 +1,7 @@
 package com.suri.java.java8;
 
 import java.util.function.BiPredicate;
+import java.util.stream.IntStream;
 
 /**
  * @Author: atekumar
@@ -24,5 +25,7 @@ public class BiPredicateExample {
 
     System.out.println(biPredicate.test(3,5));
     System.out.println(biPredicate.test(3,2));
+
+    IntStream.range(1,100).filter(x->x%2==0).forEach(x-> System.out.println(x));
   }
 }
