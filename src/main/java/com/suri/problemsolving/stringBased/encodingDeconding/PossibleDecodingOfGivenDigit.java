@@ -19,10 +19,10 @@ package com.suri.problemsolving.stringBased.encodingDeconding;
 public class PossibleDecodingOfGivenDigit {
   public static void main(String[] args) {
 
-    char digits[] = {'1', '2', '3', '4'};
+    /*char digits[] = {'1', '2', '3', '4'};
     int n = digits.length;
     System.out.println("Count is " +
-            decode(String.valueOf(digits)));
+            decode(String.valueOf(digits)));*/
 
     System.out.println(decodeSecondApproach("121"));
   }

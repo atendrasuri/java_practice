@@ -406,3 +406,10 @@ https://plumbr.io/java-garbage-collection-handbook
 SOLID Design Principal
 https://www.codeproject.com/Articles/703634/SOLID-architecture-principles-using-simple-Csharp
 
+LeetCode:-
+
+https://github.com/kdn251/interviews/tree/master/leetcode
+
+DP
+https://leetcode.com/tag/dynamic-programming/
+

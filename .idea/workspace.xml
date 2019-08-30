@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/DeleteDuplicateNodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/ReturnKthToLast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxPathSumBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrderLevelByLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ThreadLocalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/java8/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathMaxSumBtTwoleaves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxSumPathBtTwoleaves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintLevelOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiPredicateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiPredicateExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,18 +34,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiPredicateExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiConsumersExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-86">
@@ -66,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="383" lean-forward="true" selection-start-line="383" selection-end-line="383" />
+            <state relative-caret-position="163">
+              <caret line="210" column="24" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -84,7 +63,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxPathSumBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="-1195">
               <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="e#1175#1176#0" expanded="true" />
@@ -92,6 +71,24 @@
                 <element signature="e#1253#1254#0" expanded="true" />
                 <element signature="e#1276#1277#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/LRULinkedHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="71" column="3" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="71" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -105,11 +102,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+            <state relative-caret-position="211">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -132,15 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/IntStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="290" column="9" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -153,7 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ave</find>
       <find>cycle</find>
       <find>dista</find>
       <find>dot</find>
@@ -183,6 +170,7 @@
       <find>suppl</find>
       <find>runA</find>
       <find>exce</find>
+      <find>LRU</find>
     </findStrings>
     <replaceStrings>
       <replace>APIInf</replace>
@@ -198,7 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/stack/MinimumStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/matrix/PrintMatrixDiagonally.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/CountOccurencesOfAnagrams.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/bitmanipulation/AppearsOnce.java" />
@@ -244,11 +231,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/DeleteDuplicateNodes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/ReturnKthToLast.java" />
-        <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/IsValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxSumPathBtTwoleaves.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxPathSumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java" />
       </list>
     </option>
   </component>
@@ -313,11 +301,6 @@
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="Questions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -358,70 +341,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
               <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="ChildrenSumParent.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="MaxSumPathBtTwoleaves.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="RootToLeafAllPath.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="problemsolving" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="problemsolving" type="462c0819:PsiDirectoryNode" />
-              <item name="stringBased" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="problemsolving" type="462c0819:PsiDirectoryNode" />
-              <item name="stringBased" type="462c0819:PsiDirectoryNode" />
-              <item name="encodingDeconding" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedList" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -430,7 +350,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567003720787" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567092742078" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
@@ -466,13 +386,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PossibleDecodingOfGivenDigit">
-    <configuration name="BiPredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.java.java8.BiPredicateExample" />
+  <component name="RunManager" selected="Application.LRUCache">
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.linkedList.LRUCache" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.java.java8.*" />
+          <option name="PATTERN" value="com.suri.datastructure.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -480,12 +400,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeleteDuplicateNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.linkedList.DeleteDuplicateNodes" />
+    <configuration name="LRULinkedHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.collection.LRULinkedHashMap" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.linkedList.*" />
+          <option name="PATTERN" value="com.suri.java.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -533,19 +453,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BiPredicateExample" />
-      <item itemvalue="Application.DeleteDuplicateNodes" />
       <item itemvalue="Application.ReturnKthToLast" />
       <item itemvalue="Application.MaxPathSumBinaryTree" />
       <item itemvalue="Application.PossibleDecodingOfGivenDigit" />
+      <item itemvalue="Application.LRULinkedHashMap" />
+      <item itemvalue="Application.LRUCache" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCache" />
+        <item itemvalue="Application.LRULinkedHashMap" />
         <item itemvalue="Application.PossibleDecodingOfGivenDigit" />
         <item itemvalue="Application.MaxPathSumBinaryTree" />
         <item itemvalue="Application.ReturnKthToLast" />
-        <item itemvalue="Application.DeleteDuplicateNodes" />
-        <item itemvalue="Application.BiPredicateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -575,12 +495,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3263158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39649123" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40350878" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40350878" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33099416" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
@@ -1242,6 +1162,12 @@
           <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java</url>
           <line>47</line>
@@ -1322,20 +1248,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintBottomViewBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/bitmanipulation/IsNumberPowerTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/bitmanipulation/CountOnesInBinaryArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-41">
@@ -1648,13 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="383" lean-forward="true" selection-start-line="383" selection-end-line="383" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/IsValidPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1676,9 +1581,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxSumPathBtTwoleaves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="122" column="5" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="122" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="210" column="24" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxPathSumBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="-1195">
           <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="e#1175#1176#0" expanded="true" />
@@ -1689,17 +1615,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/MaxSumPathBtTwoleaves.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/LRULinkedHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="122" column="5" lean-forward="true" selection-start-line="116" selection-start-column="7" selection-end-line="122" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/linkedList/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+        <state relative-caret-position="374">
+          <caret line="71" column="3" lean-forward="true" selection-start-line="54" selection-start-column="2" selection-end-line="71" selection-end-column="3" />
         </state>
       </provider>
     </entry>
