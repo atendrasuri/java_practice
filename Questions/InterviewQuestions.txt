@@ -1,6 +1,34 @@
 
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 
+Asked in Arvind Internet
+===========================================================
+1.) search an element in sorted matrix by row and column
+
+2.) print all root to leaf path in binary tree.
+
+3.) Reverse singly linked list in group of 'K'
+
+
+Asked in PayU
+==============
+
+1.) Merge two sorted linked list.
+
+2.) Inorder of binary tree using without recursion and without extra space.
+
+3.) comparator and comparable difference/write code using java8 on multiple fields.
+
+4.) Minimum steps required to make a string palindromic.
+
+5.) Completable future in detail.
+
+6.) multiply a number by 7 using bitwise operator.
+
+7.) write a minimal steps in main method so that your application never end.
+
+8.) why microservices???*****
+
 Asked in Amazon
 ==============================================================================================================================================
 1. Check for balanced parentheses in an expression.
