@@ -34,3 +34,5 @@ public class CheckSerialVersionUID implements Serializable {
         obj.fun();
     }
 }
+
+
