@@ -64,6 +64,12 @@ public class NumberOfIslands {
     doDfs(grid, i, j - 1);
     doDfs(grid, i + 1, j);
     doDfs(grid, i - 1, j);
+
+    //if diagonal elements are also included
+    /*doDfs(grid, i - 1, j-1);
+    doDfs(grid, i + 1, j+1);
+    doDfs(grid, i + 1, j-1);
+    doDfs(grid, i - 1, j+1);*/
     return 1;
 
   }
