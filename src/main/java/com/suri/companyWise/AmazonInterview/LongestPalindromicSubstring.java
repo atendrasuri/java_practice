@@ -18,6 +18,8 @@ package com.suri.companyWise.AmazonInterview;
  * <p>
  * Input: "cbbd"
  * Output: "bb"
+ *
+ * reference:- https://www.youtube.com/watch?v=0xeBqanD5GQ
  */
 public class LongestPalindromicSubstring {
   public static void main(String[] args) {
@@ -50,6 +52,13 @@ public class LongestPalindromicSubstring {
             right = j;
           }
         }
+      }
+    System.out.println("========");
+      for(int i=0;i<length;i++){
+        for(int j=0;j<length;j++){
+          System.out.print(isPalindrome[i][j]+" ");
+        }
+        System.out.println();
       }
     return s.substring(left, right + 1);
 
