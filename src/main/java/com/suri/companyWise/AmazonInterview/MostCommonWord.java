@@ -58,6 +58,7 @@ public class MostCommonWord {
 
     HashMap<String, Integer> counts = new HashMap<>();
 
+
     for (String word : paragraph.replaceAll("[^a-zA-Z]", " ").toLowerCase().split(" ")) {
 
       if (!bannedWords.contains(word)) {

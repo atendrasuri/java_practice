@@ -12,8 +12,13 @@ public class IsBTvalidBST {
 
     public static void main(String[] args) {
         BT bt = new BT();
-        bt.insertData(15); bt.insertData(10); bt.insertData(20); bt.insertData(8); bt.insertData(12);bt.insertData(16);bt.insertData(25);
-
+        bt.insertData(15);
+        bt.insertData(10);
+        bt.insertData(20);
+        bt.insertData(8);
+        bt.insertData(12);
+        bt.insertData(16);
+        bt.insertData(25);
         bt.swap(bt.root);
         bt.display();
         bt.isValidBSTorNot();

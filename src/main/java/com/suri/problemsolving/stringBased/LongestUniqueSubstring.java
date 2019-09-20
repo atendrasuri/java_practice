@@ -19,7 +19,7 @@ public class LongestUniqueSubstring {
         String str = "GEEKSFORGEEKS";
         String str1 = "ABCA";
 
-        System.out.println("" + getLongestUniqueSubstring(str));
+        System.out.println("" + getLongestUniqueSubstring(str1));
 
         System.out.println(""+lengthOfLongestSubstring(str1));
     }
@@ -40,9 +40,9 @@ public class LongestUniqueSubstring {
 
             if ((map.get(str1[end_index]) != null) && (map.get(str1[end_index]) >= start_index)) {
                 start_index = 1+start_index + map.get(str1[end_index]);
-                map.put(str1[end_index], end_index);
+               // map.put(str1[end_index], end_index);
             } else {
-                map.put(str1[end_index], end_index);
+               // map.put(str1[end_index], end_index);
                 curr_len = end_index - start_index + 1;
                 if (curr_len > max_len) {
                     max_len = curr_len;
@@ -50,11 +50,12 @@ public class LongestUniqueSubstring {
 
 
             }
+            map.put(str1[end_index], end_index);
             end_index = end_index + 1;
         }
 
-        System.out.println("start index "+ start_index);
-        System.out.println("End index "+end_index);
+       // System.out.println("start index "+ start_index);
+       // System.out.println("End index "+end_index);
         return max_len;
     }
 
