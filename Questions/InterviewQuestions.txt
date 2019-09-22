@@ -41,6 +41,11 @@ Asked in Amazon
 8. Merge the overlapping intervals.
 9. Minimum platform required to pass all the train.
 10. Number of island in a matrix of 0s and 1s.
+11. maximum level sum in Binary Tree.
+12. detect cycle in linked list.
+13. given an unsorted array, and K, and Y, find K closest element of Y.
+**14. You are given with MxN matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die.
+You are allowed to move in all four direction. Movement will be totally random. For Given N steps, what is the total ways that you’ll be outside of matrix?
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/
