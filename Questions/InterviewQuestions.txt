@@ -46,6 +46,7 @@ Asked in Amazon
 13. given an unsorted array, and K, and Y, find K closest element of Y.
 **14. You are given with MxN matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die.
 You are allowed to move in all four direction. Movement will be totally random. For Given N steps, what is the total ways that you’ll be outside of matrix?
+15.Maximum sum of nodes in Binary tree such that no two are adjacent.
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/
@@ -503,21 +504,20 @@ Cid
 Cname
 
 
-
-
-
-
-
 Read the ip address
 Pass this I
-
-
-
 
 
 1.1.1.2=delhi
 
 Map<> ==<delhi,
+
+***************************************************DATABASE**************************************************************
+==========================================================================================================================
+https://stackoverflow.com/questions/17711324/database-structure-for-customer-table-having-many-orders-per-customer-and-many
+
+**************************************************JAVA********************************************************************
+https://www.waytoeasylearn.com/2016/08/generics-tutorial.html
 
 
 
