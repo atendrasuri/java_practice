@@ -1,4 +1,4 @@
-package com.suri.datastructure.stack;
+package com.suri.datastructure.stacks;
 
 import java.util.Stack;
 

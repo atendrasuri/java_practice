@@ -47,6 +47,7 @@ public class VerticalSumInBT {
 
         //bst.displayInorder();
         bst.printverticalSum();
+        String s="ABC";
 
     }
 }

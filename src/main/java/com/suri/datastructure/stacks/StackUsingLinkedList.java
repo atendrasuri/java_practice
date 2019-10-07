@@ -1,4 +1,4 @@
-package com.suri.datastructure.stack;
+package com.suri.datastructure.stacks;
 
 /**
  * @Author: Atendra Kumar - FT2 - Sapient
