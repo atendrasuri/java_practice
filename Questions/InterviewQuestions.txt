@@ -412,6 +412,13 @@ Dynamic Programming:-
 *** optimal Binary search tree.
 
 
+*******************************Graphs******************************************************
+***1. evaluate division leetcode[https://leetcode.com/problems/evaluate-division/]
+Soln:- https://www.youtube.com/watch?v=pfQoqxP-6DE
+https://www.google.com/search?q=evaluate+division+leetcode&rlz=1C5CHFA_enIN823IN823&oq=evaluate+division+leetcode&aqs=chrome..69i57j0l2j69i60l3.1445j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=_U4KbXZb6IY_RrQHQxbX4Bw25
+
+
+
 
 *******************************Design Problem*************************************************
 =====================================================================================================================================================
