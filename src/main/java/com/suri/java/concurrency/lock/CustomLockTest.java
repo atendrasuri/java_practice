@@ -1,7 +1,5 @@
-package com.suri.java.concurrency;
+package com.suri.java.concurrency.lock;
 
-import java.util.IdentityHashMap;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

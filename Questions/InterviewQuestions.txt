@@ -426,6 +426,7 @@ https://www.google.com/search?q=evaluate+division+leetcode&rlz=1C5CHFA_enIN823IN
 
 ============
 Resources:-
+https://redis.io/topics/cluster-tutorial
 Geeks for Geeks
 Codechefs
 Leetcode
