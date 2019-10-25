@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ExecutorFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ExecutorFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Questions/InterviewQuestions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Tonmoy.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,105 +34,12 @@
     <option name="myElementSize" value="237" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="456" column="117" selection-start-line="456" selection-start-column="117" selection-end-line="456" selection-end-column="117" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PartitionPointInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/Sol_724_FindPivotIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1830">
-              <caret line="155" column="13" selection-start-line="155" selection-start-column="13" selection-end-line="155" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ExecutorFramework.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RemoveDuplicatesFromSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CombinationSumII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="76" column="43" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CombinationSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FourSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="22" selection-end-line="103" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="590">
+              <caret line="552" selection-start-line="552" selection-end-line="553" />
             </state>
           </provider>
         </entry>
@@ -149,9 +57,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>keySet()</find>
-      <find>spi</find>
-      <find>bi</find>
       <find>ArrayT</find>
       <find>stair</find>
       <find>boun</find>
@@ -179,6 +84,9 @@
       <find>condition</find>
       <find>package com\.suri\.companyWise\.AmazonInterview\;\n\nimport java\.util\.\*\;\n\n\/\*\*\n \* \@Author\: atekumar\n \* \@Current\-Version\: 1\.0\.0\n \* \@Creation\-Date\: 13\/10\/19\n \* \@Description\: \(Overwrite\)\n \* 1\. Please describe the business usage of the class\.\n \* 2\. Please describe the technical usage of the class\.\n \* \@History\: There are a total of n courses you have to take\, labeled from 0 to n\-1\.\n \* \&lt;p\&gt;\n \* Some courses may have prerequisites\, for example to take course 0 you have to first take course 1\, which is expressed as a pair\: \[0\,1\]\n \* \&lt;p\&gt;\n \* Given the total number of courses and a list of prerequisite pairs\, is it possible for you to finish all courses\?\n \* \&lt;p\&gt;\n \* Example 1\:\n \* \&lt;p\&gt;\n \* Input\: 2\, \[\[1\,0\]\]\n \* Output\: true\n \* Explanation\: There are a total of 2 courses to take\.\n \* To take course 1 you should have finished course 0\. So it is possible\.\n \* Example 2\:\n \* \&lt;p\&gt;\n \* Input\: 2\, \[\[1\,0\]\,\[0\,1\]\]\n \* Output\: false\n \* Explanation\: There are a total of 2 courses to take\.\n \* To take course 1 you should have finished course 0\, and to take course 0 you should\n \* also have finished course 1\. So it is impossible\.\n \* Note\:\n \* \&lt;p\&gt;\n \* The input prerequisites is a graph represented by a list of edges\, not adjacency matrices\. Read more about how a graph is represented\.\n \* You may assume that there are no duplicate edges in the input prerequisites\.\n \*\/\npublic class CourseSchedule \{\n  public static void main\(String\[\] args\) \{\n\n    int pre\[\]\[\] \= \{\{1\, 0\}\, \{0\, 1\}\}\;\n    System\.out\.println\(canFinish\(2\, pre\)\)\;\n\n  \}\n\n  public static boolean canFinish\(int numCourses\, int\[\]\[\] prerequisites\) \{\n\n    int indegree\[\] \= new int\[numCourses\]\;\n\n    Map\&lt;Integer\, List\&lt;Integer\&gt;\&gt; adj \= new HashMap\&lt;\&gt;\(\)\;\n\n    for \(int pr\[\] \: prerequisites\) \{\n\n      List\&lt;Integer\&gt; l \= adj\.getOrDefault\(pr\[1\]\, new ArrayList\&lt;\&gt;\(\)\)\;\n      l\.add\(pr\[0\]\)\;\n      indegree\[pr\[0\]\]\+\+\;\n      adj\.put\(pr\[1\]\, l\)\;\n    \}\n\n    Queue\&lt;Integer\&gt; queue \= new LinkedList\&lt;\&gt;\(\)\;\n    int count \= 0\;\n    for \(int i \= 0\; i \&lt; indegree\.length\; i\+\+\) \{\n\n      if \(indegree\[i\] \=\= 0\) \{\n        queue\.add\(i\)\;\n      \}\n    \}\n\n    while \(\!queue\.isEmpty\(\)\) \{\n      int src \= queue\.remove\(\)\;\n\n      if \(indegree\[src\] \=\= 0\) \{\n        count\+\+\;\n      \}\n      if \(\!adj\.containsKey\(src\)\) \{\n        continue\;\n      \}\n\n      for \(int next \: adj\.get\(src\)\) \{\n        indegree\[next\]\-\-\;\n\n        if \(indegree\[next\] \=\= 0\) \{\n          queue\.add\(next\)\;\n        \}\n      \}\n    \}\n    return count \=\= numCourses\;\n\n  \}\n\}</find>
       <find>SOLI</find>
+      <find>gene</find>
+      <find>submit</find>
+      <find>execute(</find>
     </findStrings>
     <replaceStrings>
       <replace>APIInf</replace>
@@ -194,10 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/PaymentStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/PaypalStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/CreditCardStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/ShoppingCartStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/database/Abc.java" />
@@ -241,10 +145,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FirstMissingPositive.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/RemoveDuplicatesFromSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PartitionPointInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/Sol_724_FindPivotIndex.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ExecutorFramework.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/DiamondProblemTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/serialization/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/executorservice/ThreadPoolDemo.java" />
+        <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSumClosest.java" />
       </list>
     </option>
   </component>
@@ -298,7 +206,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,7 +251,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="companyWise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
@@ -353,8 +260,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="companyWise" type="462c0819:PsiDirectoryNode" />
+              <item name="AmazonInterview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
@@ -363,9 +270,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="countDownLatch" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
@@ -374,9 +279,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
-              <item name="ExecutorFramework.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
@@ -385,7 +289,9 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="suri" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="singledimension" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
@@ -398,21 +304,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="ConvertBst&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BinaryTreeBST#convertToBST&#10;ArrayLi&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Bala&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BalancedTree&#10;Zero&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.MoveZeroes&#10;smallestP&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.FirstMissingPositive#findSmallestPositive&#10;Solut&#9;PSI&#9;JAVA://com.suri.datastructure.tree.Solution" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571878180106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571974943916" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/database/design" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Questions" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.suri.companyWise.AmazonInterview" />
@@ -421,9 +325,12 @@
       <recent name="com.suri.java.java8" />
       <recent name="com.suri.datastructure.arrays.singledimension" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Questions" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/database/design" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,13 +345,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Sol_724_FindPivotIndex">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.AmazonInterview.CombinationSum" />
+  <component name="RunManager" selected="Application.ThreadPoolDemo">
+    <configuration name="DiamondProblemTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.java8.DiamondProblemTest" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.companyWise.AmazonInterview.*" />
+          <option name="PATTERN" value="com.suri.java.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -452,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.AmazonInterview.FirstMissingPositive" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.serialization.HelloWorld" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.companyWise.AmazonInterview.*" />
+          <option name="PATTERN" value="com.suri.java.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -465,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionPointInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.AmazonInterview.PartitionPointInArray" />
+    <configuration name="JavaStreamFlatMapAggregateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.java8.JavaStreamFlatMapAggregateExample" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.companyWise.AmazonInterview.*" />
+          <option name="PATTERN" value="com.suri.java.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -478,12 +385,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.datastructure.arrays.singledimension.RemoveDuplicatesFromSortedArray" />
+    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.java8.ParallelStreamExample" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.datastructure.arrays.singledimension.*" />
+          <option name="PATTERN" value="com.suri.java.java8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -491,12 +398,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sol_724_FindPivotIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.Sol_724_FindPivotIndex" />
+    <configuration name="ThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.concurrency.executorservice.ThreadPoolDemo" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.*" />
+          <option name="PATTERN" value="com.suri.java.concurrency.executorservice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,19 +412,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FirstMissingPositive" />
-      <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-      <item itemvalue="Application.CombinationSum" />
-      <item itemvalue="Application.PartitionPointInArray" />
-      <item itemvalue="Application.Sol_724_FindPivotIndex" />
+      <item itemvalue="Application.DiamondProblemTest" />
+      <item itemvalue="Application.JavaStreamFlatMapAggregateExample" />
+      <item itemvalue="Application.ParallelStreamExample" />
+      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.ThreadPoolDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Sol_724_FindPivotIndex" />
-        <item itemvalue="Application.PartitionPointInArray" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.FirstMissingPositive" />
+        <item itemvalue="Application.ThreadPoolDemo" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.ParallelStreamExample" />
+        <item itemvalue="Application.JavaStreamFlatMapAggregateExample" />
+        <item itemvalue="Application.DiamondProblemTest" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +445,7 @@
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3876679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3925519" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -552,7 +459,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40350878" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40350878" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33099416" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
@@ -1359,12 +1266,6 @@
           <option name="timeStamp" value="243" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Tonmoy.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="244" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TanMoy1.java</url>
           <line>41</line>
           <properties />
@@ -1617,187 +1518,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DetectCycleInDirectedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="76" column="3" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="76" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FriendCircles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiConsumersExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiFunctionExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/CompletableFutureExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/stringBased/encodingDeconding/PossibleDecodingOfGivenDigit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MaximumSumNoAdjacentBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="28" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/HouseRobberII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/HouseRobberIII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-806">
-          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/BFSTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-582">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-86">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/CourseSchedule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/graph/DFSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/NumberOfIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/RemoveconsuChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/RemoveAllAdjacentDuplicatesInString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TEST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-866">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/TanMoy1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Test11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/LPS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ConstructBinaryTreeFromPreInorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="33" column="19" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/PathSumII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="76" column="3" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="76" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ConvertBSTToGreaterTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/BinaryTreeToBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/countDownLatch/CarDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-401">
@@ -1917,16 +1637,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FourSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1944,13 +1654,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="456" column="117" selection-start-line="456" selection-start-column="117" selection-end-line="456" selection-end-column="117" />
         </state>
       </provider>
     </entry>
@@ -1988,7 +1691,197 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/ExecutorFramework.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="311">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/chainOfResponsibility/TestChainOfRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/chainOfResponsibility/OddProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/PaypalStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/PaymentStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/CreditCardStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/ShoppingCartStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/designpattern/strategy/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/immutable/ImmutableDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="65" column="5" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/BiConsumersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="69" column="19" lean-forward="true" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/CompletableFutureExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/ConsumersExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/DiamondProblemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/FibonacciUsingJava8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/JavaStreamFlatMapAggregateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="117" column="45" selection-start-line="117" selection-start-column="45" selection-end-line="117" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="168" column="43" lean-forward="true" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/ParallelStreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="598" column="17" lean-forward="true" selection-start-line="598" selection-start-column="17" selection-end-line="598" selection-end-column="17" />
+          <folding>
+            <element signature="e#27751#27752#0" expanded="true" />
+            <element signature="e#27815#27816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/serialization/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/executorservice/CustomThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="103" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10914">
+          <caret line="1341" column="24" selection-start-line="1341" selection-start-column="16" selection-end-line="1341" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/executorservice/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Tonmoy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-611">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="552" selection-start-line="552" selection-end-line="553" />
         </state>
       </provider>
     </entry>

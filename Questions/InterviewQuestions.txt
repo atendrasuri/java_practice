@@ -526,7 +526,37 @@ Map<> ==<delhi,
 https://stackoverflow.com/questions/17711324/database-structure-for-customer-table-having-many-orders-per-customer-and-many
 
 **************************************************JAVA********************************************************************
+
+Generic:-
 https://www.waytoeasylearn.com/2016/08/generics-tutorial.html
+https://stackoverflow.com/questions/5007357/java-generics-bridge-method
+http://www.angelikalanger.com/GenericsFAQ/FAQSections/TechnicalDetails.html#FAQ102
+https://stackoverflow.com/questions/313584/what-is-the-concept-of-erasure-in-generics-in-java
+
+Overriding:-
+https://docs.oracle.com/javase/tutorial/java/IandI/override.html
+
+ThreadPool:-
+https://www.logicbig.com/tutorials/core-java-tutorial/java-multi-threading/thread-pools.html
+https://stackoverflow.com/questions/17659510/core-pool-size-vs-maximum-pool-size-in-threadpoolexecutor
+
+
+
+
+https://howtodoinjava.com/interview-questions/real-java-interview-questions-asked-for-oracle-enterprise-manager-project/
+
+G1 garbage collection
+https://www.youtube.com/watch?v=bhVzCIk3-Q4&feature=youtu.be
+
+
+Kafka
+https://kafka.apache.org/quickstart
+
+What is difference between backtracking and depth first search?
+https://leetcode.com/discuss/general-discussion/136503/what-is-difference-between-backtracking-and-depth-first-search
+
+Oracle:-
+https://howtodoinjava.com/interview-questions/real-java-interview-questions-asked-for-oracle-enterprise-manager-project/
 
 
 
