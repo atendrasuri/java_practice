@@ -32,6 +32,7 @@ public class CustomIterator {
             System.out.println(" " + itr.next());
         }
 
+        ArrayList ar;
 
     }
 }
