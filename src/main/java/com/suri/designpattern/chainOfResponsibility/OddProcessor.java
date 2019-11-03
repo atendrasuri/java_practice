@@ -1,4 +1,4 @@
-package com.suri.java.designpattern.chainOfResponsibility;
+package com.suri.designpattern.chainOfResponsibility;
 
 /**
  * @Author: atekumar
@@ -9,19 +9,21 @@ package com.suri.java.designpattern.chainOfResponsibility;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class EvenProcessor implements Chain {
-  private Chain nextChain;
+public class OddProcessor implements Chain {
 
+  private Chain nextChain;
   @Override
   public void setNext(Chain chain) {
+
     nextChain = chain;
   }
 
   @Override
   public void process(Number request) {
-    if (request.getNumber() % 2 == 0) {
-      System.out.println(" Even processor " + request.getNumber());
-    } else {
+
+    if(request.getNumber()%2!=0){
+      System.out.println("Odd Processor "+request.getNumber());
+    }else{
       nextChain.process(request);
     }
 

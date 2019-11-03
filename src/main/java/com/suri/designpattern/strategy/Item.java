@@ -1,4 +1,4 @@
-package com.suri.java.designpattern.strategy;
+package com.suri.designpattern.strategy;
 
 /**
  * @Author: atekumar

@@ -1,6 +1,7 @@
 package com.suri.companyWise.AmazonInterview;
 
 import java.util.Arrays;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * @Author: atekumar
@@ -23,6 +24,8 @@ import java.util.Arrays;
  *
  * Input: [2,2,1,1,1,2,2]
  * Output: 2
+ *
+ * Soln:- Boyer–Moore majority vote algorithm
  */
 public class MajorityElement {
   public static void main(String[] args) {
@@ -31,6 +34,7 @@ public class MajorityElement {
     System.out.println(majorityElement(arr));
 
     System.out.println(majorityElementII(arr));
+
 
   }
 

@@ -1,4 +1,4 @@
-package com.suri.java.designpattern.singleton;
+package com.suri.designpattern.singleton;
 
 /**
  * @Author: atekumar

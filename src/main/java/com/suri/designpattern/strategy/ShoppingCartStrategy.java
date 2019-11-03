@@ -1,7 +1,4 @@
-package com.suri.java.designpattern.strategy;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.suri.designpattern.strategy;
 
 /**
  * @Author: atekumar

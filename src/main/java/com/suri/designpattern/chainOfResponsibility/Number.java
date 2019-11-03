@@ -1,4 +1,4 @@
-package com.suri.java.designpattern.chainOfResponsibility;
+package com.suri.designpattern.chainOfResponsibility;
 
 /**
  * @Author: atekumar

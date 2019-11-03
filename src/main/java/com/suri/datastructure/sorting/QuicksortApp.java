@@ -15,12 +15,13 @@ public class QuicksortApp {
 
         //int arr[] = {10,80,30,90,40,50,70};
 
-        int arr[]= {15,3,2,1,9,5,7,8,6};
+        //int arr[]= {15,3,2,1,9,5,7,8,6};
+        int arr[]= {5,8,2,6,4,7,1,3};
         quickSort(arr,0,arr.length-1);
 
-        for(int i=0;i<arr.length;i++){
+      /*  for(int i=0;i<arr.length;i++){
             System.out.println(arr[i]);
-        }
+        }*/
     }
 
 
@@ -28,8 +29,13 @@ public class QuicksortApp {
 
         if(l<r){
             int q = partition(arr,l,r);
+            for(int a:arr){
+                System.out.print(a+" ");
+            }
+
+          /*  System.out.println();
             quickSort(arr,l,q-1);
-            quickSort(arr,q+1,r);
+            quickSort(arr,q+1,r);*/
 
         }
 
@@ -39,7 +45,7 @@ public class QuicksortApp {
 
 
         int i=l-1;
-        int pivot = arr[r];
+        int pivot = arr[l];
         for(int j=l;j<r;j++){
             if(arr[j]<=pivot){
                 i++;
