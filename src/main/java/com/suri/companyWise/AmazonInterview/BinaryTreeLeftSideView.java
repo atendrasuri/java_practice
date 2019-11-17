@@ -34,6 +34,44 @@ import java.util.Queue;
 public class BinaryTreeLeftSideView {
   public static void main(String[] args) {
 
+    BinaryTreeLeftSideView binaryTreeLeftSideView = new BinaryTreeLeftSideView();
+    binaryTreeLeftSideView.createTree();
+    System.out.println(binaryTreeLeftSideView.rightSideView(binaryTreeLeftSideView.root));
+
+
+  }
+
+  TreeNode root;
+
+  public void createTree() {
+    this.root = new TreeNode(5);
+
+    TreeNode n1 = new TreeNode(4);
+    TreeNode n2 = new TreeNode(8);
+
+    TreeNode n4 = new TreeNode(11);
+    TreeNode n5 = new TreeNode(13);
+    TreeNode n6 = new TreeNode(4);
+
+
+    TreeNode n7 = new TreeNode(7);
+    TreeNode n8 = new TreeNode(2);
+    TreeNode n9 = new TreeNode(5);
+    TreeNode n10 = new TreeNode(1);
+
+    root.left = n1;
+    root.right = n2;
+
+    n1.left = n4;
+
+    n2.left = n5;
+    n2.right = n6;
+
+    n4.left = n7;
+    n4.right = n8;
+
+    n6.left = n9;
+    n6.right = n10;
   }
 
   public List<Integer> rightSideView(TreeNode root) {
@@ -55,12 +93,13 @@ public class BinaryTreeLeftSideView {
         if (i == size - 1) {
           rightSideView.add(current.val);
         }
-        if (current.left != null) {
-          queue.add(current.left);
-        }
         if (current.right != null) {
           queue.add(current.right);
         }
+        if (current.left != null) {
+          queue.add(current.left);
+        }
+
       }
 
 

@@ -1,33 +1,30 @@
 
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
 
+Asked in Reliance Jio
+========================
+1) search and element in sorted and rotated array.
+2) maximum area in histogram
+3) custom hashmap
+4)** update billions of db records very efficiently keeping in mind server crash in middle and all the edge cases.
+
 Asked in Arvind Internet
 ===========================================================
-1.) search an element in sorted matrix by row and column
-
-2.) print all root to leaf path in binary tree.
-
-3.) Reverse singly linked list in group of 'K'
+1. search an element in sorted matrix by row and column
+2. print all root to leaf path in binary tree.
+3. Reverse singly linked list in group of 'K'
 
 
 Asked in PayU
 ==============
-
-1.) Merge two sorted linked list.
-
-2.) Inorder of binary tree using without recursion and without extra space.
-
-3.) comparator and comparable difference/write code using java8 on multiple fields.
-
-4.) Minimum steps required to make a string palindromic.
-
-5.) Completable future in detail.
-
-6.) multiply a number by 7 using bitwise operator.
-
-7.) write a minimal steps in main method so that your application never end.
-
-8.) why microservices???*****
+1. Merge two sorted linked list.
+2. Inorder of binary tree using without recursion and without extra space.
+3. comparator and comparable difference/write code using java8 on multiple fields.
+4. Minimum steps required to make a string palindromic.
+5. Completable future in detail.
+6. multiply a number by 7 using bitwise operator.
+7. write a minimal steps in main method so that your application never end.
+8. why microservices???*****
 
 Asked in Amazon
 ==============================================================================================================================================
@@ -47,6 +44,9 @@ Asked in Amazon
 **14. You are given with MxN matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die.
 You are allowed to move in all four direction. Movement will be totally random. For Given N steps, what is the total ways that you’ll be outside of matrix?
 15.Maximum sum of nodes in Binary tree such that no two are adjacent.
+16. Given N number of square and first first step of stair takes 1 square and second step takes 2 squares and so on, find the height of stairs.
+    Example N- 10 then height =4
+17. LRU cache implementation.
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/
@@ -67,6 +67,10 @@ Asked in Oracle:-
 3. Given two Arrays of integers, find out the missing elements from 2nd array.
 4. Rotate the 2-D matrix through 90 degree.
 5. Given numbers from 1 to N, but there is only one element missing. Then find out the missing element.
+6. write custom thread pool.
+7. write custom hashmap.
+8. write observer design pattern.
+9. [Puzzle] three jars labeled incorrectly, find the minimum steps to correct it.
 =====================================================================================================
 JDA interview question:-
 1. sql query SELECT EMP_NME, sum(sal) as totalsal from EMPLOYEE group by EMP_NME having totalsal>10000;
@@ -117,7 +121,6 @@ Asked in Sychron:-
 
 ========================================================================================================================
 Asked in LensKart:-
-
 1. Given a binary tree, print the vertical sum of each vertical line.
 2. Given a sentence of words. reverse the sentence without using library function and extra space.
 3. Given an array of N integers, find the largest element of k sub-arrays.
@@ -127,7 +130,6 @@ Asked in LensKart:-
   40, 12, 25-> 40,
   12, 25, 75-> 75,
   25, 75, 9-> 75
-
 4. Given height of N person in an array and only person who can handover the movie ticket, who is next taller.
 5. Check whether given Binary tree is BST(Binary search tree) or not?
 6. Clone the linked list to another linked list.
@@ -146,13 +148,11 @@ Asked in JP Morgan:-
 7. How class loader works in application server(tomcat, weblogic).
 8. ThreadPool in very Detail.
 =================================================================================================================
-
 Asked in Snapdeal:-
 1. Given a linked list, swap the node pairwise.
 2. Given an Array and a number k find the exactly 4 elements whose sum equals to K.
 
 ================================================================================================================
-
 Asked in CodeHall
 1. Little Bobby loves chocolate. He frequently goes to his favorite  store, Penny Auntie, to buy them.
  * They are having a promotion at Penny Auntie.
@@ -165,14 +165,14 @@ Asked in CodeHall
  * Once he eats that one, he has  wrappers and turns them in for another bar. After eating that one, he only has  wrapper, and his feast ends.
  * Overall, he has eaten  bars.
 
- 2. Check if a given array can represent Preorder Traversal of Binary Search Tree
+2. Check if a given array can represent Preorder Traversal of Binary Search Tree
  Given an array of numbers, return true if given array can represent preorder traversal of a Binary Search Tree, else return false. Expected time complexity is O(n).
 
- 3. Find Majority Element in an Array.
+3. Find Majority Element in an Array.
 
- 4. Design and write the custom threadpool and implements your own submit like method which return the future object.
+4. Design and write the custom threadpool and implements your own submit like method which return the future object.
 
- 5.  There are n people standing in line to buy show tickets. Due to High Demand, The Venue sells tickets according to the following rules:
+5.  There are n people standing in line to buy show tickets. Due to High Demand, The Venue sells tickets according to the following rules:
 
      The person at the head of the line can by exactly one ticket and must exit the line
      If a person needs to purchase additional tickets, they must re-enter the end of the line in wait to be sold the next ticket (assume exit and re-entry takes 0 seconds)

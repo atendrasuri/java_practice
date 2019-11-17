@@ -25,6 +25,7 @@ public class LambdaTest {
         t1.start();
         System.out.println(" I am in Main");
 
+        new Thread(()-> System.out.println("hello")).start();
 
 
         // using Java8 find the max value from hashMap
