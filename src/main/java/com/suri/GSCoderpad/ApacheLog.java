@@ -2,6 +2,7 @@ package com.suri.GSCoderpad;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 /**
  * Instructions to candidate.
@@ -54,6 +55,22 @@ import java.util.Map;
     // TODO: Implement solution
     //return "10.0.0.1";
   }
+
+  public static String findTopIpaddressImprove(String[] lines){
+    if(lines.length==0){
+      return "";
+    }
+
+    Map<String,Integer> map = new HashMap<>();
+    for(String line:lines){
+      String ip = line.split("-")[0].trim();
+      map.put(ip,map.getOrDefault(ip,0)+1);
+    }
+    Map.Entry<String,Integer> entry =map.entrySet().stream().max(Map.Entry.comparingByValue()).get();
+
+    return entry.getKey();
+
+  }
   
   /**
    * boolean doTestsPass()
@@ -66,7 +83,9 @@ import java.util.Map;
             "10.0.0.1 - frank [10/Dec/2000:12:34:56 -0500] \"GET /a.gif HTTP/1.0\" 200 234",
         "10.0.0.1 - frank [10/Dec/2000:12:34:57 -0500] \"GET /b.gif HTTP/1.0\" 200 234",
         "10.0.0.2 - nancy [10/Dec/2000:12:34:58 -0500] \"GET /c.gif HTTP/1.0\" 200 234" };
-    String result = findTopIpaddress(lines);
+   // String result = findTopIpaddress(lines);
+
+    String result = findTopIpaddressImprove(lines);
     
     if (result.equals("10.0.0.1")) {
       System.out.println("Test passed");

@@ -1,6 +1,5 @@
 package com.suri.GSCoderpad;/* Problem Name is &&& Best Average Grade &&& PLEASE DO NOT REMOVE THIS LINE. */
 
-import java.io.*;
 import java.util.*;
 
 /*
@@ -34,6 +33,48 @@ import java.util.*;
 
 class BestAverageGrade
 {
+
+  public static Integer bestAverageGradeII(List<List<String>> scores) {
+
+    if (scores == null || scores.isEmpty()) {
+      return -1;
+    }
+
+    HashMap<String, List<Integer>> map = new HashMap<>();
+
+    for (List<String> score : scores) {
+
+      String name = score.get(0);
+      Integer mark = Integer.parseInt(score.get(1));
+
+      if (map.containsKey(name)) {
+        List<Integer> marksList = map.get(name);
+        marksList.add(mark);
+        map.put(name, marksList);
+      } else {
+        List<Integer> markList = new ArrayList<>();
+        markList.add(mark);
+        map.put(name, markList);
+
+      }
+    }
+
+    int maxAvg = Integer.MIN_VALUE;
+
+    for(Map.Entry<String, List<Integer>> marksEntry:map.entrySet()){
+      List<Integer> marks=marksEntry.getValue();
+      int sum = marks.stream().mapToInt(x->x).sum();
+
+      int avg = sum/marks.size();
+
+      if(avg>maxAvg){
+        maxAvg = avg;
+      }
+    }
+
+
+    return maxAvg;
+  }
   /*
   **  Find the best average grade.
   */
@@ -90,7 +131,13 @@ class BestAverageGrade
             { "Eric", "-74" },
             { "Charles", "-66" } };
 
-    return bestAverageGrade(tc1) == -66;
+    List<List<String>> tc2 = new ArrayList<>();
+    tc2.add(Arrays.asList(new String[]{ "Charles", "-66" }));
+    tc2.add(Arrays.asList(new String[]{ "Eric", "-74" }));
+    tc2.add(Arrays.asList(new String[]{ "Charles", "-66" }));
+
+    //return bestAverageGrade(tc1) == -66;
+    return bestAverageGradeII(tc2) == -66;
   }
 
   /*
