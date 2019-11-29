@@ -42,6 +42,26 @@ public class FirstNonRepeatingCharacter {
     return ' ';
   }
 
+  public static char findFirstUpdated(String input){
+
+    if(input==null || input.length()==0){
+      return ' ';
+    }
+    char[] charArr= input.toCharArray();
+    int count[] = new int[26];
+
+    for(int i=0;i<charArr.length;i++){
+      count[charArr[i]-'a']++;
+    }
+    for (int i = 0; i < charArr.length; i++) {
+      if (count[charArr[i]-'a'] == 1) {
+        return charArr[i];
+      }
+    }
+
+    return ' ';
+  }
+
   /**
    * int doTestsPass()
    * Returns 1 if all tests pass. Otherwise returns 0.
@@ -56,7 +76,7 @@ public class FirstNonRepeatingCharacter {
     boolean result = true;
     for(int i = 0; i < inputs.length; i++ )
     {
-      result = result && findFirst(inputs[i]) == outputs[i];
+      result = result && findFirstUpdated(inputs[i]) == outputs[i];
       if(!result)
         System.out.println("Test failed for: " + inputs[i]);
       else
