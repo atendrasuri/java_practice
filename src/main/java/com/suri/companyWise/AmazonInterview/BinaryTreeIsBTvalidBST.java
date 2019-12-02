@@ -8,7 +8,7 @@ package com.suri.companyWise.AmazonInterview;
  * Check whether a Binary Tree is Binary search Tree or not?
  * @History:
  */
-public class IsBTvalidBST {
+public class BinaryTreeIsBTvalidBST {
 
     public static void main(String[] args) {
         BT bt = new BT();

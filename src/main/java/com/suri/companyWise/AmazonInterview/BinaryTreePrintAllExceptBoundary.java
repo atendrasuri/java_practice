@@ -14,11 +14,11 @@ import java.util.Queue;
  * 2. Please describe the technical usage of the class.
  * @History:
  */
-public class PrintAllExceptBoundary {
+public class BinaryTreePrintAllExceptBoundary {
 
   public static void main(String[] args) {
 
-    PrintAllExceptBoundary printAllExceptBoundary = new PrintAllExceptBoundary();
+    BinaryTreePrintAllExceptBoundary printAllExceptBoundary = new BinaryTreePrintAllExceptBoundary();
 
     printAllExceptBoundary.createTree();
     printAllExceptBoundary.inOrder(printAllExceptBoundary.root);

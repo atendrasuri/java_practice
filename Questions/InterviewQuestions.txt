@@ -41,12 +41,17 @@ Asked in Amazon
 11. maximum level sum in Binary Tree.
 12. detect cycle in linked list.
 13. given an unsorted array, and K, and Y, find K closest element of Y.
-**14. You are given with MxN matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die.
+14. **You are given with MxN matrix and a point inside the matrix (x,y) where you standing. If you step outside the matrix you’ll die.
 You are allowed to move in all four direction. Movement will be totally random. For Given N steps, what is the total ways that you’ll be outside of matrix?
 15.Maximum sum of nodes in Binary tree such that no two are adjacent.
 16. Given N number of square and first first step of stair takes 1 square and second step takes 2 squares and so on, find the height of stairs.
     Example N- 10 then height =4
 17. LRU cache implementation.
+18. **Given an array A of n integers. The task is to find the sum of minimum of all possible (contiguous) subarray of A.
+19. Given four types of array type 1:- strictly increasing, type 2:- strictly decreasing, type 3:- increasing and then decreasing
+    type 4:- decreasing and then decreasing, your method take array as input and return the types of this array belongs.
+
+20. Rearrange characters in a string such that no two adjacent are same.
 ==================================================================================================================================================
 Flipkart:-
 https://www.geeksforgeeks.org/Flipkart-topics-interview-preparation/

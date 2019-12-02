@@ -40,10 +40,6 @@ public class Sol_724_FindPivotIndex {
 
     int nums[] = {1, 7, 3, 6, 5, 6};
     System.out.println(pivotIndex(nums));
-
-    CountDownLatch countDownLatch;
-
-
   }
 
   public static int pivotIndex(int[] nums) {
