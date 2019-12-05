@@ -24,7 +24,7 @@ public class PermutationString {
             for ( ; i <n; i++) {
                 permutationString(prefix+str.charAt(i),str.substring(0,i)+str.substring(i+1,n));
             }
-            System.out.println("hello"+str.charAt(i));
+           // System.out.println("hello"+str.charAt(i));
         }
     }
 }

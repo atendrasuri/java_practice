@@ -98,18 +98,18 @@ class BTRootToLeaf{
 
         if (root.left == null && root.right == null) {
             printPath(list);
-           // list.remove(list.size()-1);
+            list.remove(list.size()-1);
             return;
         }
         /**
          *
          * commented line is another approach
          */
-        //rootToLeafPath(root.left, list);
-        //rootToLeafPath(root.right, list);
-        rootToLeafPath(root.left, new ArrayList<>(list));
-        rootToLeafPath(root.right, new ArrayList<>(list));
-       // list.remove(list.size()-1);
+        rootToLeafPath(root.left, list);
+        rootToLeafPath(root.right, list);
+        //rootToLeafPath(root.left, new ArrayList<>(list));
+        //rootToLeafPath(root.right, new ArrayList<>(list));
+        list.remove(list.size()-1);
 
     }
 
