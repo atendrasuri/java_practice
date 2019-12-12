@@ -24,13 +24,13 @@ import java.util.Stack;
  */
 public class FormMinNumberFromGivenSequence {
     public static void main(String[] args) {
-        printMinNumberForPattern("IDID");
+        /*printMinNumberForPattern("IDID");
         printMinNumberForPattern("I");
         printMinNumberForPattern("DD");
         printMinNumberForPattern("II");
         printMinNumberForPattern("DIDI");
         printMinNumberForPattern("IIDDD");
-        printMinNumberForPattern("DDIDDIID");
+        printMinNumberForPattern("DDIDDIID");*/
         printMinNumberForPattern("IIDDDII");
     }
 

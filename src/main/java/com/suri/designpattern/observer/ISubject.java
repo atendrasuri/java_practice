@@ -5,7 +5,7 @@ package com.suri.designpattern.observer;
  */
 public interface ISubject {
 
-  public void registerObserver(IObserver iObserver);
-  public void removeObserver(IObserver iObserver);
-  public void notifyObserver();
+   void registerObserver(IObserver iObserver);
+   void removeObserver(IObserver iObserver);
+   void notifyObserver();
 }

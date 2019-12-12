@@ -5,5 +5,5 @@ package com.suri.designpattern.observer;
  */
 public interface IObserver {
 
-  public void update(float temp, float humidity,float pressure );
+   void update(float temp, float humidity,float pressure );
 }

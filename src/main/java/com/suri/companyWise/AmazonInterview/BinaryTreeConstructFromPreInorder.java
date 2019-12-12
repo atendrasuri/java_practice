@@ -33,7 +33,7 @@ package com.suri.companyWise.AmazonInterview;
  * 5) Call buildTree for elements after inIndex and make the built tree as right subtree of tNode.
  * 6) return tNode.
  */
-public class ConstructBinaryTreeFromPreInorder {
+public class BinaryTreeConstructFromPreInorder {
   public static void main(String[] args) {
 
     int preorder[] = {3, 9, 20, 15, 7};

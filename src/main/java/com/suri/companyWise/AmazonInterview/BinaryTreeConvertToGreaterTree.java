@@ -23,7 +23,7 @@ package com.suri.companyWise.AmazonInterview;
  *             /   \
  *           20     13
  */
-public class ConvertBSTToGreaterTree {
+public class BinaryTreeConvertToGreaterTree {
   public static void main(String[] args) {
 
     ConvertBSTGreaterSoln convertBSTGreaterSoln = new ConvertBSTGreaterSoln();

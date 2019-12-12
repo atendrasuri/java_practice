@@ -23,6 +23,9 @@ public class ProductofArrayExceptSelf {
     int arr[] ={1,2,3,4};
 
     int result[] = productExceptSelf(arr);
+    for(int a:result){
+      System.out.println(a);
+    }
 
   }
 

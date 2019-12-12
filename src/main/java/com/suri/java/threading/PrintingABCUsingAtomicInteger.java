@@ -15,21 +15,21 @@ public class PrintingABCUsingAtomicInteger {
 
     public static void main(String[] args) {
         AtomicInteger ai = new AtomicInteger(1);
-        new Student(ai, 1, "A").start();
-        new Student(ai, 2, "B").start();
-        new Student(ai, 0, "C").start();
+        new Student(ai, 1, "SAPIENT").start();
+        new Student(ai, 2, "GLOBAL").start();
+        new Student(ai, 0, "MARKETS").start();
     }
 
 }
 
 class Student extends Thread {
     AtomicInteger ai;
-    int b;
+    int reminder;
     String c;
 
     Student(AtomicInteger a, int b, String c) {
         this.ai = a;
-        this.b = b;
+        this.reminder = b;
         this.c = c;
     }
 
@@ -41,8 +41,13 @@ class Student extends Thread {
                     ai.notifyAll();
                     break;
                 } else {
-                    if (val % 3 == b) {
-                        System.out.println(" Thread " + b + " printing value " + c);
+                    if (val % 3 == reminder) {
+                        System.out.println(" Thread " + reminder + " printing value " + c);
+                        try {
+                            Thread.sleep(700);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
                         ai.getAndIncrement();
                         ai.notifyAll();
                     } else {
