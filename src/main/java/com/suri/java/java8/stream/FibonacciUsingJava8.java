@@ -1,4 +1,4 @@
-package com.suri.java.java8;
+package com.suri.java.java8.stream;
 
 import java.util.stream.Stream;
 

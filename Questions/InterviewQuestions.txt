@@ -11,7 +11,7 @@ https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon
 Asked in Nagarro
 ================
 1. What is API GateWay and service discovery
-2. Distributed transcations in microservices and SAGGA pattern.
+2. Distributed transcations in microservices and SAGA pattern.
 3. How to use multiple databases in single micro services.
    soln:-https://www.youtube.com/watch?v=iDogrHEo4x0
 4. How to do versioning in micro services.

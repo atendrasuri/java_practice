@@ -1,6 +1,4 @@
-package com.suri.java.java8;
-
-import java.util.Comparator;
+package com.suri.java.java8.functionalInterface;
 
 /**
  * @Author: atekumar
