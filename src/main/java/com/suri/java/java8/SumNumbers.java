@@ -25,7 +25,7 @@ public class SumNumbers {
   public static void main(String[] args) {
 
     System.out.println(findSum(100));
-    System.out.println(count(100));
+   // System.out.println(count(100));
 
   }
 
@@ -33,7 +33,10 @@ public class SumNumbers {
 
 
     int sum= IntStream.range(1,nVal).filter(x->x%3==0|| x%5==0).sum();
-    return sum;
+    IntStream.iterate(0,n->n+3).limit(10).forEach(x-> System.out.println(x));
+    //IntStream.range(1,31).forEach(x-> System.out.println(x+=3));
+    //return sum;
+    return 0;
   }
   public static Long count(int nVal){
 

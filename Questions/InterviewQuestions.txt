@@ -1,5 +1,71 @@
 
+Hi
+I am looking for job change.
+I have 5.11 year of experience in java/microservices technology with data structure and algorithms.
+Currently I am working in Sapient (Bangalore) and serving notice period.
+Please let me know if any opening is there in your organisation. It will be great help.
+
+
 https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+
+Asked in Nagarro
+================
+1. What is API GateWay and service discovery
+2. Distributed transcations in microservices and SAGGA pattern.
+3. How to use multiple databases in single micro services.
+   soln:-https://www.youtube.com/watch?v=iDogrHEo4x0
+4. How to do versioning in micro services.
+5. How volatile works internally, and what do you mean by fetching value from cache VS fetching value from main memory.
+6. Create two threads, one will print odd and other will print even in sequence.
+7. Crete three threads, wait all three thread before exiting main thread. ( Join is not allowed).
+8. sum all the ascii value from 'a' - 'z' using java8 stream.
+9. convert the following code into stream.
+   for(int i=0;i<30;i+=3){
+    System.out.println(i);
+   }
+10. Given, UDDDDUUUDD.., write an algorithm , which counts the number of floor and number of basements.
+12. Majority element in an array.
+11. 7th Highest salary in employee table.
+12. Create data modeling for many-to-many relationship.
+13. find all the records whose name are same from employee table.
+14 . class Employee{
+       int id;
+       String name;
+
+       @override
+       public boolean equals( Employee e){
+         return e.id == this.id;
+       }
+     // no override for hashCode
+     }
+
+     Set<Employee> e = new HashSet<>();
+     e.add(new Employee(1,"a"));
+     e.add(new Employee(2,"b"));
+     e.add(new Employee(3,"c"));
+     e.add(new Employee(1,"d"));
+
+     System.out.println(e.size());  ???
+
+ 15.
+     class Employee{
+        int id;
+        String name;
+
+        @override
+        public int hashCode( Employee e){
+          return 21;
+        }
+      // no override for equals
+      }
+
+      Set<Employee> e = new HashSet<>();
+      e.add(new Employee(1,"a"));
+      e.add(new Employee(2,"b"));
+      e.add(new Employee(3,"c"));
+      Employee h = new Employee(1,"a");
+      e.remove(h);
+      System.out.println(e.size());  ???
 
 Asked in Reliance Jio
 ========================
@@ -562,6 +628,47 @@ https://leetcode.com/discuss/general-discussion/136503/what-is-difference-betwee
 
 Oracle:-
 https://howtodoinjava.com/interview-questions/real-java-interview-questions-asked-for-oracle-enterprise-manager-project/
+
+
+
+
+SAP
+Intuit
+Citrix
+Mcafe
+Nutanix
+inmovie
+adobe
+informatica
+taxesInstument
+Software AG
+Amazon
+Redisys
+Zeta
+Grab
+microsoft
+NokiaMAp
+NetApp
+pivotal Labs
+Uber
+VMWare
+Ola
+PayTM
+PayPal
+Visa
+Tower Research
+LinkedIn
+FlexRa
+ACTIANCE
+AKAMI
+BroadCom
+Gartner
+RazorPay
+UI Path
+GlassDoor
+SalesForce
+Giled Sciences
+Hotstar
 
 
 
