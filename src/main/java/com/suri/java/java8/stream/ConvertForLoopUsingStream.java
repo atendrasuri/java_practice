@@ -25,6 +25,7 @@ public class ConvertForLoopUsingStream {
      }*/
     System.out.println();
     IntStream.iterate(0,n->n+3).limit(11).forEach(x-> System.out.print(x+" "));
+    Math.max(3,4);
 
 
   }

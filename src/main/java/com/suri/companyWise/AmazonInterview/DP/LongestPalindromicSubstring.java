@@ -1,4 +1,4 @@
-package com.suri.companyWise.AmazonInterview;
+package com.suri.companyWise.AmazonInterview.DP;
 
 /**
  * @Author: atekumar

@@ -22,10 +22,11 @@ public class LCS {
         String str1 = "AGGTAB";
         String str2 = "GXTXAYB";
         System.out.println(" LCS is :-" + findLCS(str1, str2));
+        System.out.println(" LCS is :- using recursion "+findLCSRecusrsion(str1,str2,0,0));
 
     }
 
-
+// using dynamic programming
     public static int findLCS(String str1, String str2) {
 
         int M = str1.length();
@@ -47,6 +48,19 @@ public class LCS {
         }
 
         return dp[M][N];
+
+    }
+    // using recursion
+    public static int findLCSRecusrsion(String str1, String str2, int i, int j) {
+        if(i>= str1.length() || j>=str2.length()){
+            return 0;
+        }
+        if(str1.charAt(i)==str2.charAt(j)){
+            return 1+findLCSRecusrsion(str1,str2,i+1,j+1);
+        }
+        else{
+            return Math.max(findLCSRecusrsion(str1,str2,i+1,j),findLCSRecusrsion(str1,str2,i,j+1));
+        }
 
     }
 }
