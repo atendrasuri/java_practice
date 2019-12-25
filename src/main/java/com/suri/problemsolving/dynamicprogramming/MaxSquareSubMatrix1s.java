@@ -57,6 +57,6 @@ public class MaxSquareSubMatrix1s {
             System.out.println();
         }
 
-        return 0;
+        return dp[M-1][N-1];
     }
 }

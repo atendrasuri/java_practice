@@ -45,6 +45,7 @@ package com.suri.companyWise.google;
  Testcase 1: Not needed, I guess. Sp;ved sudoku is already given in output.
  */
 public class SudokoSolution {
+  static int backTrack =0;
   public static void main(String[] args) {
 
 
@@ -138,7 +139,8 @@ public class SudokoSolution {
     if (isEmpty) {
       return true;
     }
-
+    System.out.println("********");
+    print(board,9);
     for (int num = 1; num <= n; num++) {
 
       if (isSafe(board, row, col, num)) {
@@ -147,7 +149,9 @@ public class SudokoSolution {
         if (solveSuduko(board, n)) {
           return true;
         } else {
+          backTrack++;
           board[row][col] = 0;
+          System.out.println(backTrack);
         }
       }
     }
