@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e994b77-c4d5-4adc-8b8e-16654604192d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Books/ArchitectureDesign.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/Cracking the Coding Interview, 6th Edition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/Elements-of-programming-interviews-in-java-2nd-edition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/Introduction_to_algorithms-3rd Edition.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/Object Oriented Design Case Studies.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Books/head_first_design_patterns.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/EggDroppingProblem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/MatrixChainMultiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_36_ValidSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_22_GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeIsBTvalidBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeIsBTvalidBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/object/OverridingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/object/OverridingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,37 +45,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/SemaphoreProducerConsumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FormMinNumberFromGivenSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="70" column="35" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="35" />
-            </state>
+            <state relative-caret-position="-331" />
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/EditDistanceProblem.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="-601">
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/EggDroppingProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            <state relative-caret-position="468">
+              <caret line="73" column="9" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_887_EggDroppingProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/KthSmallestElementBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="405">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_131_Palindrome_Partitioning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -86,53 +93,42 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_132_PalindromePartitioningII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="123">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/PalindromePartitionMinCut.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-207" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="274">
+              <caret line="174" column="39" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_1277_CountSquareSubmatrices1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinarySearchTreeTrim.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/NQueensProblems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="104">
+              <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -144,16 +140,13 @@
       <list>
         <option value="FxmlFile" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>removeNode</find>
-      <find>get()</find>
-      <find>suppl</find>
-      <find>runA</find>
       <find>exce</find>
       <find>LRU</find>
       <find>Island</find>
@@ -180,6 +173,10 @@
       <find>PriorityQueue</find>
       <find>capacity()</find>
       <find>micro</find>
+      <find>now</find>
+      <find>n</find>
+      <find>Authentication</find>
+      <find>input.txt</find>
     </findStrings>
     <replaceStrings>
       <replace>APIInf</replace>
@@ -195,57 +192,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Generate0And1with25And75Probability.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinimumSwapREquiredToSortAnArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/immutable/Immutable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/immutable/Mutable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/optional/OptionalExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConstructFromPreInorder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConstructFromInorderPostorder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeConvertToGreaterTree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/topCompany/KSmallestPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/IObserver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/ProductofArrayExceptSelf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/designpattern/observer/ISubject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/threading/PrintingABCUsingAtomicInteger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/database/sql/JoinExample.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/SumNumbers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/collection/hashCodeEquals/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/collection/hashCodeEquals/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/collection/hashCodeEquals/TestHashCodeAndEquals.java" />
-        <option value="$PROJECT_DIR$/Questions/InterviewQuestions.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/SumAsciiValueAtoZ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/nagarro/CountNumberOfBasements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/ConvertForLoopUsingStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/KnapSackProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LCS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_45_JumpGameII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/MinimumJumpToReachEndofArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_55_JumpGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/collection/ListDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LongestPalindromicSubstring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestPalindromicSubstring.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_132_PalindromePartitioningII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_131_Palindrome_Partitioning.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinSwapRequiredToBringAllTogether.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/ContainsDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/ContainsDuplicateII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/ContainsDuplicateII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_219_ContainsDuplicateII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_218_ContainsDuplicate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_37_Sudoku_Solver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_36_ValidSudoku.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/NQueensProblems.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/MatrixChainMultiplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/EggDroppingProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/EggDroppingProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/EggDroppingProblem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_887_EggDroppingProblem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_1277_CountSquareSubmatrices1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/OddPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/EvenPrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_22_GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/IObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/ISubject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/IAlert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/WeatherStation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/CurrentConditionsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/AlertNotificationDsiplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/LogData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/Subscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/WarningSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/CriticalSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberWarning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberBlocker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/ISubscriber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberCritical.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/Alert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/SubscriberWarning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberCritical.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberWarning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberBlocker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/dec26/AlertNotificationSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_AllNodesDistanceKBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeIsBTvalidBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Sample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AHaloDoc/Myclass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SubArraySum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/BinaryTreeBottomView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeBottomView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeTopView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SortStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/object/OverridingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/synchronization/Synch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/synchronization/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FormMinNumberFromGivenSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinarySearchTreeTrim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/KthSmallestElementBST.java" />
       </list>
     </option>
   </component>
@@ -267,11 +264,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="569" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1111" />
-    <option name="height" value="947" />
+    <option name="width" value="1680" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -299,8 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,39 +305,139 @@
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
+              <item name="Questions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
-              <item name="Questions" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="companyWise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="companyWise" type="462c0819:PsiDirectoryNode" />
+              <item name="AmazonInterview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="companyWise" type="462c0819:PsiDirectoryNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="RangeCountTotalNode.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="suri" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="Roottoleafpathssum.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="JavaDSAlgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaDSAlgo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="MinimumSwapREquiredToSortAnArray&#9;FILE&#9;file:///Users/atekumar/SURI/study/Java/practice/JavaDSAlgo/src/main/java/com/suri/GSCoderpad/MinimumSwapREquiredToSortAnArray.java&#10;mirr&#9;PSI&#9;JAVA://com.suri.datastructure.tree.MirrorTree&#10;per&#9;PSI&#9;JAVA://com.suri.java.string.PermutationString&#10;Inorder&#9;PSI&#9;JAVA://com.suri.InterviewPractice.BST#inorder&#10;ConvertBst&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BinaryTreeBST#convertToBST&#10;ArrayLi&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Bala&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BalancedTree&#10;Zero&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.MoveZeroes&#10;smallestP&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.FirstMissingPositive#findSmallestPositive&#10;Solut&#9;PSI&#9;JAVA://com.suri.datastructure.tree.Solution" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577231114628" />
+    <property name="SearchEverywhereHistoryKey" value="palindrom&#9;FILE&#9;file:///Users/atekumar/SURI/study/Java/practice/JavaDSAlgo/src/main/java/com/suri/problemsolving/dynamicprogramming/PalindromePartitionMinCut.java&#10;palind&#9;PSI&#9;JAVA://com.suri.leetcode.hard.Soln_132_PalindromePartitioningII&#10;parti&#9;PSI&#9;JAVA://com.suri.leetcode.medium.Soln_131_Palindrome_Partitioning&#10;remove&#9;PSI&#9;JAVA://com.suri.companyWise.AmazonInterview.BST#removeBSTOutsideRange&#10;Numberpattern&#9;PSI&#9;JAVA://com.suri.companyWise.AmazonInterview.FormMinNumberFromGivenSequence#printMinNumberForPattern&#10;My&#9;PSI&#9;JAVA://com.suri.java.object.MyClass&#10;Clock&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/Clock.java&#10;Localtime&#9;PSI&#9;JAVA://java.time.LocalTime&#10;MinimumSwapREquiredToSortAnArray&#9;FILE&#9;file:///Users/atekumar/SURI/study/Java/practice/JavaDSAlgo/src/main/java/com/suri/GSCoderpad/MinimumSwapREquiredToSortAnArray.java&#10;mirr&#9;PSI&#9;JAVA://com.suri.datastructure.tree.MirrorTree&#10;per&#9;PSI&#9;JAVA://com.suri.java.string.PermutationString&#10;Inorder&#9;PSI&#9;JAVA://com.suri.InterviewPractice.BST#inorder&#10;ConvertBst&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BinaryTreeBST#convertToBST&#10;ArrayLi&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Optional&#9;PSI&#9;JAVA://java.util.Optional&#10;Bala&#9;PSI&#9;JAVA://com.suri.datastructure.tree.BalancedTree&#10;Zero&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.MoveZeroes&#10;smallestP&#9;PSI&#9;JAVA://com.suri.datastructure.arrays.singledimension.FirstMissingPositive#findSmallestPositive&#10;Solut&#9;PSI&#9;JAVA://com.suri.datastructure.tree.Solution" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578379284796" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/dec26" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/suri/java/vinit" />
       <recent name="$PROJECT_DIR$/Books" />
       <recent name="$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy" />
       <recent name="$PROJECT_DIR$/src/main/java/com/suri/database/design" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.suri.leetcode.hard" />
       <recent name="com.suri.companyWise.google" />
-      <recent name="com.suri.companyWise.AmazonInterview.DP" />
       <recent name="com.suri.companyWise.AmazonInterview" />
+      <recent name="com.suri.leetcode" />
       <recent name="com.suri.leetcode.medium" />
+      <recent name="com.suri.dec26" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -362,13 +456,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NQueensProblems">
-    <configuration name="EggDroppingProblem (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.google.EggDroppingProblem" />
+  <component name="RunManager" selected="Application.FormMinNumberFromGivenSequence">
+    <configuration name="FormMinNumberFromGivenSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.AmazonInterview.FormMinNumberFromGivenSequence" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.companyWise.google.*" />
+          <option name="PATTERN" value="com.suri.companyWise.AmazonInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -376,12 +470,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSquareSubMatrix1s" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.problemsolving.dynamicprogramming.MaxSquareSubMatrix1s" />
+    <configuration name="OverridingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.object.OverridingTest" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.problemsolving.dynamicprogramming.*" />
+          <option name="PATTERN" value="com.suri.java.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,12 +483,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueensProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.companyWise.google.NQueensProblems" />
+    <configuration name="Synch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.concurrency.synchronization.Synch" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.companyWise.google.*" />
+          <option name="PATTERN" value="com.suri.java.concurrency.synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -402,12 +496,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sol_1277_CountSquareSubmatrices1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.medium.Sol_1277_CountSquareSubmatrices1" />
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.concurrency.synchronization.Task" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.medium.*" />
+          <option name="PATTERN" value="com.suri.java.concurrency.synchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,12 +509,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Soln_887_EggDroppingProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.suri.leetcode.hard.Soln_887_EggDroppingProblem" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suri.java.vinit.Test" />
       <module name="JavaDSAlgo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.suri.leetcode.hard.*" />
+          <option name="PATTERN" value="com.suri.java.vinit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -429,19 +523,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Soln_887_EggDroppingProblem" />
-      <item itemvalue="Application.EggDroppingProblem (1)" />
-      <item itemvalue="Application.MaxSquareSubMatrix1s" />
-      <item itemvalue="Application.Sol_1277_CountSquareSubmatrices1" />
-      <item itemvalue="Application.NQueensProblems" />
+      <item itemvalue="Application.OverridingTest" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Synch" />
+      <item itemvalue="Application.Task" />
+      <item itemvalue="Application.FormMinNumberFromGivenSequence" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NQueensProblems" />
-        <item itemvalue="Application.Sol_1277_CountSquareSubmatrices1" />
-        <item itemvalue="Application.MaxSquareSubMatrix1s" />
-        <item itemvalue="Application.Soln_887_EggDroppingProblem" />
-        <item itemvalue="Application.EggDroppingProblem (1)" />
+        <item itemvalue="Application.FormMinNumberFromGivenSequence" />
+        <item itemvalue="Application.Task" />
+        <item itemvalue="Application.Synch" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.OverridingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -459,9 +553,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45909646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47557998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,12 +568,12 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28469387" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39649123" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28288707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39580908" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40350878" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4030612" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33099416" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
@@ -495,27 +590,32 @@
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32967034" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3925519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45909646" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3263158" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39649123" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28469387" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39591837" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.40350878" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4030612" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33099416" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32748538" />
+      <window_info anchor="bottom" id="DB Execution Console" order="11" />
+      <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24969475" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -1030,7 +1130,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>33</line>
+          <line>60</line>
           <properties />
           <option name="timeStamp" value="191" />
         </line-breakpoint>
@@ -1570,7 +1670,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java</url>
-          <line>44</line>
+          <line>40</line>
           <properties />
           <option name="timeStamp" value="305" />
         </line-breakpoint>
@@ -1664,6 +1764,90 @@
           <properties />
           <option name="timeStamp" value="337" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/AlertNotificationSystem.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/dec26/alert/impl/Alert.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SubArraySum.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SubArraySum.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/sorting/HeapSortMain.java</url>
           <line>47</line>
@@ -1682,7 +1866,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>32</line>
+          <line>59</line>
           <properties class="com.suri.java.vinit.Exam" method="printLevel">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1702,7 +1886,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java</url>
-          <line>30</line>
+          <line>57</line>
           <properties field="level" class="com.suri.java.vinit.Exam" />
           <option name="timeStamp" value="189" />
         </line-breakpoint>
@@ -1749,126 +1933,224 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/hashCodeEquals/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="2" />
-          <folding>
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="29" selection-end-line="52" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/HashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/dec26/subscriber/impl/SubscriberWarning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="41" column="5" selection-end-line="51" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/dec26/SubscriberType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="218" column="26" selection-start-line="218" selection-start-column="26" selection-end-line="218" selection-end-column="26" />
-          <folding>
-            <element signature="e#8064#8065#0" expanded="true" />
-            <element signature="e#8112#8113#0" expanded="true" />
-            <element signature="e#8762#8763#0" expanded="true" />
-            <element signature="e#8807#8808#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/dec26/LogData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19230">
-          <caret line="1338" column="20" selection-start-line="1338" selection-start-column="20" selection-end-line="1338" selection-end-column="20" />
-          <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
-            <element signature="e#24329#24330#0" expanded="true" />
-            <element signature="e#24394#24395#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/hashCodeEquals/TestHashCodeAndEquals.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/dec26/AlertNotificationSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/PedicateExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreePrintAllExceptBoundary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="496">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/FunctionExample.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="286">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/BiConsumersExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Soln_863_AllNodesDistanceKBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="155">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/BiFunctionExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/BiPredicateExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_863_AllNodesDistanceKBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="960">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/ConsumersExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PrintSpiralOrderBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        <state relative-caret-position="1005">
+          <caret line="71" column="36" lean-forward="true" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/FunctionalInterfaceDemo.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="390">
+          <caret line="49" column="33" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/functionalInterface/SupplierExample.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+        <state relative-caret-position="15">
+          <caret line="130" column="13" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/FibonacciUsingJava8.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="127" column="7" lean-forward="true" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2058">
+          <folding>
+            <element signature="e#0#26008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AHaloDoc/Myclass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/arrays/singledimension/subArray/SubArraywithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SubArraySum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="150" column="16" lean-forward="true" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="60" column="3" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="60" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/BinaryTreeLeftSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeIsBTvalidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeLeftSideView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeBottomView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinaryTreeTopView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/BinaryTreeBottomView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="71" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/object/OopsConcept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/UniqueImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-453">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1879,270 +2161,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/SumNumbers.java">
+    <entry file="file://$PROJECT_DIR$/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/SumAsciiValueAtoZ.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="59">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/nagarro/CountNumberOfBasements.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/object/OverridingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-251">
-          <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
+        <state relative-caret-position="-256">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/vinit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/synchronization/Synch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/concurrency/synchronization/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SortStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/PathWithGivenSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/Roottoleafpathssum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="93" selection-start-column="7" selection-end-line="95" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/FormMinNumberFromGivenSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FormMinNumberFromGivenSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-331" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-601">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BSTQuestions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="174" column="39" selection-start-line="174" selection-start-column="16" selection-end-line="174" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/BinarySearchTreeTrim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/datastructure/tree/RangeCountTotalNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="73" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Questions/InterviewQuestions.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2799">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="20" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/java8/stream/ConvertForLoopUsingStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/KthSmallestElementBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/KnapSackProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_45_JumpGameII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/MinimumJumpToReachEndofArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="113" column="13" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/collection/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_55_JumpGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="45" column="63" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_131_Palindrome_Partitioning.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="45" column="43" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/MinSwapRequiredToBringAllTogether.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/ContainsDuplicateII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="34" column="52" lean-forward="true" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="28" column="74" lean-forward="true" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_218_ContainsDuplicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/easy/Soln_219_ContainsDuplicateII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln_36_ValidSudoku.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_37_Sudoku_Solver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="44" column="451" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="451" />
-          <folding>
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1222#1223#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/SudokoSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36">
-          <caret line="120" column="17" lean-forward="true" selection-start-line="120" selection-start-column="17" selection-end-line="120" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/MatrixChainMultiplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="26" lean-forward="true" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/AmazonInterview/DP/EggDroppingProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_887_EggDroppingProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="40">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/hard/Soln_132_PalindromePartitioningII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="123">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/MaxSquareSubMatrix1s.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/PalindromePartitionMinCut.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Sol_1277_CountSquareSubmatrices1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/leetcode/medium/Soln.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/NQueensProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="31" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/FindPeakElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/companyWise/google/EggDroppingProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/java/threading/SemaphoreProducerConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="70" column="35" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/suri/problemsolving/dynamicprogramming/EditDistanceProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-207" />
       </provider>
     </entry>
   </component>

@@ -34,16 +34,26 @@ public class FindPeakElement {
     }
 
     int left =0;
-    int right = nums.length-1;
+    int right = nums.length;
 
     while(left<right){
       int mid = left+(right-left)/2;
-
+      /**
+       * recur in to right half
+       */
       if(nums[mid]<nums[mid+1]){
         left = mid+1;
       }
+      /**
+       * recur into left half
+       */
+      else if(nums[mid]<nums[mid-1]){
+        right = mid-1;
+      }/**
+       mid is the peak point.
+       */
       else{
-        right = mid;
+        return mid;
       }
     }
     return left;

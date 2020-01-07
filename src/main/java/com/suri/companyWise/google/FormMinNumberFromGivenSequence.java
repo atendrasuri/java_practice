@@ -1,4 +1,4 @@
-package com.suri.companyWise.AmazonInterview;
+package com.suri.companyWise.google;
 
 import java.util.Stack;
 
@@ -51,5 +51,5 @@ public class FormMinNumberFromGivenSequence {
         System.out.println(" "+result);
     }
 
-
+    
 }

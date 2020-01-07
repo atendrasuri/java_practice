@@ -28,7 +28,6 @@ public class BinaryTreeIsBTvalidBST {
 
 class BT {
 
-
     class Node {
 
         int data;

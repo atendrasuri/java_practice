@@ -15,7 +15,7 @@ public class OverridingTest {
 
        MyClass o1= new MyClass("Atendra",39);
 
-        MyClass o2= new MyClass("Atendra",30);
+        MyClass o2= new MyClass("Atendra",39);
 
         System.out.println(m(o1,o2));
 
