@@ -125,4 +125,28 @@ class BalancedTree {
     }
     return 1+Math.max(leftHeight,rightHeight);
   }
+
+  /* This function should return tree if passed  tree
+     is balanced, else false. */
+  boolean isBalanced1(Node root)
+  {
+    if(root==null){
+      return true;
+    }
+
+    int l = height(root.left);
+    int r = height(root.right);
+
+    if(Math.abs(l-r)<=1 && isBalanced1(root.left) && isBalanced1(root.right) ){
+      return true;
+    }
+    return false;
+  }
+
+  public int height(Node root){
+    if(root==null){
+      return 0;
+    }
+    return 1+Math.max(height(root.left),height(root.right));
+  }
 }
