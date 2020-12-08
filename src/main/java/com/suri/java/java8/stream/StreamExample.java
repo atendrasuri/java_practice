@@ -26,6 +26,8 @@ public class StreamExample {
         Thread t = new Thread(r);
 
         t.start();
+
+
 */
 
 
@@ -41,6 +43,11 @@ public class StreamExample {
                 .filter(e->e%2==0)
                 .map(e->e*2)
                 .reduce(Integer::sum));
+
+
+        Integer i1 = 200;
+        Integer i2 =200;
+        System.out.println(i1==i2);
 
     }
 }
